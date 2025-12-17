@@ -2,12 +2,21 @@ import os, json, re
 from dotenv import load_dotenv
 from groq import Groq
 
-import pytesseract
-from pdf2image import convert_from_path
-from PIL import Image
 
-# ✅ HARDCODE TESSERACT PATH (MANDATORY ON WINDOWS)
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# ---------- OCR SAFE BLOCK ----------
+OCR_ENABLED = False   # Render cloud does NOT support OCR
+
+if OCR_ENABLED and os.name == "nt":  # only for Windows local
+    try:
+        import pytesseract
+        from pdf2image import convert_from_path
+        from PIL import Image
+
+        pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+        POPPLER_PATH = r"C:\Users\gnane\Downloads\Release-25.12.0-0\poppler-25.12.0\Library\bin"
+    except:
+        OCR_ENABLED = False
+# ----------------------------------
 
 try:
     import PyPDF2
@@ -181,10 +190,10 @@ TEXT:
                     "Drug name detected, but AI summarization failed."
                 )
 
-        elif len(combined_text) < 300:
-            summary = self._fallback_summary(
-                "PDF appears scanned or text extraction is limited. OCR recommended."
-            )
+        elif   OCR_ENABLED and len(combined_text) < 300:
+            ocr_text = self._ocr_pdf(folder)
+            combined_text += " " + ocr_text
+
 
         else:
             summary = self._fallback_summary(

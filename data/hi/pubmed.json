@@ -1,0 +1,53 @@
+[
+  {
+    "pmid": "2274624",
+    "title": "28th annual meeting of the American College of Neuropsychopharmacology (ACNP)--1988. Maui, HI, December 1989. Selected proceedings.",
+    "date": "1990",
+    "journal": "Psychopharmacol Bull",
+    "authors": [],
+    "abstract": "No abstract available."
+  },
+  {
+    "pmid": "17515292",
+    "title": "In vivo pharmacokinetics and toxicity of a novel hydrophilic oral formulation of the potent non-nucleoside reverse transcriptase inhibitor compound N'-[2-(2-thiophene)ethyl]-N'-[2-(5-bromopyridyl)]-thiourea (HI-443).",
+    "date": "2007",
+    "journal": "Arzneimittelforschung",
+    "authors": [
+      "Uckun FM",
+      "Tibbles H",
+      "Erbeck D",
+      "Venkatachalam TK",
+      "Qazi S"
+    ],
+    "abstract": "The thiophene ethyl thiourea (TET) compound N'-[2-(2-thiophene)ethyl]-N'-[2-(5-bromopyridyl)]-thiourea (HI-443) is a potent non-nucleoside reverse transcriptase inhibitor (NNRTI). The pharmacokinetics of 17 different novel oral formulations of HI-443 were compared in an attempt to identify the most suitable dosage form for clinical use in HIV-infected persons. Plasma concentrations of HI-443 were monitored in mice after administration of the drug using these 17 different formulations at three time points. Two-way ANOVA showed highly significant formulation (p < 0.0001), time (p < 0.0001) and formulation*time interaction effects (p = 0.0003). Planned linear contrasts were performed to identify which formulations showed the highest bioavailability at 10, 30, 60 min and at all time points relative to DMSO alone. A significant positive regression was observed comparing bioavailibility of HI-443 at 10 min and hydrophilic-lipophilic balance (HLB) values of the formulations (R2 = 26%, p < 0.0001). The results showed that formulations that were hydrophilic, containing PEG400 and propylene glycol, gave the highest overall drug concentrations over the 60-min time period. The lead oral formulation of HI-443 exhibited a very favorable toxicity profile in BALB/c mice."
+  },
+  {
+    "pmid": "17469651",
+    "title": "Improved oral bioavailability of anti-HIV agent N'-[2-(2-thiophene)ethyl]-N'-[2-(5-bromopyridyl)]-thiourea (HI-443) in a novel lipophilic formulation.",
+    "date": "2007",
+    "journal": "Arzneimittelforschung",
+    "authors": [
+      "Uckun FM",
+      "Erbeck D",
+      "Tibbles H",
+      "Qazi S",
+      "Venkatachalam TK"
+    ],
+    "abstract": "N'-[2-(2-Thiophene)ethyl]-N'-[2-(5-bromopyridyl)]-thiourea (CAS 258340-15-7, HI-443) is a rationally designed non-nucleoside reverse transcriptase inhibitor (NNRTI) with potent anti-HIV activity at nanomolar concentrations but poor oral bioavailability. Here the identification of a novel oleic acid containing lead formulation of HI-443 is described which resulted in a approximately 10-fold improvement of its oral bioavailability yielding 10-fold higher systemic exposure levels in mice. Formulated HI-443 exhibited a favorable pharmacokinetics and toxicity profile in mice."
+  },
+  {
+    "pmid": "17317163",
+    "title": "[d4U]-butyne-[HI-236] as a non-cleavable, bifunctional NRTI/NNRTI HIV-1 reverse-transcriptase inhibitor.",
+    "date": "2007 May 1",
+    "journal": "Bioorg Med Chem Lett",
+    "authors": [
+      "Hunter R",
+      "Muhanji CI",
+      "Hale I",
+      "Bailey CM",
+      "Basavapathruni A",
+      "Anderson KS"
+    ],
+    "abstract": "The synthesis of bifunctional compound 10 consisting of d4U joined at C-5 to a butynyl spacer attached to HI-236 is reported using a Sonogashira coupling as a key step. As a non-cleavable bifunctional HIV inhibitor incorporating an NRTI with an NNRTI, 10 shows good inhibitory activity (EC(50)=250 nM) against HIV (IIIB) replication in MT-2 cell culture, which is eight times greater than that of d4T and between those of the two component drugs."
+  }
+]

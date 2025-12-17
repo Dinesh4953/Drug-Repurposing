@@ -1,0 +1,137 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<a onclick="history.back()" class="btn btn-outline-secondary mb-4">
+    ← Back
+</a>
+
+<h2 class="mb-4 fw-bold text-dark">
+    {{ drug|title }} — Internal Intelligence
+</h2>
+
+{% if internal %}
+
+<div class="card border-0 shadow-sm rounded-4 bg-white">
+
+    <div class="card-body p-4">
+
+        <!-- EXECUTIVE HIGHLIGHTS -->
+        <div class="mb-5 p-4 rounded-4 bg-light border">
+            <h5 class="fw-bold text-primary mb-3">
+                📌 Executive Highlights
+            </h5>
+
+            <ul class="mb-0 ps-3">
+                {% for p in internal.executive_points %}
+                <li class="mb-2 text-dark">{{ p }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- GRID LAYOUT -->
+        <div class="row g-4">
+
+            <!-- KEY FINDINGS -->
+            <div class="col-md-6">
+                <div class="p-4 rounded-4 bg-white border shadow-sm h-100">
+                    <h6 class="fw-semibold text-dark border-bottom pb-2 mb-3">
+                        🔍 Key Findings
+                    </h6>
+
+                    {% if internal.key_findings %}
+                    <ul class="ps-3">
+                        {% for p in internal.key_findings %}
+                        <li class="mb-2">{{ p }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p class="text-muted">No key findings identified.</p>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- RISKS -->
+            <div class="col-md-6">
+                <div class="p-4 rounded-4 bg-white border shadow-sm h-100">
+                    <h6 class="fw-semibold text-danger border-bottom pb-2 mb-3">
+                        ⚠ Risks
+                    </h6>
+
+                    {% if internal.risks %}
+                    <ul class="ps-3">
+                        {% for p in internal.risks %}
+                        <li class="mb-2">{{ p }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p class="text-muted">No significant risks reported.</p>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- OPPORTUNITIES -->
+            <div class="col-md-6">
+                <div class="p-4 rounded-4 bg-white border shadow-sm h-100">
+                    <h6 class="fw-semibold text-success border-bottom pb-2 mb-3">
+                        🚀 Opportunities
+                    </h6>
+
+                    {% if internal.opportunities %}
+                    <ul class="ps-3">
+                        {% for p in internal.opportunities %}
+                        <li class="mb-2">{{ p }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p class="text-muted">No opportunities highlighted.</p>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- REPURPOSING -->
+            <div class="col-md-6">
+                <div class="p-4 rounded-4 bg-white border shadow-sm h-100">
+                    <h6 class="fw-semibold text-warning border-bottom pb-2 mb-3">
+                        🧪 Repurposing Signals
+                    </h6>
+
+                    {% if internal.repurposing_signals %}
+                    <ul class="ps-3">
+                        {% for p in internal.repurposing_signals %}
+                        <li class="mb-2">{{ p }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p class="text-muted">No repurposing signals detected.</p>
+                    {% endif %}
+                </div>
+            </div>
+
+        </div>
+
+        <!-- CONFIDENCE NOTE -->
+<div class="mt-5 p-4 rounded-4 bg-light border">
+    <p class="mb-0 text-muted small">
+        <strong>Confidence Note</strong><br>
+
+        {% if internal.confidence_note and internal.confidence_note.strip() %}
+            {{ internal.confidence_note }}
+        {% else %}
+            This internal intelligence summary is generated from the available document content.
+            Confidence may improve with richer, text-based or clinically detailed inputs.
+        {% endif %}
+
+    </p>
+</div>
+
+
+    </div>
+</div>
+
+{% else %}
+<div class="alert alert-warning shadow-sm rounded-4">
+    No internal intelligence available for this drug.
+</div>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "World Health Organization guidance on paracetamol",
+    "source": "who.int",
+    "url": "https://who.int/guidance/paracetamol",
+    "snippet": "WHO guidance highlights safe use and special population considerations for paracetamol."
+  },
+  {
+    "title": "Recent review: off-label uses of paracetamol",
+    "source": "journal-review.org",
+    "url": "https://journal-review.org/paracetamol-review",
+    "snippet": "Review summarizes potential new therapeutic areas with emerging evidence."
+  },
+  {
+    "title": "Patient forum discussion on paracetamol side effects",
+    "source": "healthforums.example",
+    "url": "https://healthforums.example/paracetamol",
+    "snippet": "Users report common adverse events and dosing preferences across regions."
+  },
+  {
+    "title": "Regulatory safety update on paracetamol",
+    "source": "regulator.example",
+    "url": "https://regulator.example/alerts/paracetamol",
+    "snippet": "Regulatory agency reminds prescribers about dose limits and monitoring."
+  }
+]

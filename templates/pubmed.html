@@ -1,0 +1,115 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<a href="/results/{{ drug }}" class="btn btn-secondary mb-3">
+    ← Back to Report
+</a>
+
+<h2 class="mb-4 text-primary">{{ drug|title }} — PubMed Scientific Evidence</h2>
+
+<div class="card shadow-lg border-0 mb-4">
+    <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+        <h4 class="m-0"><i class="bi bi-journal-text"></i> PubMed Articles</h4>
+        <span class="badge bg-light text-dark fs-6">{{ count }} Articles</span>
+    </div>
+
+    <div class="card-body">
+
+        <!-- Search Bar -->
+        <input 
+            type="text" 
+            class="form-control mb-3" 
+            id="pubmedSearch" 
+            placeholder="Search articles...">
+
+        {% if pubmed %}
+        <div class="list-group" id="pubmedList">
+
+            {% for p in pubmed %}
+            <div class="list-group-item py-4 rounded-3 mb-4 shadow-sm pubmed-item">
+
+                <!-- Title -->
+                <h5 class="fw-bold text-primary">{{ p.title }}</h5>
+
+                <!-- Journal + Date -->
+                <p class="text-muted mb-1">
+                    <i class="bi bi-journals"></i>
+                    <strong>{{ p.journal }}</strong> — {{ p.date }}
+                </p>
+
+                <!-- Authors -->
+                <div class="mt-2">
+                    {% for auth in p.authors %}
+                    <span class="badge rounded-pill bg-secondary text-white me-1">
+                        <i class="bi bi-person"></i> {{ auth }}
+                    </span>
+                    {% endfor %}
+                </div>
+
+                <!-- PMID -->
+                <p class="mt-3">
+                    <span class="badge bg-dark">PMID: {{ p.pmid }}</span>
+                </p>
+
+                <!-- Abstract Button -->
+                <button 
+                    class="btn btn-outline-primary btn-sm mt-2"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#abs{{ p.pmid }}">
+                    📄 View Abstract
+                </button>
+
+                <!-- Collapsible Abstract -->
+                <div id="abs{{ p.pmid }}" class="collapse mt-3">
+                    <div class="p-3 border rounded bg-light">
+
+                        <h6 class="fw-bold">Abstract</h6>
+
+                        <p style="white-space: pre-wrap; font-size: 0.95rem;">
+                            {{ p.abstract }}
+                        </p>
+
+                        <hr>
+
+                        <!-- Additional Metadata -->
+                        <h6 class="fw-bold">Full Metadata</h6>
+                        <p><b>Journal:</b> {{ p.journal }}</p>
+                        <p><b>Date:</b> {{ p.date }}</p>
+                        <p><b>Authors:</b> {{ p.authors | join(", ") }}</p>
+
+                        <a 
+                            href="https://pubmed.ncbi.nlm.nih.gov/{{ p.pmid }}/" 
+                            target="_blank"
+                            class="btn btn-sm btn-primary mt-2">
+                            🔗 Open in PubMed
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            {% endfor %}
+
+        </div>
+
+        {% else %}
+        <p class="text-danger">No PubMed records found.</p>
+        {% endif %}
+
+    </div>
+</div>
+
+<!-- Search Filter Script -->
+<script>
+document.getElementById("pubmedSearch").addEventListener("keyup", function () {
+    let filter = this.value.toLowerCase();
+    let items = document.getElementsByClassName("pubmed-item");
+
+    for (let i = 0; i < items.length; i++) {
+        let text = items[i].innerText.toLowerCase();
+        items[i].style.display = text.includes(filter) ? "" : "none";
+    }
+});
+</script>
+
+{% endblock %}

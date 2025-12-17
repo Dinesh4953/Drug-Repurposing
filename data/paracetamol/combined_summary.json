@@ -1,0 +1,3589 @@
+{
+  "drug": "paracetamol",
+  "pubmed_count": 200,
+  "pubmed": [
+    {
+      "pmid": "37436926",
+      "title": "Paracetamol (acetaminophen) overdose and hepatotoxicity: mechanism, treatment, prevention measures, and estimates of burden of disease.",
+      "date": "2023 Jan-Jun",
+      "journal": "Expert Opin Drug Metab Toxicol",
+      "authors": [
+        "Chidiac AS",
+        "Buckley NA",
+        "Noghrehchi F",
+        "Cairns R"
+      ]
+    },
+    {
+      "pmid": "34681816",
+      "title": "Paracetamol (Acetaminophen) and the Developing Brain.",
+      "date": "2021 Oct 15",
+      "journal": "Int J Mol Sci",
+      "authors": [
+        "Bührer C",
+        "Endesfelder S",
+        "Scheuer T",
+        "Schmitz T"
+      ]
+    },
+    {
+      "pmid": "33125495",
+      "title": "Comparison of Acetaminophen (Paracetamol) With Ibuprofen for Treatment of Fever or Pain in Children Younger Than 2 Years: A Systematic Review and Meta-analysis.",
+      "date": "2020 Oct 1",
+      "journal": "JAMA Netw Open",
+      "authors": [
+        "Tan E",
+        "Braithwaite I",
+        "McKinlay CJD",
+        "Dalziel SR"
+      ]
+    },
+    {
+      "pmid": "36414224",
+      "title": "Pharmaceutical treatment of osteoarthritis.",
+      "date": "2023 Apr",
+      "journal": "Osteoarthritis Cartilage",
+      "authors": [
+        "Richard MJ",
+        "Driban JB",
+        "McAlindon TE"
+      ]
+    },
+    {
+      "pmid": "29863746",
+      "title": "Long-term adverse effects of paracetamol - a review.",
+      "date": "2018 Oct",
+      "journal": "Br J Clin Pharmacol",
+      "authors": [
+        "McCrae JC",
+        "Morrison EE",
+        "MacIntyre IM",
+        "Dear JW",
+        "Webb DJ"
+      ]
+    },
+    {
+      "pmid": "35440176",
+      "title": "Paracetamol for multimodal analgesia.",
+      "date": "2022 Sep",
+      "journal": "Pain Manag",
+      "authors": [
+        "Freo U"
+      ]
+    },
+    {
+      "pmid": "29473717",
+      "title": "Interventions for paracetamol (acetaminophen) overdose.",
+      "date": "2018 Feb 23",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Chiew AL",
+        "Gluud C",
+        "Brok J",
+        "Buckley NA"
+      ]
+    },
+    {
+      "pmid": "29341895",
+      "title": "Prenatal paracetamol exposure and child neurodevelopment: A review.",
+      "date": "2018 May",
+      "journal": "Horm Behav",
+      "authors": [
+        "Bauer AZ",
+        "Kriebel D",
+        "Herbert MR",
+        "Bornehag CG",
+        "Swan SH"
+      ]
+    },
+    {
+      "pmid": "33786837",
+      "title": "The efficacy and safety of paracetamol for pain relief: an overview of systematic reviews.",
+      "date": "2021 Apr",
+      "journal": "Med J Aust",
+      "authors": [
+        "Abdel Shaheed C",
+        "Ferreira GE",
+        "Dmitritchenko A",
+        "McLachlan AJ",
+        "Day RO",
+        "Saragiotto B",
+        "Lin C",
+        "Langendyk V",
+        "Stanaway F",
+        "Latimer J",
+        "Kamper S",
+        "McLachlan H",
+        "Ahedi H",
+        "Maher CG"
+      ]
+    },
+    {
+      "pmid": "38057585",
+      "title": "Paracetamol versus ibuprofen in treating episodic tension-type headache: a systematic review and network meta-analysis.",
+      "date": "2023 Dec 6",
+      "journal": "Sci Rep",
+      "authors": [
+        "Alnasser A",
+        "Alhumrran H",
+        "Alfehaid M",
+        "Alhamoud M",
+        "Albunaian N",
+        "Ferwana M"
+      ]
+    },
+    {
+      "pmid": "37683599",
+      "title": "Paracetamol (acetaminophen) poisoning: The early years.",
+      "date": "2024 Jan",
+      "journal": "Br J Clin Pharmacol",
+      "authors": [
+        "Prescott LF"
+      ]
+    },
+    {
+      "pmid": "38937394",
+      "title": "Paracetamol Combination Therapy for Back Pain and Osteoarthritis: A Systematic Review and Meta-Analyses.",
+      "date": "2024 Aug",
+      "journal": "Drugs",
+      "authors": [
+        "Cao Z",
+        "Han K",
+        "Lu H",
+        "Illangamudalige S",
+        "Shaheed CA",
+        "Chen L",
+        "McLachlan AJ",
+        "Patanwala AE",
+        "Maher CG",
+        "Lin CC",
+        "March L",
+        "Ferreira ML",
+        "Mathieson S"
+      ]
+    },
+    {
+      "pmid": "31786822",
+      "title": "Updated guidelines for the management of paracetamol poisoning in Australia and New Zealand.",
+      "date": "2020 Mar",
+      "journal": "Med J Aust",
+      "authors": [
+        "Chiew AL",
+        "Reith D",
+        "Pomerleau A",
+        "Wong A",
+        "Isoardi KZ",
+        "Soderstrom J",
+        "Buckley NA"
+      ]
+    },
+    {
+      "pmid": "33224416",
+      "title": "Ibuprofen versus paracetamol for treating fever in preschool children in Nigeria: a randomized clinical trial of effectiveness and safety.",
+      "date": "2020",
+      "journal": "Pan Afr Med J",
+      "authors": [
+        "Alaje EO",
+        "Udoh EE",
+        "Akande PA",
+        "Odey FA",
+        "Meremikwu MM"
+      ]
+    },
+    {
+      "pmid": "25732401",
+      "title": "Acetaminophen: old drug, new issues.",
+      "date": "2015 May",
+      "journal": "J Endod",
+      "authors": [
+        "Aminoshariae A",
+        "Khan A"
+      ]
+    },
+    {
+      "pmid": "25429980",
+      "title": "Acetaminophen/paracetamol: A history of errors, failures and false decisions.",
+      "date": "2015 Aug",
+      "journal": "Eur J Pain",
+      "authors": [
+        "Brune K",
+        "Renner B",
+        "Tiegs G"
+      ]
+    },
+    {
+      "pmid": "37594020",
+      "title": "Paracetamol (acetaminophen) or non-steroidal anti-inflammatory drugs, alone or combined, for pain relief in acute otitis media in children.",
+      "date": "2023 Aug 18",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "de Sévaux JLH",
+        "Damoiseaux RA",
+        "van de Pol AC",
+        "Lutje V",
+        "Hay AD",
+        "Little P",
+        "Schilder AG",
+        "Venekamp RP"
+      ]
+    },
+    {
+      "pmid": "29174580",
+      "title": "A Systematic Review and Meta-analysis Comparing the Efficacy of Nonsteroidal Anti-inflammatory Drugs, Opioids, and Paracetamol in the Treatment of Acute Renal Colic.",
+      "date": "2018 Apr",
+      "journal": "Eur Urol",
+      "authors": [
+        "Pathan SA",
+        "Mitra B",
+        "Cameron PA"
+      ]
+    },
+    {
+      "pmid": "35175416",
+      "title": "Paracetamol (acetaminophen) use in infants and children was never shown to be safe for neurodevelopment: a systematic review with citation tracking.",
+      "date": "2022 May",
+      "journal": "Eur J Pediatr",
+      "authors": [
+        "Cendejas-Hernandez J",
+        "Sarafian JT",
+        "Lawton VG",
+        "Palkar A",
+        "Anderson LG",
+        "Larivière V",
+        "Parker W"
+      ]
+    },
+    {
+      "pmid": "35822581",
+      "title": "The safety of pediatric use of paracetamol (acetaminophen): a narrative review of direct and indirect evidence.",
+      "date": "2022 Dec",
+      "journal": "Minerva Pediatr (Torino)",
+      "authors": [
+        "Patel E",
+        "Jones Iii JP 3rd",
+        "Bono-Lunn D",
+        "Kuchibhatla M",
+        "Palkar A",
+        "Cendejas Hernandez J",
+        "Sarafian JT",
+        "Lawton VG",
+        "Anderson LG",
+        "Konsoula Z",
+        "Reissner KJ",
+        "Parker W"
+      ]
+    },
+    {
+      "pmid": "30102811",
+      "title": "Analgesic and anti-inflammatory drugs in sports: Implications for exercise performance and training adaptations.",
+      "date": "2018 Nov",
+      "journal": "Scand J Med Sci Sports",
+      "authors": [
+        "Lundberg TR",
+        "Howatson G"
+      ]
+    },
+    {
+      "pmid": "36945023",
+      "title": "Paracetamol and ibuprofen combination for the management of acute mild-to-moderate pain in children: expert consensus using the Nominal Group Technique (NGT).",
+      "date": "2023 Mar 21",
+      "journal": "Ital J Pediatr",
+      "authors": [
+        "Parri N",
+        "Silvagni D",
+        "Chiarugi A",
+        "Cortis E",
+        "D'Avino A",
+        "Lanari M",
+        "Marchisio PG",
+        "Vezzoli C",
+        "Zampogna S",
+        "Staiano A"
+      ]
+    },
+    {
+      "pmid": "40013897",
+      "title": "Comparison of two-bag and three-bag acetylcysteine regimens in the treatment of paracetamol poisoning: a systematic review and meta-analysis.",
+      "date": "2025 Mar",
+      "journal": "Clin Toxicol (Phila)",
+      "authors": [
+        "Nakatsu L",
+        "Lopez JR",
+        "Garcia CM",
+        "Cherian M",
+        "Nash J",
+        "Tofighi D",
+        "Seifert SA",
+        "Smolinske S",
+        "Warrick BJ"
+      ]
+    },
+    {
+      "pmid": "31519356",
+      "title": "Antiinflammatory Drugs.",
+      "date": "2019 Nov",
+      "journal": "Vet Clin North Am Small Anim Pract",
+      "authors": [
+        "Monteiro B",
+        "Steagall PV"
+      ]
+    },
+    {
+      "pmid": "26930528",
+      "title": "Use of acetaminophen (paracetamol) during pregnancy and the risk of autism spectrum disorder in the offspring.",
+      "date": "2016 Feb",
+      "journal": "J Clin Psychiatry",
+      "authors": [
+        "Andrade C"
+      ]
+    },
+    {
+      "pmid": "26334726",
+      "title": "Pharmacokinetics and Bioavailability of a Fixed-Dose Combination of Ibuprofen and Paracetamol after Intravenous and Oral Administration.",
+      "date": "2015 Oct",
+      "journal": "Clin Drug Investig",
+      "authors": [
+        "Atkinson HC",
+        "Stanescu I",
+        "Frampton C",
+        "Salem II",
+        "Beasley CP",
+        "Robson R"
+      ]
+    },
+    {
+      "pmid": "28415925",
+      "title": "The role of oxidative stress, inflammation and acetaminophen exposure from birth to early childhood in the induction of autism.",
+      "date": "2017 Apr",
+      "journal": "J Int Med Res",
+      "authors": [
+        "Parker W",
+        "Hornik CD",
+        "Bilbo S",
+        "Holzknecht ZE",
+        "Gentry L",
+        "Rao R",
+        "Lin SS",
+        "Herbert MR",
+        "Nevison CD"
+      ]
+    },
+    {
+      "pmid": "36519620",
+      "title": "Paracetamol (acetaminophen) for patent ductus arteriosus in preterm or low birth weight infants.",
+      "date": "2022 Dec 15",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Jasani B",
+        "Mitra S",
+        "Shah PS"
+      ]
+    },
+    {
+      "pmid": "39246027",
+      "title": "Caffeine, but not paracetamol (acetaminophen), enhances muscular endurance, strength, and power.",
+      "date": "2024 Dec",
+      "journal": "J Int Soc Sports Nutr",
+      "authors": [
+        "Scapec B",
+        "Grgic J",
+        "Varovic D",
+        "Mikulic P"
+      ]
+    },
+    {
+      "pmid": "33516238",
+      "title": "Bioavailable turmeric extract for knee osteoarthritis: a randomized, non-inferiority trial versus paracetamol.",
+      "date": "2021 Jan 30",
+      "journal": "Trials",
+      "authors": [
+        "Singhal S",
+        "Hasan N",
+        "Nirmal K",
+        "Chawla R",
+        "Chawla S",
+        "Kalra BS",
+        "Dhal A"
+      ]
+    },
+    {
+      "pmid": "34655316",
+      "title": "Analgesic effect of oral ibuprofen 400, 600, and 800 mg; paracetamol 500 and 1000 mg; and paracetamol 1000 mg plus 60 mg codeine in acute postoperative pain: a single-dose, randomized, placebo-controlled, and double-blind study.",
+      "date": "2021 Dec",
+      "journal": "Eur J Clin Pharmacol",
+      "authors": [
+        "Lyngstad G",
+        "Skjelbred P",
+        "Swanson DM",
+        "Skoglund LA"
+      ]
+    },
+    {
+      "pmid": "26479248",
+      "title": "Paracetamol (acetaminophen) poisoning.",
+      "date": "2015 Oct 19",
+      "journal": "BMJ Clin Evid",
+      "authors": [
+        "Park BK",
+        "Dear JW",
+        "Antoine DJ"
+      ]
+    },
+    {
+      "pmid": "32888085",
+      "title": "Intravenous paracetamol in comparison with ibuprofen for the treatment of patent ductus arteriosus in preterm infants: a randomized controlled trial.",
+      "date": "2021 Mar",
+      "journal": "Eur J Pediatr",
+      "authors": [
+        "Dani C",
+        "Lista G",
+        "Bianchi S",
+        "Mosca F",
+        "Schena F",
+        "Ramenghi L",
+        "Zecca E",
+        "Vento G",
+        "Poggi C",
+        "Leonardi V",
+        "Minghetti D",
+        "Rosignoli MT",
+        "Calisti F",
+        "Comandini A",
+        "Cattaneo A",
+        "Lipone P"
+      ]
+    },
+    {
+      "pmid": "36964012",
+      "title": "Quality of recovery after pericapsular nerve group (PENG) block for primary total hip arthroplasty under spinal anaesthesia: a randomised controlled observer-blinded trial.",
+      "date": "2023 Jun",
+      "journal": "Br J Anaesth",
+      "authors": [
+        "Kukreja P",
+        "Uppal V",
+        "Kofskey AM",
+        "Feinstein J",
+        "Northern T",
+        "Davis C",
+        "Morgan CJ",
+        "Kalagara H"
+      ]
+    },
+    {
+      "pmid": "31256492",
+      "title": "Paracetamol allergy in clinical practice.",
+      "date": "2019 Apr",
+      "journal": "Aust J Gen Pract",
+      "authors": [
+        "Thompson G",
+        "Bundell C",
+        "Lucas M"
+      ]
+    },
+    {
+      "pmid": "28063133",
+      "title": "A clinical and safety review of paracetamol and ibuprofen in children.",
+      "date": "2017 Feb",
+      "journal": "Inflammopharmacology",
+      "authors": [
+        "Kanabar DJ"
+      ]
+    },
+    {
+      "pmid": "25220564",
+      "title": "The association between paracetamol use and asthma: causation or coincidence?",
+      "date": "2015 Jan",
+      "journal": "Clin Exp Allergy",
+      "authors": [
+        "Weatherall M",
+        "Ioannides S",
+        "Braithwaite I",
+        "Beasley R"
+      ]
+    },
+    {
+      "pmid": "28237129",
+      "title": "Prenatal paracetamol use and asthma in childhood: A systematic review and meta-analysis.",
+      "date": "2017 Nov-Dec",
+      "journal": "Allergol Immunopathol (Madr)",
+      "authors": [
+        "Fan G",
+        "Wang B",
+        "Liu C",
+        "Li D"
+      ]
+    },
+    {
+      "pmid": "27785937",
+      "title": "Paracetamol and morphine for infant and neonatal pain; still a long way to go?",
+      "date": "2017 Jan",
+      "journal": "Expert Rev Clin Pharmacol",
+      "authors": [
+        "Baarslag MA",
+        "Allegaert K",
+        "Van Den Anker JN",
+        "Knibbe CA",
+        "Van Dijk M",
+        "Simons SH",
+        "Tibboel D"
+      ]
+    },
+    {
+      "pmid": "29703389",
+      "title": "Association of antioxidant nutraceuticals and acetaminophen (paracetamol): Friend or foe?",
+      "date": "2018 Apr",
+      "journal": "J Food Drug Anal",
+      "authors": [
+        "Abdel-Daim M",
+        "Abushouk AI",
+        "Reggi R",
+        "Yarla NS",
+        "Palmery M",
+        "Peluso I"
+      ]
+    },
+    {
+      "pmid": "28752572",
+      "title": "Effect of paracetamol on semen quality.",
+      "date": "2018 Feb",
+      "journal": "Andrologia",
+      "authors": [
+        "Banihani SA"
+      ]
+    },
+    {
+      "pmid": "40943505",
+      "title": "Acetaminophen's Role in Autism and ADHD: A Mitochondrial Perspective.",
+      "date": "2025 Sep 3",
+      "journal": "Int J Mol Sci",
+      "authors": [
+        "Chu S",
+        "Woodfin S",
+        "Bayliss E",
+        "Smith M",
+        "Fulp A",
+        "Mirabelli E",
+        "Moore W"
+      ]
+    },
+    {
+      "pmid": "40740590",
+      "title": "Paracetamol and Caffeine Combination in Pain Management: A Narrative Review.",
+      "date": "2025",
+      "journal": "Pain Res Manag",
+      "authors": [
+        "Lanteri-Minet M",
+        "Pegahi R"
+      ]
+    },
+    {
+      "pmid": "28027389",
+      "title": "Paracetamol (acetaminophen) with or without codeine or dihydrocodeine for neuropathic pain in adults.",
+      "date": "2016 Dec 27",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Wiffen PJ",
+        "Knaggs R",
+        "Derry S",
+        "Cole P",
+        "Phillips T",
+        "Moore RA"
+      ]
+    },
+    {
+      "pmid": "32762579",
+      "title": "Metabolic and mitochondrial treatments for severe paracetamol poisoning: a systematic review.",
+      "date": "2020 Dec",
+      "journal": "Clin Toxicol (Phila)",
+      "authors": [
+        "Mullins ME",
+        "Yeager LH",
+        "Freeman WE"
+      ]
+    },
+    {
+      "pmid": "39661802",
+      "title": "Therapeutic Efficacy and Safety of Paracetamol versus Ibuprofen in Patent Ductus Arteriosus in Newborns: A Systematic Review.",
+      "date": "2024",
+      "journal": "Arq Bras Cardiol",
+      "authors": [
+        "da Silva HDS",
+        "Franco ES",
+        "Lima LCAS",
+        "Maia MBS"
+      ]
+    },
+    {
+      "pmid": "27575940",
+      "title": "The association between paracetamol and asthma is still under debate.",
+      "date": "2017 Jan 2",
+      "journal": "J Asthma",
+      "authors": [
+        "Lourido-Cebreiro T",
+        "Salgado FJ",
+        "Valdes L",
+        "Gonzalez-Barcala FJ"
+      ]
+    },
+    {
+      "pmid": "28700092",
+      "title": "Oral paracetamol (acetaminophen) for cancer pain.",
+      "date": "2017 Jul 12",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Wiffen PJ",
+        "Derry S",
+        "Moore RA",
+        "McNicol ED",
+        "Bell RF",
+        "Carr DB",
+        "McIntyre M",
+        "Wee B"
+      ]
+    },
+    {
+      "pmid": "35206317",
+      "title": "Long-Term Safety of Prenatal and Neonatal Exposure to Paracetamol: A Systematic Review.",
+      "date": "2022 Feb 14",
+      "journal": "Int J Environ Res Public Health",
+      "authors": [
+        "Patel R",
+        "Sushko K",
+        "van den Anker J",
+        "Samiee-Zafarghandy S"
+      ]
+    },
+    {
+      "pmid": "29923050",
+      "title": "Organic micropollutants paracetamol and ibuprofen-toxicity, biodegradation, and genetic background of their utilization by bacteria.",
+      "date": "2018 Aug",
+      "journal": "Environ Sci Pollut Res Int",
+      "authors": [
+        "Żur J",
+        "Piński A",
+        "Marchlewicz A",
+        "Hupert-Kocurek K",
+        "Wojcieszyńska D",
+        "Guzik U"
+      ]
+    },
+    {
+      "pmid": "31073920",
+      "title": "Safety of Paracetamol in Osteoarthritis: What Does the Literature Say?",
+      "date": "2019 Apr",
+      "journal": "Drugs Aging",
+      "authors": [
+        "Conaghan PG",
+        "Arden N",
+        "Avouac B",
+        "Migliore A",
+        "Rizzoli R"
+      ]
+    },
+    {
+      "pmid": "37151075",
+      "title": "Paracetamol (Acetaminophen)-associated SJS, TEN, AGEP, and DRESS Syndromes - A Narrative Review.",
+      "date": "2024",
+      "journal": "Curr Drug Saf",
+      "authors": [
+        "Pakkir Maideen NM",
+        "Barakat IR",
+        "Jumale AH"
+      ]
+    },
+    {
+      "pmid": "32864884",
+      "title": "Systematic review and meta-analysis of oral paracetamol versus combination oral analgesics for acute musculoskeletal injuries.",
+      "date": "2021 Feb",
+      "journal": "Emerg Med Australas",
+      "authors": [
+        "Scott G",
+        "Gong J",
+        "Kirkpatrick C",
+        "Jones P"
+      ]
+    },
+    {
+      "pmid": "27271789",
+      "title": "Paracetamol for low back pain.",
+      "date": "2016 Jun 7",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Saragiotto BT",
+        "Machado GC",
+        "Ferreira ML",
+        "Pinheiro MB",
+        "Abdel Shaheed C",
+        "Maher CG"
+      ]
+    },
+    {
+      "pmid": "26099917",
+      "title": "Paracetamol poisoning: beyond the nomogram.",
+      "date": "2015 Jul",
+      "journal": "Br J Clin Pharmacol",
+      "authors": [
+        "Bateman DN"
+      ]
+    },
+    {
+      "pmid": "36928608",
+      "title": "Common Selfcare Indications of Pain Medications in Children.",
+      "date": "2023 May",
+      "journal": "Paediatr Drugs",
+      "authors": [
+        "Zempsky W",
+        "Bell J",
+        "Mossali VM",
+        "Kachroo P",
+        "Siddiqui K"
+      ]
+    },
+    {
+      "pmid": "34102027",
+      "title": "A narrative review of paracetamol-induced hypotension: Keeping the patient safe.",
+      "date": "2022 May",
+      "journal": "Nurs Open",
+      "authors": [
+        "Young TL"
+      ]
+    },
+    {
+      "pmid": "26230486",
+      "title": "WITHDRAWN: NSAIDS or paracetamol, alone or combined with opioids, for cancer pain.",
+      "date": "2015 Jul 31",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "McNicol ED",
+        "Strassels S",
+        "Goudas L",
+        "Lau J",
+        "Carr DB"
+      ]
+    },
+    {
+      "pmid": "32918268",
+      "title": "Practical Challenges-Use of Paracetamol in Children and Youth Who are Overweight or Obese: A Narrative Review.",
+      "date": "2020 Oct",
+      "journal": "Paediatr Drugs",
+      "authors": [
+        "Zempsky WT",
+        "Bhagat PK",
+        "Siddiqui K"
+      ]
+    },
+    {
+      "pmid": "30536827",
+      "title": "Pharmacotherapy for patent ductus arteriosus closure.",
+      "date": "2019 Jan",
+      "journal": "Congenit Heart Dis",
+      "authors": [
+        "Ferguson JM"
+      ]
+    },
+    {
+      "pmid": "33388821",
+      "title": "Paracetamol overdose in the newborn and infant: a life-threatening event.",
+      "date": "2021 Jun",
+      "journal": "Eur J Clin Pharmacol",
+      "authors": [
+        "Locci C",
+        "Cuzzolin L",
+        "Capobianco G",
+        "Antonucci R"
+      ]
+    },
+    {
+      "pmid": "34911668",
+      "title": "Deprescribing paracetamol in pain conditions: A scoping review.",
+      "date": "2022 Aug",
+      "journal": "Res Social Adm Pharm",
+      "authors": [
+        "Patterson TG",
+        "Beckenkamp P",
+        "Ferreira M",
+        "Turner J",
+        "Gnjidic D",
+        "Chen Y",
+        "Mesa Castrillion CI",
+        "Ferreira P"
+      ]
+    },
+    {
+      "pmid": "40402381",
+      "title": "Paracetamol: the potential therapeutic pathways defining its clinical use.",
+      "date": "2025 Jun",
+      "journal": "Inflammopharmacology",
+      "authors": [
+        "Al-Kuraishy HM",
+        "Al-Gareeb AI",
+        "Albuhadily AK",
+        "Abd El-Maksoud EM",
+        "Shokr MM",
+        "Alexiou A",
+        "Papadakis M",
+        "Batiha GE"
+      ]
+    },
+    {
+      "pmid": "35299123",
+      "title": "The comparison of dexketoprofen and other painkilling medications (review from 2018 to 2021).",
+      "date": "2022 May",
+      "journal": "Biomed Pharmacother",
+      "authors": [
+        "Kuczyńska J",
+        "Pawlak A",
+        "Nieradko-Iwanicka B"
+      ]
+    },
+    {
+      "pmid": "28720398",
+      "title": "Perinatal and neonatal use of paracetamol for pain relief.",
+      "date": "2017 Oct",
+      "journal": "Semin Fetal Neonatal Med",
+      "authors": [
+        "Allegaert K",
+        "van den Anker JN"
+      ]
+    },
+    {
+      "pmid": "29916138",
+      "title": "Paracetamol in Older People: Towards Evidence-Based Dosing?",
+      "date": "2018 Jul",
+      "journal": "Drugs Aging",
+      "authors": [
+        "Mian P",
+        "Allegaert K",
+        "Spriet I",
+        "Tibboel D",
+        "Petrovic M"
+      ]
+    },
+    {
+      "pmid": "36193928",
+      "title": "Toxicology in the emergency department: what's new?",
+      "date": "2022 Sep 2",
+      "journal": "Br J Hosp Med (Lond)",
+      "authors": [
+        "Motohashi K",
+        "Thanacoody RH"
+      ]
+    },
+    {
+      "pmid": "34455434",
+      "title": "Paracetamol: unconventional uses of a well-known drug.",
+      "date": "2021 Dec 4",
+      "journal": "Int J Pharm Pract",
+      "authors": [
+        "Bloukh S",
+        "Wazaify M",
+        "Matheson C"
+      ]
+    },
+    {
+      "pmid": "32557588",
+      "title": "A systematic review and trial sequential analysis of intravenous vs. oral peri-operative paracetamol.",
+      "date": "2021 Feb",
+      "journal": "Anaesthesia",
+      "authors": [
+        "Mallama M",
+        "Valencia A",
+        "Rijs K",
+        "Rietdijk WJR",
+        "Klimek M",
+        "Calvache JA"
+      ]
+    },
+    {
+      "pmid": "28986045",
+      "title": "Is acetaminophen safe in pregnancy?",
+      "date": "2017 Oct",
+      "journal": "Scand J Pain",
+      "authors": [
+        "Toda K"
+      ]
+    },
+    {
+      "pmid": "25530283",
+      "title": "Overview review: Comparative efficacy of oral ibuprofen and paracetamol (acetaminophen) across acute and chronic pain conditions.",
+      "date": "2015 Oct",
+      "journal": "Eur J Pain",
+      "authors": [
+        "Moore RA",
+        "Derry S",
+        "Wiffen PJ",
+        "Straube S",
+        "Aldington DJ"
+      ]
+    },
+    {
+      "pmid": "31756498",
+      "title": "Intravenous Acetaminophen (Paracetamol) for Postcraniotomy Pain: Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+      "date": "2020 Feb",
+      "journal": "World Neurosurg",
+      "authors": [
+        "Ghaffarpasand F",
+        "Dadgostar E",
+        "Ilami G",
+        "Shoaee F",
+        "Niakan A",
+        "Aghabaklou S",
+        "Ghadimi M",
+        "Goudarzi S",
+        "Dehghankhalili M",
+        "Alavi MH"
+      ]
+    },
+    {
+      "pmid": "39225273",
+      "title": "Neurodevelopmental outcomes following paracetamol use for treatment of patent ductus arteriosus: A review.",
+      "date": "2024 Nov",
+      "journal": "Acta Paediatr",
+      "authors": [
+        "Pearce A",
+        "Saunders L",
+        "Dunlop A",
+        "Abbas A"
+      ]
+    },
+    {
+      "pmid": "35681183",
+      "title": "Isolated paracetamol-induced acute kidney injury: a systematic review.",
+      "date": "2022",
+      "journal": "Acute Med",
+      "authors": [
+        "Williams M",
+        "Coulson J"
+      ]
+    },
+    {
+      "pmid": "40231775",
+      "title": "Comparative Effectiveness of Paracetamol, Ibuprofen, and their Combination in Managing Post-Endodontic Treatment Pain.",
+      "date": "2024 Nov 29",
+      "journal": "West Afr J Med",
+      "authors": [
+        "Otakhoigbogie U",
+        "Onyia NE",
+        "Omogbai EKI",
+        "Sede MA"
+      ]
+    },
+    {
+      "pmid": "28510996",
+      "title": "Tramadol with or without paracetamol (acetaminophen) for cancer pain.",
+      "date": "2017 May 16",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Wiffen PJ",
+        "Derry S",
+        "Moore RA"
+      ]
+    },
+    {
+      "pmid": "29794806",
+      "title": "The potential role of pharmacogenomics and biotransformation in hypersensitivity reactions to paracetamol.",
+      "date": "2018 Aug",
+      "journal": "Curr Opin Allergy Clin Immunol",
+      "authors": [
+        "Agúndez JAG",
+        "Gómez-Tabales J",
+        "Ruano F",
+        "García-Martin E"
+      ]
+    },
+    {
+      "pmid": "27842443",
+      "title": "Clinical update on benefit versus risks of oral paracetamol alone or with codeine: still a good option?",
+      "date": "2017 Feb",
+      "journal": "Curr Med Res Opin",
+      "authors": [
+        "Kress HG",
+        "Untersteiner G"
+      ]
+    },
+    {
+      "pmid": "40181349",
+      "title": "Evaluating and comparing the effects of paracetamol and ibuprofen on wound healing, MMP-9, and TGF-β1 levels in patients following upper third molar tooth extraction.",
+      "date": "2025 Apr 3",
+      "journal": "BMC Oral Health",
+      "authors": [
+        "Yuthavong S",
+        "Chatiketu P",
+        "Keadto O",
+        "Srichairatanakool P",
+        "Srichairatanakool S",
+        "Chatupos V"
+      ]
+    },
+    {
+      "pmid": "33478294",
+      "title": "Trial of paracetamol for premature newborns: five-year follow-up.",
+      "date": "2022 Dec",
+      "journal": "J Matern Fetal Neonatal Med",
+      "authors": [
+        "Juujärvi S",
+        "Saarela T",
+        "Hallman M",
+        "Aikio O"
+      ]
+    },
+    {
+      "pmid": "38597946",
+      "title": "[Pharmacological pain management in cancer patients].",
+      "date": "2024 May",
+      "journal": "Urologie",
+      "authors": [
+        "Mütherig A",
+        "Scheffler G",
+        "Schuler US"
+      ]
+    },
+    {
+      "pmid": "25429049",
+      "title": "Paracetamol exposure in pregnancy and early childhood and development of childhood asthma: a systematic review and meta-analysis.",
+      "date": "2015 Jan",
+      "journal": "Arch Dis Child",
+      "authors": [
+        "Cheelo M",
+        "Lodge CJ",
+        "Dharmage SC",
+        "Simpson JA",
+        "Matheson M",
+        "Heinrich J",
+        "Lowe AJ"
+      ]
+    },
+    {
+      "pmid": "29408866",
+      "title": "Oral paracetamol and/or ibuprofen for treating pain after soft tissue injuries: Single centre double-blind, randomised controlled clinical trial.",
+      "date": "2018",
+      "journal": "PLoS One",
+      "authors": [
+        "Hung KKC",
+        "Graham CA",
+        "Lo RSL",
+        "Leung YK",
+        "Leung LY",
+        "Man SY",
+        "Woo WK",
+        "Cattermole GN",
+        "Rainer TH"
+      ]
+    },
+    {
+      "pmid": "31081395",
+      "title": "Cold water extraction of codeine/paracetamol combination products: a case series and literature review.",
+      "date": "2020 Feb",
+      "journal": "Clin Toxicol (Phila)",
+      "authors": [
+        "Harnett JT",
+        "Dines AM",
+        "Wood DM",
+        "Archer JRH",
+        "Dargan PI"
+      ]
+    },
+    {
+      "pmid": "35704141",
+      "title": "The Effects of Pain and Analgesic Medications on Blood Pressure.",
+      "date": "2022 Oct",
+      "journal": "Curr Hypertens Rep",
+      "authors": [
+        "Rivasi G",
+        "Menale S",
+        "Turrin G",
+        "Coscarelli A",
+        "Giordano A",
+        "Ungar A"
+      ]
+    },
+    {
+      "pmid": "38197864",
+      "title": "Fifty years of paracetamol (acetaminophen) poisoning: the development of risk assessment and treatment 1973-2023 with particular focus on contributions published from Edinburgh and Denver.",
+      "date": "2023 Dec",
+      "journal": "Clin Toxicol (Phila)",
+      "authors": [
+        "Bateman DN",
+        "Dart RC",
+        "Dear JW",
+        "Prescott LF",
+        "Rumack BH"
+      ]
+    },
+    {
+      "pmid": "29508330",
+      "title": "Arthrose: Paracetamol hat ausgedient.",
+      "date": "2018 Mar",
+      "journal": "MMW Fortschr Med",
+      "authors": [
+        "Diener HC"
+      ]
+    },
+    {
+      "pmid": "29903753",
+      "title": "What dose of paracetamol for older people?",
+      "date": "2018 Jun",
+      "journal": "Drug Ther Bull",
+      "authors": []
+    },
+    {
+      "pmid": "39248024",
+      "title": "Evaluating the use of paracetamol to prevent fasting headache during the first week of Ramadan: A randomized, open-label, clinical trial.",
+      "date": "2024 Nov-Dec",
+      "journal": "Headache",
+      "authors": [
+        "Almohammed OA",
+        "Alsanea S",
+        "Albishi N",
+        "AlMuhareb L",
+        "AlMotawa R",
+        "Alrasheed S",
+        "Alasmari F",
+        "Almutairi F",
+        "Assiri MA",
+        "Alghamdi A",
+        "Albilali A",
+        "A ElToukhy R",
+        "Alwhaibi A"
+      ]
+    },
+    {
+      "pmid": "25720726",
+      "title": "A look inside the association codeine-paracetamol: clinical pharmacology supports analgesic efficacy.",
+      "date": "2015",
+      "journal": "Eur Rev Med Pharmacol Sci",
+      "authors": [
+        "Mattia C",
+        "Coluzzi F"
+      ]
+    },
+    {
+      "pmid": "39779424",
+      "title": "An evaluation of parents' and caregivers' preferences managing fever in children based on experiences in using ibuprofen and paracetamol: A systematic review.",
+      "date": "2025 Jan-Feb",
+      "journal": "J Pediatr Nurs",
+      "authors": [
+        "Alqudah M",
+        "Stubbs MA",
+        "Al-Masaeed M",
+        "Fernandez R"
+      ]
+    },
+    {
+      "pmid": "33345698",
+      "title": "Intravenous versus oral paracetamol for postoperative analgesia: A systematic review.",
+      "date": "2021 Oct",
+      "journal": "J Perioper Pract",
+      "authors": [
+        "Stagg K"
+      ]
+    },
+    {
+      "pmid": "35203104",
+      "title": "Comparative safety and efficacy of paracetamol versus non-steroidal anti-inflammatory agents in neonates with patent ductus arteriosus: A systematic review and meta-analysis of randomized controlled trials.",
+      "date": "2022 Jul",
+      "journal": "Br J Clin Pharmacol",
+      "authors": [
+        "Katsaras DN",
+        "Katsaras GN",
+        "Chatziravdeli VI",
+        "Papavasileiou GN",
+        "Touloupaki M",
+        "Mitsiakos G",
+        "Doxani C",
+        "Stefanidis I",
+        "Dardiotis E"
+      ]
+    },
+    {
+      "pmid": "40306178",
+      "title": "Pharmacological bases of combining nonsteroidal antiinflammatory drugs and paracetamol.",
+      "date": "2025 Jun",
+      "journal": "Biomed Pharmacother",
+      "authors": [
+        "Tena-Garitaonaindia M",
+        "Rubio JM",
+        "Martínez-Plata E",
+        "Martínez-Augustin O",
+        "Sánchez de Medina F"
+      ]
+    },
+    {
+      "pmid": "25828856",
+      "title": "Efficacy and safety of paracetamol for spinal pain and osteoarthritis: systematic review and meta-analysis of randomised placebo controlled trials.",
+      "date": "2015 Mar 31",
+      "journal": "BMJ",
+      "authors": [
+        "Machado GC",
+        "Maher CG",
+        "Ferreira PH",
+        "Pinheiro MB",
+        "Lin CW",
+        "Day RO",
+        "McLachlan AJ",
+        "Ferreira ML"
+      ]
+    },
+    {
+      "pmid": "38019174",
+      "title": "Effectiveness and safety of prehospital analgesia including nalbuphine and paracetamol by paramedics: an observational study.",
+      "date": "2023 Dec",
+      "journal": "Minerva Anestesiol",
+      "authors": [
+        "Strickmann B",
+        "Deicke M",
+        "Hoyer A",
+        "Kobiella A",
+        "Jansen G"
+      ]
+    },
+    {
+      "pmid": "25851072",
+      "title": "Use of paracetamol during pregnancy and child neurological development.",
+      "date": "2015 Aug",
+      "journal": "Dev Med Child Neurol",
+      "authors": [
+        "de Fays L",
+        "Van Malderen K",
+        "De Smet K",
+        "Sawchik J",
+        "Verlinden V",
+        "Hamdani J",
+        "Dogné JM",
+        "Dan B"
+      ]
+    },
+    {
+      "pmid": "36444937",
+      "title": "Performance of the paracetamol-aminotransferase multiplication product in risk stratification after paracetamol (acetaminophen) poisoning: a systematic review and meta-analysis.",
+      "date": "2023 Jan",
+      "journal": "Clin Toxicol (Phila)",
+      "authors": [
+        "Yau CE",
+        "Chen H",
+        "Lim BP",
+        "Ng M",
+        "Ponampalam R",
+        "Lim DYZ",
+        "Chin YH",
+        "Ho AFW"
+      ]
+    },
+    {
+      "pmid": "40162912",
+      "title": "Paracetamol (acetaminophen) poisoning; consensus definitions of poisoning types and outcomes to be used in the clinical toxicology recommendations collaborative systematic review.",
+      "date": "2025 May",
+      "journal": "Clin Toxicol (Phila)",
+      "authors": [
+        "Chiew AL",
+        "Wood DM",
+        "Cao D",
+        "Overberg A",
+        "Faber K",
+        "Wong A",
+        "Thanacoody R",
+        "Pomerleau AC",
+        "Gosselin S",
+        "Bhalla A",
+        "Lonati D",
+        "Bateman DN"
+      ]
+    },
+    {
+      "pmid": "41207796",
+      "title": "Maternal paracetamol (acetaminophen) use during pregnancy and risk of autism spectrum disorder and attention deficit/hyperactivity disorder in offspring: umbrella review of systematic reviews.",
+      "date": "2025 Nov 9",
+      "journal": "BMJ",
+      "authors": [
+        "Sheikh J",
+        "Allotey J",
+        "Sobhy S",
+        "Plana MN",
+        "Martinez-Barros H",
+        "Naidu H",
+        "Junaid F",
+        "Sofat R",
+        "Mol BW",
+        "Kenny LC",
+        "Gladstone M",
+        "Teede H",
+        "Zamora J",
+        "Thangaratinam S"
+      ]
+    },
+    {
+      "pmid": "36460148",
+      "title": "A critical review over the removal of paracetamol (acetaminophen) from synthetic waters and real wastewaters by direct, hybrid catalytic, and sequential ozonation processes.",
+      "date": "2023 Feb",
+      "journal": "Chemosphere",
+      "authors": [
+        "Peralta-Hernández JM",
+        "Brillas E"
+      ]
+    },
+    {
+      "pmid": "33819115",
+      "title": "From the pharmaceutical to the clinical: the case for effervescent paracetamol in pain management. A narrative review.",
+      "date": "2021 Jun",
+      "journal": "Curr Med Res Opin",
+      "authors": [
+        "Dubray C",
+        "Maincent P",
+        "Milon JY"
+      ]
+    },
+    {
+      "pmid": "31985830",
+      "title": "Paracetamol (acetaminophen) for prevention or treatment of pain in newborns.",
+      "date": "2020 Jan 27",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Ohlsson A",
+        "Shah PS"
+      ]
+    },
+    {
+      "pmid": "35589674",
+      "title": "Effect of combined paracetamol and dexamethasone vs. paracetamol on postoperative nausea vomiting after cesarean section.",
+      "date": "2022 Oct 26",
+      "journal": "J Perinat Med",
+      "authors": [
+        "Bozorgmanesh M",
+        "Valibeik S",
+        "Shokrpour M",
+        "Maktabi M",
+        "Kamali A"
+      ]
+    },
+    {
+      "pmid": "35440611",
+      "title": "An open label randomized clinical trial of Indomethacin for mild and moderate hospitalised Covid-19 patients.",
+      "date": "2022 Apr 19",
+      "journal": "Sci Rep",
+      "authors": [
+        "Ravichandran R",
+        "Mohan SK",
+        "Sukumaran SK",
+        "Kamaraj D",
+        "Daivasuga SS",
+        "Ravi SOAS",
+        "Vijayaraghavalu S",
+        "Kumar RK"
+      ]
+    },
+    {
+      "pmid": "26283668",
+      "title": "Paracetamol for the treatment of patent ductus arteriosus in preterm neonates: a systematic review and meta-analysis.",
+      "date": "2016 Mar",
+      "journal": "Arch Dis Child Fetal Neonatal Ed",
+      "authors": [
+        "Terrin G",
+        "Conte F",
+        "Oncel MY",
+        "Scipione A",
+        "McNamara PJ",
+        "Simons S",
+        "Sinha R",
+        "Erdeve O",
+        "Tekgunduz KS",
+        "Dogan M",
+        "Kessel I",
+        "Hammerman C",
+        "Nadir E",
+        "Yurttutan S",
+        "Jasani B",
+        "Alan S",
+        "Manguso F",
+        "De Curtis M"
+      ]
+    },
+    {
+      "pmid": "26022219",
+      "title": "Potential cardiovascular adverse events when phenylephrine is combined with paracetamol: simulation and narrative review.",
+      "date": "2015 Aug",
+      "journal": "Eur J Clin Pharmacol",
+      "authors": [
+        "Atkinson HC",
+        "Potts AL",
+        "Anderson BJ"
+      ]
+    },
+    {
+      "pmid": "28069072",
+      "title": "PANSAID - PAracetamol and NSAID in combination: study protocol for a randomised trial.",
+      "date": "2017 Jan 10",
+      "journal": "Trials",
+      "authors": [
+        "Thybo KH",
+        "Hägi-Pedersen D",
+        "Wetterslev J",
+        "Dahl JB",
+        "Schrøder HM",
+        "Bülow HH",
+        "Bjørck JG",
+        "Mathiesen O"
+      ]
+    },
+    {
+      "pmid": "40255229",
+      "title": "Effect of a Single Preventive Intravenous Dose of Ketorolac and Paracetamol on Reducing Postoperative Pain in Septorhinoplasty Patients: Double-Blind Randomized Clinical Trial.",
+      "date": "2025 Apr",
+      "journal": "Iran J Med Sci",
+      "authors": [
+        "Dehghanpisheh L",
+        "Jamshidi F",
+        "Khademi S",
+        "Farokhiani S",
+        "Cheraghi MR",
+        "Emadi M",
+        "Kaboodkhani R",
+        "Akbari A",
+        "Asmarian N",
+        "Banifatemi M"
+      ]
+    },
+    {
+      "pmid": "29173788",
+      "title": "Non-steroidal Anti-inflammatory Drugs in Newborns and Infants.",
+      "date": "2017 Dec",
+      "journal": "Pediatr Clin North Am",
+      "authors": [
+        "Aranda JV",
+        "Salomone F",
+        "Valencia GB",
+        "Beharry KD"
+      ]
+    },
+    {
+      "pmid": "35977697",
+      "title": "Efficacy of oxycodone for postoperative dental pain: A systematic review and meta-analysis.",
+      "date": "2022 Oct",
+      "journal": "J Dent",
+      "authors": [
+        "Teoh L",
+        "McCullough M",
+        "Taing MW"
+      ]
+    },
+    {
+      "pmid": "32878493",
+      "title": "Paracetamol for low back pain: the state of the research field.",
+      "date": "2020 Sep",
+      "journal": "Expert Rev Clin Pharmacol",
+      "authors": [
+        "Koes B",
+        "Schreijenberg M",
+        "Tkachev A"
+      ]
+    },
+    {
+      "pmid": "28447858",
+      "title": "Risk prediction of hepatotoxicity in paracetamol poisoning.",
+      "date": "2017 Sep",
+      "journal": "Clin Toxicol (Phila)",
+      "authors": [
+        "Wong A",
+        "Graudins A"
+      ]
+    },
+    {
+      "pmid": "27977844",
+      "title": "Paracetamol (acetaminophen) or non-steroidal anti-inflammatory drugs, alone or combined, for pain relief in acute otitis media in children.",
+      "date": "2016 Dec 15",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Sjoukes A",
+        "Venekamp RP",
+        "van de Pol AC",
+        "Hay AD",
+        "Little P",
+        "Schilder AG",
+        "Damoiseaux RA"
+      ]
+    },
+    {
+      "pmid": "28828381",
+      "title": "Paracetamol in Patent Ductus Arteriosus Treatment: Efficacious and Safe?",
+      "date": "2017",
+      "journal": "Biomed Res Int",
+      "authors": [
+        "Bardanzellu F",
+        "Neroni P",
+        "Dessì A",
+        "Fanos V"
+      ]
+    },
+    {
+      "pmid": "32293369",
+      "title": "Risk of wheezing and asthma exacerbation in children treated with paracetamol versus ibuprofen: a systematic review and meta-analysis of randomised controlled trials.",
+      "date": "2020 Mar 23",
+      "journal": "BMC Pulm Med",
+      "authors": [
+        "Sherbash M",
+        "Furuya-Kanamori L",
+        "Nader JD",
+        "Thalib L"
+      ]
+    },
+    {
+      "pmid": "40514291",
+      "title": "Effect of paracetamol-codeine compared to placebo on surgical discomfort and post-traumatic stress disorder symptoms following mandibular third molar removal: a prospective randomized clinical trial.",
+      "date": "2025 Nov",
+      "journal": "Int J Oral Maxillofac Surg",
+      "authors": [
+        "Cardoso RB",
+        "Ruppel C",
+        "Pereira VL",
+        "Dos Santos FA",
+        "Bortoluzzi MC"
+      ]
+    },
+    {
+      "pmid": "40877788",
+      "title": "Comparing the efficacy of combining ketorolac and Paracetamol (Acetaminophen) with Paracetamol alone on postoperative pain after laminectomy. A double-blinded randomized clinical trial.",
+      "date": "2025 Aug 29",
+      "journal": "BMC Anesthesiol",
+      "authors": [
+        "Shoja S",
+        "Rahmani K",
+        "Soufizadeh N",
+        "Shoja S"
+      ]
+    },
+    {
+      "pmid": "36099269",
+      "title": "The use of paracetamol during pregnancy: A qualitative study and possible strategies for a clinical trial.",
+      "date": "2022",
+      "journal": "PLoS One",
+      "authors": [
+        "Vedel C",
+        "Jørgensen DS",
+        "Kristensen DM",
+        "Petersen OB",
+        "Greisen G"
+      ]
+    },
+    {
+      "pmid": "28437025",
+      "title": "Effectiveness of paracetamol versus ibuprofen administration in febrile children: A systematic literature review.",
+      "date": "2017 Aug",
+      "journal": "J Paediatr Child Health",
+      "authors": [
+        "Narayan K",
+        "Cooper S",
+        "Morphet J",
+        "Innes K"
+      ]
+    },
+    {
+      "pmid": "29570512",
+      "title": "Effect of effervescent paracetamol on blood pressure: a crossover randomized clinical trial.",
+      "date": "2018 Aug",
+      "journal": "J Hypertens",
+      "authors": [
+        "Benitez-Camps M",
+        "Morros Padrós R",
+        "Pera-Pujadas H",
+        "Dalfó Baqué A",
+        "Bayó Llibre J",
+        "Rebagliato Nadal O",
+        "Cortès Martinez J",
+        "García Sangenís A",
+        "Roca Saumell C",
+        "Coll de Tuero G",
+        "Vinyoles-Bargalló E"
+      ]
+    },
+    {
+      "pmid": "32768013",
+      "title": "The efficacy and safety of oral paracetamol versus oral ibuprofen for patent ductus arteriosus closure in preterm neonates - A systematic review and meta-analysis.",
+      "date": "2020 May-Jun",
+      "journal": "Indian Heart J",
+      "authors": [
+        "Pranata R",
+        "Yonas E",
+        "Vania R",
+        "Prakoso R"
+      ]
+    },
+    {
+      "pmid": "35577132",
+      "title": "A critical review on paracetamol removal from different aqueous matrices by Fenton and Fenton-based processes, and their combined methods.",
+      "date": "2022 Sep",
+      "journal": "Chemosphere",
+      "authors": [
+        "Pacheco-Álvarez M",
+        "Picos Benítez R",
+        "Rodríguez-Narváez OM",
+        "Brillas E",
+        "Peralta-Hernández JM"
+      ]
+    },
+    {
+      "pmid": "25728477",
+      "title": "Common questions in veterinary toxicology.",
+      "date": "2015 May",
+      "journal": "J Small Anim Pract",
+      "authors": [
+        "Bates N",
+        "Rawson-Harris P",
+        "Edwards N"
+      ]
+    },
+    {
+      "pmid": "27716943",
+      "title": "Paracetamol (acetaminophen) for prevention or treatment of pain in newborns.",
+      "date": "2016 Oct 7",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Ohlsson A",
+        "Shah PS"
+      ]
+    },
+    {
+      "pmid": "27213715",
+      "title": "Single dose intravenous paracetamol or intravenous propacetamol for postoperative pain.",
+      "date": "2016 May 23",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "McNicol ED",
+        "Ferguson MC",
+        "Haroutounian S",
+        "Carr DB",
+        "Schumann R"
+      ]
+    },
+    {
+      "pmid": "26460177",
+      "title": "Can paracetamol (acetaminophen) be administered to patients with liver impairment?",
+      "date": "2016 Feb",
+      "journal": "Br J Clin Pharmacol",
+      "authors": [
+        "Hayward KL",
+        "Powell EE",
+        "Irvine KM",
+        "Martin JH"
+      ]
+    },
+    {
+      "pmid": "33428176",
+      "title": "Efficacy and Safety of Ibuprofen Plus Paracetamol in a Fixed-Dose Combination for Acute Postoperative Pain in Adults: Meta-Analysis and a Trial Sequential Analysis.",
+      "date": "2021 Jan",
+      "journal": "CNS Drugs",
+      "authors": [
+        "Abushanab D",
+        "Al-Badriyeh D"
+      ]
+    },
+    {
+      "pmid": "37312532",
+      "title": "Role of N-acetylcysteine in liver injury due to dengue fever.",
+      "date": "2023 Oct",
+      "journal": "Trop Doct",
+      "authors": [
+        "Gupta M",
+        "Gupta S",
+        "Sood D",
+        "Gupta A",
+        "Jesrani G"
+      ]
+    },
+    {
+      "pmid": "25749509",
+      "title": "Pharmacological options for the management of refractory cancer pain-what is the evidence?",
+      "date": "2015 May",
+      "journal": "Support Care Cancer",
+      "authors": [
+        "Afsharimani B",
+        "Kindl K",
+        "Good P",
+        "Hardy J"
+      ]
+    },
+    {
+      "pmid": "26654907",
+      "title": "Evaluation of the relationship between effervescent paracetamol and blood pressure: clinical trial.",
+      "date": "2015 Dec 10",
+      "journal": "BMC Cardiovasc Disord",
+      "authors": [
+        "Benitez-Camps M",
+        "Vinyoles-Bargalló E",
+        "Rebagliato-Nadal O",
+        "Morros-Pedrós R",
+        "Pera-Pujadas H",
+        "Dalfó-Baqué A",
+        "López-Pavón I",
+        "Roca-Sánchez C",
+        "Coma-Carbó RM",
+        "De La Figuera Von Wichmann M",
+        "Mengual-Martínez L",
+        "Yuste-Marco C",
+        "Teixidó-Colet M",
+        "Pepió i Vilaubí JM",
+        "Ciurana-Tost R",
+        "Pou-Vila R",
+        "Vila-Coll MA",
+        "Bordas-Julve JM",
+        "Aragonès-Forès R",
+        "Pelegrina-Rodríguez FJ",
+        "Agudo-Ugena J",
+        "Blanco-Mata C",
+        "de la Iglesia Berrojalbiz J",
+        "Burgos-Alonso N",
+        "Gómez-Fernández MC"
+      ]
+    },
+    {
+      "pmid": "29595685",
+      "title": "Double-blind placebo-controlled randomized clinical trial on the use of paracetamol for performing mammography.",
+      "date": "2018 Mar",
+      "journal": "Medicine (Baltimore)",
+      "authors": [
+        "Freitas-Junior R",
+        "Martins E",
+        "Metran-Nascente C",
+        "Carvalho AA",
+        "Silva MFD",
+        "Soares LR",
+        "Ximenes CA"
+      ]
+    },
+    {
+      "pmid": "35135417",
+      "title": "A Randomised Control Trial Comparing Opioid and Paracetamol for Pain Control after Carpal Tunnel Release.",
+      "date": "2022 Feb",
+      "journal": "J Hand Surg Asian Pac Vol",
+      "authors": [
+        "Lee CH",
+        "Jeong GM"
+      ]
+    },
+    {
+      "pmid": "28971636",
+      "title": "Comparison between Lornoxicam and Paracetamol for Pain Management after Dilation and Curettage for Abortion.",
+      "date": "2017 Sep",
+      "journal": "Isr Med Assoc J",
+      "authors": [
+        "Mustafa-Mikhail S",
+        "Assaraf S",
+        "Abecassis P",
+        "Dabaja H",
+        "Jarrous S",
+        "Hadad S",
+        "Lowenstein L"
+      ]
+    },
+    {
+      "pmid": "23692587",
+      "title": "Paracetamol (Acetaminophen) in stroke 2 (PAIS 2): protocol for a randomized, placebo-controlled, double-blind clinical trial to assess the effect of high-dose paracetamol on functional outcome in patients with acute stroke and a body temperature of 36.5 °C or above.",
+      "date": "2015 Apr",
+      "journal": "Int J Stroke",
+      "authors": [
+        "de Ridder IR",
+        "de Jong FJ",
+        "den Hertog HM",
+        "Lingsma HF",
+        "van Gemert HM",
+        "Schreuder AH",
+        "Ruitenberg A",
+        "Maasland EL",
+        "Saxena R",
+        "Oomes P",
+        "van Tuijl J",
+        "Koudstaal PJ",
+        "Kappelle LJ",
+        "Algra A",
+        "van der Worp HB",
+        "Dippel DW"
+      ]
+    },
+    {
+      "pmid": "26387650",
+      "title": "Evidence for the changing regimens of acetylcysteine.",
+      "date": "2016 Mar",
+      "journal": "Br J Clin Pharmacol",
+      "authors": [
+        "Chiew AL",
+        "Isbister GK",
+        "Duffull SB",
+        "Buckley NA"
+      ]
+    },
+    {
+      "pmid": "27146615",
+      "title": "Comparison of paracetamol and fentanyl for pain relief during and after suction termination.",
+      "date": "2016 May",
+      "journal": "Saudi Med J",
+      "authors": [
+        "Şahin AS",
+        "Gülleroğlu A",
+        "Toker MK",
+        "Karabay AG",
+        "Adıyeke O",
+        "Demiraran Y"
+      ]
+    },
+    {
+      "pmid": "34519136",
+      "title": "Aspirin, paracetamol (acetaminophen) and caffeine for the treatment of acute migraine attacks: A systemic review and meta-analysis of randomized placebo-controlled trials.",
+      "date": "2022 Jan",
+      "journal": "Eur J Neurol",
+      "authors": [
+        "Diener HC",
+        "Gaul C",
+        "Lehmacher W",
+        "Weiser T"
+      ]
+    },
+    {
+      "pmid": "31230039",
+      "title": "Paracetamol versus other analgesia in adult patients with minor musculoskeletal injuries: a systematic review.",
+      "date": "2019 Aug",
+      "journal": "Emerg Med J",
+      "authors": [
+        "Ridderikhof ML",
+        "Saanen J",
+        "Goddijn H",
+        "Van Dieren S",
+        "Van Etten-Jamaludin F",
+        "Lirk P",
+        "Goslings JC",
+        "Hollmann MW"
+      ]
+    },
+    {
+      "pmid": "28766385",
+      "title": "Paracetamol: overdose-induced oxidative stress toxicity, metabolism, and protective effects of various compounds in vivo and in vitro.",
+      "date": "2017 Nov",
+      "journal": "Drug Metab Rev",
+      "authors": [
+        "Wang X",
+        "Wu Q",
+        "Liu A",
+        "Anadón A",
+        "Rodríguez JL",
+        "Martínez-Larrañaga MR",
+        "Yuan Z",
+        "Martínez MA"
+      ]
+    },
+    {
+      "pmid": "40847562",
+      "title": "Effectiveness and safety of interventions for fever-associated discomfort in children: A systematic review.",
+      "date": "2025 Dec",
+      "journal": "Br J Clin Pharmacol",
+      "authors": [
+        "Corsello A",
+        "Alberti I",
+        "Farhanghi S",
+        "Bonetti A",
+        "Garattini S",
+        "Comotti A",
+        "Marchisio P",
+        "Chiappini E",
+        "Milani GP"
+      ]
+    },
+    {
+      "pmid": "26572078",
+      "title": "Acetaminophen for Chronic Pain: A Systematic Review on Efficacy.",
+      "date": "2016 Mar",
+      "journal": "Basic Clin Pharmacol Toxicol",
+      "authors": [
+        "Ennis ZN",
+        "Dideriksen D",
+        "Vaegter HB",
+        "Handberg G",
+        "Pottegård A"
+      ]
+    },
+    {
+      "pmid": "31370298",
+      "title": "A Meta-Analysis of the Utility of Preoperative Intravenous Paracetamol for Post-Caesarean Analgesia.",
+      "date": "2019 Jul 31",
+      "journal": "Medicina (Kaunas)",
+      "authors": [
+        "Ng QX",
+        "Loke W",
+        "Yeo WS",
+        "Chng KYY",
+        "Tan CH"
+      ]
+    },
+    {
+      "pmid": "32888031",
+      "title": "Effects of acetaminophen on risk taking.",
+      "date": "2020 Sep 24",
+      "journal": "Soc Cogn Affect Neurosci",
+      "authors": [
+        "Keaveney A",
+        "Peters E",
+        "Way B"
+      ]
+    },
+    {
+      "pmid": "39499309",
+      "title": "Paracetamol versus ibuprofen for early postpartum pain control: a randomized controlled trial.",
+      "date": "2025 Jul",
+      "journal": "Arch Gynecol Obstet",
+      "authors": [
+        "Ram S",
+        "Madar D",
+        "Ram HS",
+        "Peleg G",
+        "Lior Y",
+        "Greenfeld A",
+        "Yakov G",
+        "Yogev Y",
+        "Maslovitz S"
+      ]
+    },
+    {
+      "pmid": "40578485",
+      "title": "Effects of intravenous paracetamol on mean arterial pressure in critically ill patients: A systematic review and meta-analysis with trial sequential analysis.",
+      "date": "2025 Sep",
+      "journal": "Anaesth Crit Care Pain Med",
+      "authors": [
+        "Messina S",
+        "Ferro S",
+        "Santonocito C",
+        "Minardi C",
+        "Zawadka M",
+        "Drago F",
+        "Noto A",
+        "Sanfilippo F"
+      ]
+    },
+    {
+      "pmid": "35253560",
+      "title": "Why paracetamol (acetaminophen) is a suitable first choice for treating mild to moderate acute pain in adults with liver, kidney or cardiovascular disease, gastrointestinal disorders, asthma, or who are older.",
+      "date": "2022 May",
+      "journal": "Curr Med Res Opin",
+      "authors": [
+        "Alchin J",
+        "Dhar A",
+        "Siddiqui K",
+        "Christo PJ"
+      ]
+    },
+    {
+      "pmid": "40181005",
+      "title": "Pain control following impacted mandibular third molar surgery: a comparison of the effectiveness of two different protocols.",
+      "date": "2025 Apr 3",
+      "journal": "Sci Rep",
+      "authors": [
+        "Gaballah K",
+        "Eldohaji T",
+        "Tannir ME",
+        "Shaban R",
+        "Habib R",
+        "Ali K"
+      ]
+    },
+    {
+      "pmid": "40414507",
+      "title": "A non-inferiority randomised controlled trial of a shorter acetylcysteine regimen for paracetamol overdose - the SARPO trial.",
+      "date": "2025 Oct",
+      "journal": "J Hepatol",
+      "authors": [
+        "Isbister G",
+        "Chiew A",
+        "Buckley N",
+        "Harris K",
+        "Berling I",
+        "Downes M",
+        "Page C",
+        "Isoardi K"
+      ]
+    },
+    {
+      "pmid": "38458208",
+      "title": "Non-opioid analgesic combinations following total hip arthroplasty (RECIPE): a randomised, placebo-controlled, blinded, multicentre trial.",
+      "date": "2024 Apr",
+      "journal": "Lancet Rheumatol",
+      "authors": [
+        "Steiness J",
+        "Hägi-Pedersen D",
+        "Lunn TH",
+        "Overgaard S",
+        "Brorson S",
+        "Graungaard BK",
+        "Lindberg-Larsen M",
+        "Varnum C",
+        "Lundstrøm LH",
+        "Beck T",
+        "Skettrup M",
+        "Pedersen NA",
+        "Bieder MJ",
+        "von Cappeln AG",
+        "Pleckaitiene L",
+        "Lindholm P",
+        "Bukhari SSH",
+        "Derby CB",
+        "Nielsen MG",
+        "Exsteen OW",
+        "Vinstrup LØ",
+        "Thybo KH",
+        "Gasbjerg KS",
+        "Nørskov AK",
+        "Jakobsen JC",
+        "Mathiesen O"
+      ]
+    },
+    {
+      "pmid": "25352038",
+      "title": "Acetaminophen for patent ductus arteriosus.",
+      "date": "2015 Feb",
+      "journal": "Ann Pharmacother",
+      "authors": [
+        "Le J",
+        "Gales MA",
+        "Gales BJ"
+      ]
+    },
+    {
+      "pmid": "26464084",
+      "title": "Systems toxicology: modelling biomarkers of glutathione homeostasis and paracetamol metabolism.",
+      "date": "2015 Aug",
+      "journal": "Drug Discov Today Technol",
+      "authors": [
+        "Stahl SH",
+        "Yates JW",
+        "Nicholls AW",
+        "Kenna JG",
+        "Coen M",
+        "Ortega F",
+        "Nicholson JK",
+        "Wilson ID"
+      ]
+    },
+    {
+      "pmid": "31155693",
+      "title": "The Hemodynamic Effect of Intravenous Paracetamol in Children: A Retrospective Chart Review.",
+      "date": "2019 Jun",
+      "journal": "Paediatr Drugs",
+      "authors": [
+        "Nahum E",
+        "Friedman M",
+        "Kaplan E",
+        "Weissbach A",
+        "Kadmon G"
+      ]
+    },
+    {
+      "pmid": "39982125",
+      "title": "A quantitative weight-of-evidence review of preclinical studies examining the potential developmental neurotoxicity of acetaminophen.",
+      "date": "2025 Feb",
+      "journal": "Crit Rev Toxicol",
+      "authors": [
+        "Kougias DG",
+        "Atillasoy E",
+        "Southall MD",
+        "Scialli AR",
+        "Ejaz S",
+        "Chu C",
+        "Jeminiwa BO",
+        "Massarsky A",
+        "Unice KM",
+        "Schaeffer TH",
+        "Kovochich M"
+      ]
+    },
+    {
+      "pmid": "39043077",
+      "title": "Effects of pregabalin combined with tramadol/paracetamol on acute pain in patients with CT-guided puncture localization of pulmonary nodules.",
+      "date": "2024 Aug",
+      "journal": "Lung Cancer",
+      "authors": [
+        "Wang Q",
+        "Liu H",
+        "Xu Z",
+        "Zhang L",
+        "Liu Y",
+        "Gao H",
+        "Jiang Y",
+        "Zhao L"
+      ]
+    },
+    {
+      "pmid": "33398668",
+      "title": "Intrauterine Exposure to Acetaminophen and Adverse Developmental Outcomes: Epidemiological Findings and Methodological Issues.",
+      "date": "2021 Mar",
+      "journal": "Curr Environ Health Rep",
+      "authors": [
+        "Liew Z",
+        "Ernst A"
+      ]
+    },
+    {
+      "pmid": "30801133",
+      "title": "Paracetamol versus placebo for knee and hip osteoarthritis.",
+      "date": "2019 Feb 25",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Leopoldino AO",
+        "Machado GC",
+        "Ferreira PH",
+        "Pinheiro MB",
+        "Day R",
+        "McLachlan AJ",
+        "Hunter DJ",
+        "Ferreira ML"
+      ]
+    },
+    {
+      "pmid": "37140296",
+      "title": "The comparison of intraincisional bupivacaine infiltration and intravenous paracetamol administration for pain alleviation after cesarean section: a double-blinded randomized placebo controlled clinical trial.",
+      "date": "2023 Apr",
+      "journal": "Eur Rev Med Pharmacol Sci",
+      "authors": [
+        "Aksoy H",
+        "Ak M",
+        "Gökahmetoğlu G",
+        "Aksoy Ü"
+      ]
+    },
+    {
+      "pmid": "28770975",
+      "title": "Paracetamol (acetaminophen) for chronic non-cancer pain in children and adolescents.",
+      "date": "2017 Aug 2",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Cooper TE",
+        "Fisher E",
+        "Anderson B",
+        "Wilkinson NM",
+        "Williams DG",
+        "Eccleston C"
+      ]
+    },
+    {
+      "pmid": "40755177",
+      "title": "Combination vs. single-drug nonprescription analgesics for acute pain management: A narrative review.",
+      "date": "2025 Oct",
+      "journal": "Br J Clin Pharmacol",
+      "authors": [
+        "Mobasheri A",
+        "Morlion B",
+        "Sethi VS",
+        "Cardosa M",
+        "Della Pasqua O",
+        "Kalita P"
+      ]
+    },
+    {
+      "pmid": "38431210",
+      "title": "Pyroglutamate acidosis 2023. A review of 100 cases.",
+      "date": "2024 Mar",
+      "journal": "Clin Med (Lond)",
+      "authors": [
+        "Stewart GW"
+      ]
+    },
+    {
+      "pmid": "27471017",
+      "title": "New potential biomarkers of acetaminophen-induced hepatotoxicity.",
+      "date": "2016 Sep",
+      "journal": "Adv Med Sci",
+      "authors": [
+        "Siemionow K",
+        "Teul J",
+        "Drągowski P",
+        "Pałka J",
+        "Miltyk W"
+      ]
+    },
+    {
+      "pmid": "30486484",
+      "title": "Therapeutic Potential of Plants and Plant Derived Phytochemicals against Acetaminophen-Induced Liver Injury.",
+      "date": "2018 Nov 28",
+      "journal": "Int J Mol Sci",
+      "authors": [
+        "Subramanya SB",
+        "Venkataraman B",
+        "Meeran MFN",
+        "Goyal SN",
+        "Patil CR",
+        "Ojha S"
+      ]
+    },
+    {
+      "pmid": "29938546",
+      "title": "The dark side of ibuprofen in the treatment of patent ductus arteriosus: could paracetamol be the solution?",
+      "date": "2018 Aug",
+      "journal": "Expert Opin Drug Metab Toxicol",
+      "authors": [
+        "Cuzzolin L",
+        "Bardanzellu F",
+        "Fanos V"
+      ]
+    },
+    {
+      "pmid": "31014293",
+      "title": "Faster recovery and reduced paracetamol use - a meta-analysis of EPs 7630 in children with acute respiratory tract infections.",
+      "date": "2019 Apr 23",
+      "journal": "BMC Pediatr",
+      "authors": [
+        "Seifert G",
+        "Brandes-Schramm J",
+        "Zimmermann A",
+        "Lehmacher W",
+        "Kamin W"
+      ]
+    },
+    {
+      "pmid": "32009106",
+      "title": "Toxicological Property of Acetaminophen: The Dark Side of a Safe Antipyretic/Analgesic Drug?",
+      "date": "2020",
+      "journal": "Biol Pharm Bull",
+      "authors": [
+        "Ishitsuka Y",
+        "Kondo Y",
+        "Kadowaki D"
+      ]
+    },
+    {
+      "pmid": "26110914",
+      "title": "Paracetamol (acetaminophen) for prevention or treatment of pain in newborns.",
+      "date": "2015 Jun 25",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Ohlsson A",
+        "Shah PS"
+      ]
+    },
+    {
+      "pmid": "33902372",
+      "title": "Efficacy and safety of intravenous paracetamol in management of labour pains in a low resource setting: a randomized clinical trial.",
+      "date": "2022 Dec",
+      "journal": "J Matern Fetal Neonatal Med",
+      "authors": [
+        "Anter ME",
+        "Abdel Attey Saleh S",
+        "Shawkey Allam S",
+        "Mohamed Nofal A"
+      ]
+    },
+    {
+      "pmid": "27813503",
+      "title": "Naproxen, paracetamol and pamabrom versus paracetamol, pyrilamine and pamabrom in primary dysmenorrhea: a randomized, double-blind clinical trial.",
+      "date": "2016 Oct 24",
+      "journal": "Medwave",
+      "authors": [
+        "Ortiz MI",
+        "Murguía-Cánovas G",
+        "Vargas-López LC",
+        "Silva R",
+        "González-de la Parra M"
+      ]
+    },
+    {
+      "pmid": "32542752",
+      "title": "A clinician's guide to self-poisoning with paracetamol in youth: The what, when and why?",
+      "date": "2020 Nov",
+      "journal": "Acta Paediatr",
+      "authors": [
+        "Hayden JC",
+        "Kelly L",
+        "McNicholas F"
+      ]
+    },
+    {
+      "pmid": "38722512",
+      "title": "Overview of acute liver failure in India.",
+      "date": "2024 Apr",
+      "journal": "Indian J Gastroenterol",
+      "authors": [
+        "Acharya SK"
+      ]
+    },
+    {
+      "pmid": "25784216",
+      "title": "Effects of food on pharmacokinetics of immediate release oral formulations of aspirin, dipyrone, paracetamol and NSAIDs - a systematic review.",
+      "date": "2015 Sep",
+      "journal": "Br J Clin Pharmacol",
+      "authors": [
+        "Moore RA",
+        "Derry S",
+        "Wiffen PJ",
+        "Straube S"
+      ]
+    },
+    {
+      "pmid": "26076366",
+      "title": "Target biomarker profile for the clinical management of paracetamol overdose.",
+      "date": "2015 Sep",
+      "journal": "Br J Clin Pharmacol",
+      "authors": [
+        "Vliegenthart AD",
+        "Antoine DJ",
+        "Dear JW"
+      ]
+    },
+    {
+      "pmid": "25758061",
+      "title": "Paracetamol (acetaminophen) for patent ductus arteriosus in preterm or low-birth-weight infants.",
+      "date": "2015 Mar 11",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Ohlsson A",
+        "Shah PS"
+      ]
+    },
+    {
+      "pmid": "29017585",
+      "title": "PANSAID-PAracetamol and NSAID in combination: detailed statistical analysis plan for a randomised, blinded, parallel, four-group multicentre clinical trial.",
+      "date": "2017 Oct 10",
+      "journal": "Trials",
+      "authors": [
+        "Thybo KH",
+        "Jakobsen JC",
+        "Hägi-Pedersen D",
+        "Pedersen NA",
+        "Dahl JB",
+        "Schrøder HM",
+        "Bülow HH",
+        "Bjørck JG",
+        "Overgaard S",
+        "Mathiesen O",
+        "Wetterslev J"
+      ]
+    },
+    {
+      "pmid": "37349498",
+      "title": "Analgesic effect of oral paracetamol 1000 mg/ibuprofen 400 mg, paracetamol 1000 mg/codeine 60 mg, paracetamol 1000 mg/ibuprofen 400 mg/codeine 60 mg, or placebo on acute postoperative pain: a single-dose, randomized, and double-blind study.",
+      "date": "2023 Aug",
+      "journal": "Eur J Clin Pharmacol",
+      "authors": [
+        "Lyngstad G",
+        "Skjelbred P",
+        "Swanson DM",
+        "Skoglund LA"
+      ]
+    },
+    {
+      "pmid": "35110003",
+      "title": "The efficacy of low-level laser therapy versus paracetamol-caffeine in controlling orthodontic separation pain and changes in the oral-health-related quality of life in Class I malocclusions: A 3-arm, randomized, placebo-controlled clinical trial.",
+      "date": "2022 Jun",
+      "journal": "J World Fed Orthod",
+      "authors": [
+        "Owayda AM",
+        "Hajeer MY",
+        "Murad RMT",
+        "Al-Sabbagh R"
+      ]
+    },
+    {
+      "pmid": "36617684",
+      "title": "Paracetamol versus paracetamol/tramadol in postoperative intertrochanteric fracture: A noninferiority, randomized, controlled, double-blind study.",
+      "date": "2023 Jan-Apr",
+      "journal": "J Orthop Surg (Hong Kong)",
+      "authors": [
+        "Sirithiantong T",
+        "Chuekitkumchorn S"
+      ]
+    },
+    {
+      "pmid": "33118024",
+      "title": "Over-the-counter analgesics during pregnancy: a comprehensive review of global prevalence and offspring safety.",
+      "date": "2021 Jan 4",
+      "journal": "Hum Reprod Update",
+      "authors": [
+        "Zafeiri A",
+        "Mitchell RT",
+        "Hay DC",
+        "Fowler PA"
+      ]
+    },
+    {
+      "pmid": "27992852",
+      "title": "Paracetamol in fever in critically ill patients-an update.",
+      "date": "2017 Apr",
+      "journal": "J Crit Care",
+      "authors": [
+        "Chiumello D",
+        "Gotti M",
+        "Vergani G"
+      ]
+    },
+    {
+      "pmid": "28681267",
+      "title": "Intravenous paracetamol vs ibuprofen in renal colic: a randomised, double-blind, controlled clinical trial.",
+      "date": "2018 Aug",
+      "journal": "Urolithiasis",
+      "authors": [
+        "Cenker E",
+        "Serinken M",
+        "Uyanık E"
+      ]
+    },
+    {
+      "pmid": "27306653",
+      "title": "Paracetamol (acetaminophen) for acute treatment of episodic tension-type headache in adults.",
+      "date": "2016 Jun 16",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Stephens G",
+        "Derry S",
+        "Moore RA"
+      ]
+    },
+    {
+      "pmid": "39848492",
+      "title": "Paracetamol prior to catheter balloon insertion for labor induction-A randomized controlled trial.",
+      "date": "2025 Apr",
+      "journal": "Am J Obstet Gynecol MFM",
+      "authors": [
+        "Frank Wolf M",
+        "Sgayer I",
+        "Abu Shqara R",
+        "Naskovica K",
+        "Kassis F",
+        "Kushnir N",
+        "Lavinsky M",
+        "Idilbi N",
+        "Lowenstein L"
+      ]
+    },
+    {
+      "pmid": "28366286",
+      "title": "Effect of paracetamol (acetaminophen) on body temperature in acute stroke: A meta-analysis.",
+      "date": "2017 Oct",
+      "journal": "Am J Emerg Med",
+      "authors": [
+        "Fang J",
+        "Chen C",
+        "Cheng H",
+        "Wang R",
+        "Ma L"
+      ]
+    },
+    {
+      "pmid": "34751349",
+      "title": "[Paracetamol as an adjuvant to opioids for cancer pain management].",
+      "date": "2021 Jun",
+      "journal": "Rev Med Chil",
+      "authors": [
+        "vLeiva-Vásquez O",
+        "Pérez-Cruz P"
+      ]
+    },
+    {
+      "pmid": "29067481",
+      "title": "Are some people at increased risk of paracetamol-induced liver injury? A critical review of the literature.",
+      "date": "2018 Feb",
+      "journal": "Eur J Clin Pharmacol",
+      "authors": [
+        "Caparrotta TM",
+        "Antoine DJ",
+        "Dear JW"
+      ]
+    },
+    {
+      "pmid": "31713183",
+      "title": "Acetaminophen poisoning-induced heart injury: a case-based review.",
+      "date": "2019 Dec",
+      "journal": "Daru",
+      "authors": [
+        "KhabazianZadeh F",
+        "Kazemi T",
+        "Nakhaee S",
+        "Ng PC",
+        "Mehrpour O"
+      ]
+    },
+    {
+      "pmid": "28289240",
+      "title": "PAIS 2 (Paracetamol [Acetaminophen] in Stroke 2): Results of a Randomized, Double-Blind Placebo-Controlled Clinical Trial.",
+      "date": "2017 Apr",
+      "journal": "Stroke",
+      "authors": [
+        "de Ridder IR",
+        "den Hertog HM",
+        "van Gemert HM",
+        "Schreuder AH",
+        "Ruitenberg A",
+        "Maasland EL",
+        "Saxena R",
+        "van Tuijl JH",
+        "Jansen BP",
+        "Van den Berg-Vos RM",
+        "Vermeij F",
+        "Koudstaal PJ",
+        "Kappelle LJ",
+        "Algra A",
+        "van der Worp HB",
+        "Dippel DW"
+      ]
+    },
+    {
+      "pmid": "32442828",
+      "title": "Subgroup analysis of the early paracetamol trial to preterm infants found haemodynamic changes and improved oxygenation.",
+      "date": "2020 Jun",
+      "journal": "Early Hum Dev",
+      "authors": [
+        "Härmä A",
+        "Aikio O",
+        "Härkin P",
+        "Leskinen M",
+        "Valkama M",
+        "Saarela T",
+        "Hallman M"
+      ]
+    },
+    {
+      "pmid": "34559424",
+      "title": "Paracetamol/acetaminophen (single administration) for perineal pain in the early postpartum period.",
+      "date": "2021 Jan 8",
+      "journal": "Cochrane Database Syst Rev",
+      "authors": [
+        "Abalos E",
+        "Sguassero Y",
+        "Gyte GM"
+      ]
+    },
+    {
+      "pmid": "41194609",
+      "title": "Comparison of the Effectiveness of Paracetamol and Ibuprofen Combination With Paracetamol and Ketorolac for Postoperative Analgesia in Cesarean Section: A Single Blind Randomized Clinical Trial.",
+      "date": "2024 Dec 3",
+      "journal": "Asian J Anesthesiol",
+      "authors": [
+        "Artawan IM",
+        "Ratu K",
+        "Adang GPT",
+        "Riwu M"
+      ]
+    },
+    {
+      "pmid": "31648374",
+      "title": "Benefits and harm of paracetamol and ibuprofen in combination for post-operative pain: Pre-planned subgroup analyses of the multicenter, randomized PANSAID trial.",
+      "date": "2020 Feb",
+      "journal": "Acta Anaesthesiol Scand",
+      "authors": [
+        "Thybo KH",
+        "Hägi-Pedersen D",
+        "Wetterslev J",
+        "Dahl JB",
+        "Jakobsen JC",
+        "Pedersen NA",
+        "Jakobsen K",
+        "Bülow HH",
+        "Ibsen L",
+        "Overgaard S",
+        "Mathiesen O"
+      ]
+    },
+    {
+      "pmid": "40847180",
+      "title": "A randomized controlled trial on the effectiveness of low-level laser therapy versus paracetamol-caffeine for pain control during overall orthodontic treatment.",
+      "date": "2025 Aug 22",
+      "journal": "Sci Rep",
+      "authors": [
+        "Owayda AM",
+        "Hajeer MY",
+        "Al-Sabbagh R",
+        "Burhan AS",
+        "Darwich K",
+        "Aljabban O",
+        "Latifeh Y"
+      ]
+    },
+    {
+      "pmid": "25776823",
+      "title": "Pharmacological treatment of migraine during pregnancy and breastfeeding.",
+      "date": "2015 Apr",
+      "journal": "Nat Rev Neurol",
+      "authors": [
+        "Amundsen S",
+        "Nordeng H",
+        "Nezvalová-Henriksen K",
+        "Stovner LJ",
+        "Spigset O"
+      ]
+    },
+    {
+      "pmid": "40728676",
+      "title": "Is ibuprofen associated with upper gastrointestinal bleeding? A systematic review and meta-analysis.",
+      "date": "2025 Aug",
+      "journal": "Inflammopharmacology",
+      "authors": [
+        "Gkiouras K",
+        "Myrogiannis I",
+        "Kouvelas D"
+      ]
+    },
+    {
+      "pmid": "27537754",
+      "title": "Comparative Plasma and Cerebrospinal Fluid Pharmacokinetics of Paracetamol After Intravenous and Oral Administration.",
+      "date": "2016 Sep",
+      "journal": "Anesth Analg",
+      "authors": [
+        "Langford RA",
+        "Hogg M",
+        "Bjorksten AR",
+        "Williams DL",
+        "Leslie K",
+        "Jamsen K",
+        "Kirkpatrick C"
+      ]
+    },
+    {
+      "pmid": "31072190",
+      "title": "Pain Management After Surgical Tonsillectomy: Is There a Favorable Analgesic?",
+      "date": "2019 Jul",
+      "journal": "Ear Nose Throat J",
+      "authors": [
+        "Jotić A",
+        "Savić Vujović K",
+        "Milovanović J",
+        "Vujović A",
+        "Radin Z",
+        "Milić N",
+        "Vučković S",
+        "Medić B",
+        "Prostran M"
+      ]
+    },
+    {
+      "pmid": "34785186",
+      "title": "Use of fomepizole (4-methylpyrazole) for acetaminophen poisoning: A scoping review.",
+      "date": "2022 Feb 1",
+      "journal": "Toxicol Lett",
+      "authors": [
+        "Pourbagher-Shahri AM",
+        "Schimmel J",
+        "Shirazi FM",
+        "Nakhaee S",
+        "Mehrpour O"
+      ]
+    },
+    {
+      "pmid": "39872636",
+      "title": "Clinical Efficacy Between Intravenous Paracetamol and Intravenous Fentanyl for Propofol Deep Sedation in Colonoscopy: A Randomized Controlled Trial.",
+      "date": "2025",
+      "journal": "Drug Des Devel Ther",
+      "authors": [
+        "Thiparporn T",
+        "Supan W",
+        "Amornyotin S"
+      ]
+    },
+    {
+      "pmid": "30744914",
+      "title": "Intravenous dexketoprofen versus paracetamol in non-traumatic musculoskeletal pain in the emergency department: A randomized clinical trial.",
+      "date": "2019 Dec",
+      "journal": "Am J Emerg Med",
+      "authors": [
+        "Demirozogul E",
+        "Yilmaz A",
+        "Ozen M",
+        "Turkcuer I",
+        "Seyit M",
+        "Arikan C"
+      ]
+    }
+  ],
+  "clinical_trials": [
+    {
+      "nct_id": "NCT05863221",
+      "title": "A Phase IV, Open-Label, Randomized, Active-controlled, Single-Center Study of ZYNRELEF® for Postoperative Analgesia After Laparoscopic Sleeve Gastrectomy",
+      "status": "UNKNOWN",
+      "conditions": [
+        "Post Operative Pain, Acute",
+        "Bariatric Surgery Candidate",
+        "Postoperative Pain"
+      ],
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    {
+      "nct_id": "NCT05222724",
+      "title": "Efficacy and Safety of the Combination of Ibuprofen and Paracetamol Versus Ibuprofen in Monotherapy in Acute Low Back Pain (LBP)",
+      "status": "COMPLETED",
+      "conditions": [
+        "Low Back Pain"
+      ],
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    {
+      "nct_id": "NCT04918147",
+      "title": "Elotuzumab in Immunoglobulin G4-Related Disease (IgG4-RD)",
+      "status": "TERMINATED",
+      "conditions": [
+        "IgG4 Related Disease",
+        "IgG4-RD"
+      ],
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    {
+      "nct_id": "NCT06633991",
+      "title": "Expectancies About Positive Outcomes and Their Possible Potentiating Role of Standard Treatment in Migraine Patients",
+      "status": "COMPLETED",
+      "conditions": [
+        "Migraine"
+      ],
+      "phases": [
+        "NA"
+      ]
+    },
+    {
+      "nct_id": "NCT02237989",
+      "title": "Effects Of Native Collagen Type 2 Treatment In Knee Osteoarthritis : A Randomized Controlled Trial",
+      "status": "COMPLETED",
+      "conditions": [
+        "Knee Osteoarthritis"
+      ],
+      "phases": [
+        "NA"
+      ]
+    },
+    {
+      "nct_id": "NCT01811979",
+      "title": "Efficacy of Oral Sucrose and Topical Anesthetics to Reduce Pain During Eye Examination",
+      "status": "COMPLETED",
+      "conditions": [
+        "Investigate the Efficacy of Sucrose During Eye Examination"
+      ],
+      "phases": [
+        "NA"
+      ]
+    },
+    {
+      "nct_id": "NCT04308525",
+      "title": "Optimising Microsurgical Reconstruction After Advanced Head and Neck Cancers - Enhanced Recovery and Improved Clinical Pathway",
+      "status": "UNKNOWN",
+      "conditions": [
+        "Head and Neck Cancer"
+      ],
+      "phases": []
+    },
+    {
+      "nct_id": "NCT06152796",
+      "title": "Paracetamol Versus Ibuprofen in Closure of Patent Ductus Arteriosus in Premature Neonates,at Upper Egypt",
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Patent Ductus Arteriosus"
+      ],
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    {
+      "nct_id": "NCT00763685",
+      "title": "Double-Blind, Randomized, Placebo -Controlled Study to Evaluate the Efficacy of Pre-operative Administration of Etoricoxib 120 mg, Etoricoxib 120 mg and Paracetamol 1 g Combination or Placebo in the Treatment of Postoperative Pain in Patients Undergoing Gynaecologic Laparoscopic Surgery",
+      "status": "TERMINATED",
+      "conditions": [
+        "Pain"
+      ],
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    {
+      "nct_id": "NCT03315923",
+      "title": "Comparison of Expanded Disability Status Scale, Gad-enhanced Brain Lesions, Annualized Relapse Rate, and Side Effects Between Active Secondary Progressive Multiple Sclerosis Patients on Rituximab and Glatiramer Acetate",
+      "status": "COMPLETED",
+      "conditions": [
+        "Secondary Progressive Multiple Sclerosis"
+      ],
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ]
+    },
+    {
+      "nct_id": "NCT01021696",
+      "title": "The Impact of Pain on Behavioural Disturbances in Patients With Moderate and Severe Dementia. A Cluster Randomized Trial",
+      "status": "COMPLETED",
+      "conditions": [
+        "Dementia",
+        "Pain",
+        "Agitation"
+      ],
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ]
+    },
+    {
+      "nct_id": "NCT02285010",
+      "title": "Effects of Pre-operative Oral Pregabalin on Post Operative Morphine Consumption After Abdominal Hysterectomy With/Without Salpingo-oophorectomy Under Spinal Anesthesia With Intrathecal Morphine",
+      "status": "COMPLETED",
+      "conditions": [
+        "Post Operative Pain"
+      ],
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    {
+      "nct_id": "NCT01868425",
+      "title": "ACL Repair and Multimodal Analgesia",
+      "status": "COMPLETED",
+      "conditions": [
+        "Pain"
+      ],
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    {
+      "nct_id": "NCT03771118",
+      "title": "Construction and Validation of a Simplified Provocation Test for the Diagnosis of Paracetamol Hypersensitivity",
+      "status": "COMPLETED",
+      "conditions": [
+        "Drug Hypersensitivity"
+      ],
+      "phases": []
+    },
+    {
+      "nct_id": "NCT03704623",
+      "title": "Parecoxib vs Paracetamol in the Treatment of Acute Renal Colic Due to Ureteric Calculi: Randomized Controlled Trial",
+      "status": "COMPLETED",
+      "conditions": [
+        "Acute Renal Colic",
+        "Ureteric Stone"
+      ],
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    {
+      "nct_id": "NCT00389272",
+      "title": "Adding a Second Drug for Febrile Children Treated With Acetaminophen",
+      "status": "UNKNOWN",
+      "conditions": [
+        "Fever"
+      ],
+      "phases": [
+        "NA"
+      ]
+    },
+    {
+      "nct_id": "NCT02414269",
+      "title": "A Phase I/II Clinical Trial of Malignant Pleural Disease Treated With Autologous T Cells Genetically Engineered to Target the Cancer-Cell Surface Antigen Mesothelin",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "conditions": [
+        "Malignant Pleural Disease",
+        "Mesothelioma",
+        "Metastases",
+        "Lung Cancer",
+        "Breast Cancer"
+      ],
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ]
+    },
+    {
+      "nct_id": "NCT02602054",
+      "title": "The Best Treatment Strategy: Surgical Versus Pharmacological, to Close the Ductus Arteriosus Persistent in Preterm Infants. A Randomized Controlled Trial",
+      "status": "UNKNOWN",
+      "conditions": [
+        "Persistent Ductus Arteriosus"
+      ],
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    {
+      "nct_id": "NCT02855866",
+      "title": "Interest of Cryotherapy or Cortisone Aerosol Therapy in Early Post-operative Swallowing Disorders Following Total Thyroidectomy",
+      "status": "COMPLETED",
+      "conditions": [
+        "Thyroidectomy",
+        "Post-operative Swallowing Disorders"
+      ],
+      "phases": [
+        "NA"
+      ]
+    },
+    {
+      "nct_id": "NCT02698995",
+      "title": "Analgetic Efficiency of Single-shot Perineural Low Dose Dexamethasone Added to Infraclavicular Block Anesthesia for Upper Limb Surgery",
+      "status": "COMPLETED",
+      "conditions": [
+        "Postoperative Pain"
+      ],
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    {
+      "nct_id": "NCT03873077",
+      "title": "Effect of Local Infiltration Analgesia on Postoperative Pain Following Anterior Cruciate Ligament Reconstruction",
+      "status": "UNKNOWN",
+      "conditions": [
+        "Anterior Cruciate Ligament Rupture",
+        "Pain, Postoperative"
+      ],
+      "phases": [
+        "NA"
+      ]
+    },
+    {
+      "nct_id": "NCT03496545",
+      "title": "Efficacy of Bromocriptine to Reduce Body Temperature in Febrile Critically-ill Adults With Acute Neurologic Disease: an Open-label, Blinded Endpoint, Randomized Controlled Trial",
+      "status": "COMPLETED",
+      "conditions": [
+        "Subarachnoid Hemorrhage",
+        "Subdural Hematoma",
+        "Traumatic Brain Injury",
+        "Ischemic Stroke",
+        "Fever",
+        "Intracerebral Hemorrhage"
+      ],
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ]
+    },
+    {
+      "nct_id": "NCT02602197",
+      "title": "The Efficacy of Intravenous Paracetamol Versus Dexketoprofen for Postoperative Pain Management After Septoplasty: A Prospective Randomized Double Blind Study",
+      "status": "UNKNOWN",
+      "conditions": [
+        "Postoperative Pain"
+      ],
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    {
+      "nct_id": "NCT00725179",
+      "title": "Treatment of Acetaminophen Toxicity With Intravenous vs Oral N-acetylcysteine: A Retrospective Review",
+      "status": "COMPLETED",
+      "conditions": [
+        "Acetaminophen Toxicity"
+      ],
+      "phases": []
+    },
+    {
+      "nct_id": "NCT03472469",
+      "title": "MAST Trial: Multi-modal Analgesic Strategies in Trauma",
+      "status": "COMPLETED",
+      "conditions": [
+        "Nonspecific Pain Post Traumatic Injury"
+      ],
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    {
+      "nct_id": "NCT06343259",
+      "title": "Comparison of The Effects of General Anesthesia and Spinal Anesthesia on The Development of Postoperative Myocardial Injury in Elderly Patients Undergoing Hip Surgery",
+      "status": "RECRUITING",
+      "conditions": [
+        "Myocardial Injury After Non-cardiac Surgery",
+        "Hypotension During Surgery",
+        "Anesthesia, General",
+        "Anesthesia, Spinal"
+      ],
+      "phases": [
+        "NA"
+      ]
+    },
+    {
+      "nct_id": "NCT02443142",
+      "title": "Ibuprofen Versus Acetaminophen for Treatment of Mild Traumatic Brain Injury",
+      "status": "WITHDRAWN",
+      "conditions": [
+        "Brain Concussion"
+      ],
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    {
+      "nct_id": "NCT06367582",
+      "title": "Safety and Clinical Performance Assessment of Bone Cements and Injection Systems Used in Spine Surgery - A Post-Market Clinical Follow-Up",
+      "status": "RECRUITING",
+      "conditions": [
+        "Vertebral Fracture",
+        "Compression Fracture",
+        "Osteoporotic Fractures"
+      ],
+      "phases": []
+    },
+    {
+      "nct_id": "NCT03732469",
+      "title": "Administration of Rectal Acetaminophen During Oocyte Retrievals Reduces Post-Operative Opioid Utilization in Fertility Patients",
+      "status": "TERMINATED",
+      "conditions": [
+        "Opioid Use"
+      ],
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    {
+      "nct_id": "NCT06293586",
+      "title": "A Comparison Between The Effects Of Peribulbar And Sub-tenon Blocks Combined With General Anesthesia On The Incidence Of Oculocardiac Reflex (OCR) During Pediatric Strabismus Surgery: A Double Blinded Randomised Control Study",
+      "status": "RECRUITING",
+      "conditions": [
+        "Anesthesia, Local",
+        "Ophthalmopathy",
+        "Strabismus",
+        "Pediatric ALL"
+      ],
+      "phases": [
+        "NA"
+      ]
+    },
+    {
+      "nct_id": "NCT05876390",
+      "title": "Impact of Loco-regional Anesthesia Techniques on Chronic Post-surgery in Breast Oncological Surgery: a Prospective Multicenter Observational Study",
+      "status": "UNKNOWN",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "phases": []
+    },
+    {
+      "nct_id": "NCT01335542",
+      "title": "Analgesia After Total Knee Arthroplasty: Peri-Articular Injection Versus Epidural + Femoral Nerve Blockade",
+      "status": "COMPLETED",
+      "conditions": [
+        "Readiness to Discharge"
+      ],
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    {
+      "nct_id": "NCT02103946",
+      "title": "Serratus Anterior Muscle Plane Block Versus Paravertebral Block for Breast Cancer Resections.",
+      "status": "WITHDRAWN",
+      "conditions": [
+        "Breast Cancer",
+        "Acute Pain"
+      ],
+      "phases": [
+        "NA"
+      ]
+    },
+    {
+      "nct_id": "NCT00000731",
+      "title": "Evaluation of the Interaction Between Acetaminophen and Zidovudine",
+      "status": "COMPLETED",
+      "conditions": [
+        "HIV Infections"
+      ],
+      "phases": [
+        "NA"
+      ]
+    },
+    {
+      "nct_id": "NCT00186628",
+      "title": "An Open-label, Phase 2 Trial of Prophylactic Rituximab Therapy for Prevention of Chronic Graft Versus Host Disease After TLI/ARG Nonmyeloablative Allogeneic Stem Cell Transplantation",
+      "status": "COMPLETED",
+      "conditions": [
+        "Leukemia, Mast-Cell",
+        "Mantle-cell Lymphoma"
+      ],
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    {
+      "nct_id": "NCT01264965",
+      "title": "Opioids Versus Extra Strength Acetaminophen for the Management of Moderate Persistent Non-cancer Pain",
+      "status": "TERMINATED",
+      "conditions": [
+        "Arthritis",
+        "Pain",
+        "Cognitive Impairment"
+      ],
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    {
+      "nct_id": "NCT01104844",
+      "title": "Multicentre, Double-blind, Placebo-controlled, Randomized, Parallel Group Comparison of the Analgesic Effects of Different Maxigesic Doses Versus Acetaminophen, Ibuprofen and Placebo for the Teeth Extraction Pain",
+      "status": "WITHDRAWN",
+      "conditions": [
+        "Dental Pain"
+      ],
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    {
+      "nct_id": "NCT05627557",
+      "title": "A Phase III, International, Multicenter, Randomised Open Label Study to Evaluate the Efficacy and Safety of Obinutuzumab Versus MMF in Patients With Childhood Onset Idiopathic Nephrotic Syndrome",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "conditions": [
+        "Childhood Idiopathic Nephrotic Syndrome"
+      ],
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    {
+      "nct_id": "NCT05039619",
+      "title": "A Phase II, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Obinutuzumab in Adolescent Patients With Active Class III or IV Lupus Nephritis, Including an Evaluation of Open Label Safety and PK in a Cohort of Pediatric Patients (Aged 5 to < 12)",
+      "status": "RECRUITING",
+      "conditions": [
+        "Lupus Nephritis"
+      ],
+      "phases": [
+        "PHASE2"
+      ]
+    },
+    {
+      "nct_id": "NCT06611644",
+      "title": "A Comparative Analysis of Erector Spinae Plane (ESP) Block and Serratus Posterior Superior Intercostal Plane (SPSIP) Block in Breast Surgery",
+      "status": "COMPLETED",
+      "conditions": [
+        "Breast Surgery",
+        "Macromastia",
+        "Mammaplasty",
+        "Modified Radical Mastectomy",
+        "Mammary Cancer",
+        "Breast Implant"
+      ],
+      "phases": [
+        "NA"
+      ]
+    },
+    {
+      "nct_id": "NCT03177395",
+      "title": "A Randomised Open Label Exploratory, Safety and Tolerability Study With PP100-01 in Patients Treated With the 12-hour Regimen of N-Acetylcysteine for Paracetamol/Acetaminophen Overdose (The POP Trial)",
+      "status": "COMPLETED",
+      "conditions": [
+        "Paracetamol Overdose"
+      ],
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    {
+      "nct_id": "NCT06721819",
+      "title": "The SCOPE Trial: Sleep, Cognition, and Pain Bundle Vs. ERAS-cardiac for Postoperative Delirium",
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Delirium, Postoperative",
+        "Delirium in Old Age"
+      ],
+      "phases": [
+        "PHASE3"
+      ]
+    },
+    {
+      "nct_id": "NCT04098965",
+      "title": "Treatment of Scarring and Dysfunction of the Pelvic Floor in Postpartum, Through Physical Therapy or by Medical Recommendations in Consultation",
+      "status": "UNKNOWN",
+      "conditions": [
+        "Pelvic Floor Disorders"
+      ],
+      "phases": [
+        "NA"
+      ]
+    },
+    {
+      "nct_id": "NCT02433912",
+      "title": "Clinical Evaluation of Single-stage Advanced Versus Rotated Flaps in the Treatment of Gingival Recessions:Longitudinal, Controlled Clinical Trial.",
+      "status": "COMPLETED",
+      "conditions": [
+        "Gingival Recession"
+      ],
+      "phases": [
+        "PHASE4"
+      ]
+    },
+    {
+      "nct_id": "NCT07242196",
+      "title": "Comparison of the Analgesic Effects of Ultrasound-Guided Transversalis Fascia Plane Block and Transversus Abdominis Plane Block in Pediatric Laparoscopic Surgery",
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Postoperative Analgesia",
+        "Transversus Abdominis Plane (TAP) Block",
+        "Transversalis Fascia Plane Block",
+        "Pediatric Surgical Procedures",
+        "Laparoscopic Abdominal Surgeries"
+      ],
+      "phases": []
+    },
+    {
+      "nct_id": "NCT06637683",
+      "title": "Multi-Strain and High-Concentration Bacillus Probiotic Spores (LiveSpo COLON) in the Supportive Treatment of Inflammatory Bowel Disease (IBD): A Blind, Randomized, and Controlled Trial",
+      "status": "COMPLETED",
+      "conditions": [
+        "Inflammatory Bowel Diseases"
+      ],
+      "phases": [
+        "NA"
+      ]
+    },
+    {
+      "nct_id": "NCT00940654",
+      "title": "The Fever and Antipyretic in Critically Illness Evaluation Study",
+      "status": "COMPLETED",
+      "conditions": [
+        "Fever",
+        "Hyperthermia"
+      ],
+      "phases": []
+    },
+    {
+      "nct_id": "NCT07269756",
+      "title": "An Open, Fixed-sequence, Self-controlled Pharmacokinetic Study to Evaluate the Drug Interactions of HRS-7535 With Acetaminophen, Digoxin, Rosuvastatin, and Omeprazole in Obese or Overweight Subjects",
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Obesity",
+        "Overweight"
+      ],
+      "phases": [
+        "PHASE1"
+      ]
+    },
+    {
+      "nct_id": "NCT05003596",
+      "title": "Efficacy of Steroids on Functional Outcomes After Musculoskeletal Injuries of the Hand",
+      "status": "UNKNOWN",
+      "conditions": [
+        "Hand Injuries",
+        "Finger Injuries"
+      ],
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ]
+    },
+    {
+      "nct_id": "NCT01485094",
+      "title": "Evaluation of the Efficacy, Tolerability, and Safety of 7 Days of Treatment With GRT6010 or Pregabalin in Comparison to Placebo in Subjects With Peripheral Neuropathic Pain.",
+      "status": "TERMINATED",
+      "conditions": [
+        "Neuralgia"
+      ],
+      "phases": [
+        "PHASE2"
+      ]
+    }
+  ],
+  "patents": [
+    {
+      "patent_id": "US-111713",
+      "title": "paracetamol novel formulation",
+      "status": "Active",
+      "expiry_year": 2025
+    },
+    {
+      "patent_id": "US-544887",
+      "title": "paracetamol novel formulation",
+      "status": "Pending",
+      "expiry_year": 2039
+    },
+    {
+      "patent_id": "US-948289",
+      "title": "paracetamol novel formulation",
+      "status": "Pending",
+      "expiry_year": 2036
+    },
+    {
+      "patent_id": "US-211487",
+      "title": "paracetamol novel formulation",
+      "status": "Pending",
+      "expiry_year": 2025
+    },
+    {
+      "patent_id": "US-870375",
+      "title": "paracetamol novel formulation",
+      "status": "Pending",
+      "expiry_year": 2038
+    }
+  ],
+  "unmet_needs": [
+    "Need for improved safety profile",
+    "Lack of long-acting formulations",
+    "Limited studies in pediatric population",
+    "Potential off-label benefit in new therapeutic areas"
+  ],
+  "iqvia": {
+    "market_size_2024_usd_billion": "5.15B",
+    "CAGR": "6.2%",
+    "top_competitors": [
+      "Competitor A",
+      "Competitor B",
+      "Competitor C",
+      "Competitor D"
+    ],
+    "estimated_revenue_2025_usd_billion": "5.47B",
+    "market_insight": "Market snapshot for paracetamol: key research themes include paracetamol, review, pain, acetaminophen, trial, systematic, clinical, randomized. The therapy area shows steady research volume and potential for value-added formulations targeting safety or special populations."
+  },
+  "exim": {
+    "export_data": {
+      "export_volume_kgs": {
+        "2024": 6824391,
+        "2023": 33962581,
+        "2022": 25595192,
+        "2021": 20371821,
+        "2020": 16428369,
+        "2019": 18114635
+      },
+      "export_value_crores": {
+        "2024": 295.22,
+        "2023": 1817.26,
+        "2022": 1646.03,
+        "2021": 1126.06,
+        "2020": 620.47,
+        "2019": 647.98
+      },
+      "top_export_countries": {
+        "2024": [
+          [
+            "IRELAND",
+            35.61
+          ],
+          [
+            "FRANCE",
+            34.7
+          ],
+          [
+            "NIGERIA",
+            30.65
+          ],
+          [
+            "U S A",
+            20.71
+          ],
+          [
+            "EGYPT",
+            16.26
+          ],
+          [
+            "INDONESIA",
+            15.29
+          ],
+          [
+            "SPAIN",
+            15.08
+          ],
+          [
+            "MEXICO",
+            13.05
+          ],
+          [
+            "JAPAN",
+            9.81
+          ]
+        ],
+        "2023": [
+          [
+            "IRELAND",
+            248.2
+          ],
+          [
+            "NIGERIA",
+            225.95
+          ],
+          [
+            "U S A",
+            218.86
+          ],
+          [
+            "FRANCE",
+            171.65
+          ],
+          [
+            "INDONESIA",
+            133.06
+          ],
+          [
+            "KENYA",
+            77.78
+          ],
+          [
+            "SPAIN",
+            49.01
+          ],
+          [
+            "EGYPT",
+            44.61
+          ],
+          [
+            "SOUTH AFRICA",
+            38.12
+          ]
+        ],
+        "2022": [
+          [
+            "NIGERIA",
+            182.94
+          ],
+          [
+            "IRELAND",
+            182.91
+          ],
+          [
+            "U S A",
+            176.41
+          ],
+          [
+            "INDONESIA",
+            175.97
+          ],
+          [
+            "FRANCE",
+            86.62
+          ],
+          [
+            "SOUTH AFRICA",
+            59.58
+          ],
+          [
+            "BANGLADESH",
+            56.33
+          ],
+          [
+            "KENYA",
+            54.72
+          ],
+          [
+            "SPAIN",
+            43.8
+          ]
+        ]
+      }
+    },
+    "import_data": {
+      "import_volume_kgs": {
+        "2024": 312826,
+        "2023": 973769,
+        "2022": 1789315,
+        "2021": 1911688,
+        "2020": 1666414,
+        "2019": 2992406
+      },
+      "import_value_crores": {
+        "2024": 14.14,
+        "2023": 58.8,
+        "2022": 126.8,
+        "2021": 113.95,
+        "2020": 60.17,
+        "2019": 95.17
+      },
+      "top_import_countries": {
+        "2024": [
+          [
+            "CHINA",
+            11.59
+          ],
+          [
+            "GERMANY",
+            1.64
+          ],
+          [
+            "INDONESIA",
+            0.91
+          ]
+        ],
+        "2023": [
+          [
+            "CHINA",
+            47.09
+          ],
+          [
+            "U S A",
+            7.46
+          ],
+          [
+            "THAILAND",
+            3.24
+          ]
+        ],
+        "2022": [
+          [
+            "CHINA",
+            115.88
+          ],
+          [
+            "U S A",
+            9.52
+          ],
+          [
+            "U K",
+            0.78
+          ],
+          [
+            "CANADA",
+            0.61
+          ],
+          [
+            "SOUTH AFRICA",
+            0.01
+          ]
+        ]
+      }
+    },
+    "summary": [
+      "Strong export market with consistent demand across EU, USA, Nigeria.",
+      "Imports dominated by China → API dependency risk.",
+      "Large volume decline in 2024 requires investigation."
+    ]
+  },
+  "web_intel": [
+    {
+      "title": "World Health Organization guidance on paracetamol",
+      "source": "who.int",
+      "url": "https://who.int/guidance/paracetamol",
+      "snippet": "WHO guidance highlights safe use and special population considerations for paracetamol."
+    },
+    {
+      "title": "Recent review: off-label uses of paracetamol",
+      "source": "journal-review.org",
+      "url": "https://journal-review.org/paracetamol-review",
+      "snippet": "Review summarizes potential new therapeutic areas with emerging evidence."
+    },
+    {
+      "title": "Patient forum discussion on paracetamol side effects",
+      "source": "healthforums.example",
+      "url": "https://healthforums.example/paracetamol",
+      "snippet": "Users report common adverse events and dosing preferences across regions."
+    },
+    {
+      "title": "Regulatory safety update on paracetamol",
+      "source": "regulator.example",
+      "url": "https://regulator.example/alerts/paracetamol",
+      "snippet": "Regulatory agency reminds prescribers about dose limits and monitoring."
+    }
+  ],
+  "internal_summary": {
+    "source": "mock_internal",
+    "bullets": [
+      "Field team reported increased usage trends in chronic patients.",
+      "Opportunity: Improved formulation may provide advantage in Tier-2 markets.",
+      "Competitor analysis indicates pricing pressure but strong prescription loyalty.",
+      "Pharmacovigilance notes minimal adverse trends year-over-year."
+    ]
+  },
+  "market_mock": {
+    "market_size_2024": "$3B",
+    "CAGR": "8%",
+    "competitors": [
+      "Company A",
+      "Company B",
+      "Company C"
+    ]
+  },
+  "executive_summary": {
+    "nct_id": "NCT05863221",
+    "title": "A Phase IV, Open-Label, Randomized, Active-controlled, Single-Center Study of ZYNRELEF® for Postoperative Analgesia After Laparoscopic Sleeve Gastrectomy",
+    "status": "UNKNOWN",
+    "conditions": [
+      "Post Operative Pain, Acute",
+      "Bariatric Surgery Candidate",
+      "Postoperative Pain"
+    ],
+    "phases": [
+      "PHASE4"
+    ]
+  }
+}

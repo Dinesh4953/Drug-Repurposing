@@ -1,0 +1,111 @@
+{
+  "export_data": {
+    "export_volume_kgs": {
+      "2022": 9141,
+      "2023": 6344,
+      "2024": 7211
+    },
+    "export_value_crores": {
+      "2022": 5460,
+      "2023": 8697,
+      "2024": 14470
+    },
+    "top_export_countries": {
+      "2024": [
+        [
+          "Germany",
+          1029
+        ],
+        [
+          "China",
+          1361
+        ],
+        [
+          "UAE",
+          4327
+        ],
+        [
+          "USA",
+          2370
+        ],
+        [
+          "Brazil",
+          1595
+        ]
+      ]
+    }
+  },
+  "import_data": {
+    "import_volume_kgs": {
+      "2022": 6604,
+      "2023": 6597,
+      "2024": 10010
+    },
+    "import_value_crores": {
+      "2022": 5478,
+      "2023": 12333,
+      "2024": 15844
+    },
+    "top_import_countries": {
+      "2024": [
+        [
+          "UK",
+          4041
+        ],
+        [
+          "USA",
+          4581
+        ],
+        [
+          "Germany",
+          1851
+        ],
+        [
+          "China",
+          772
+        ],
+        [
+          "Brazil",
+          839
+        ]
+      ]
+    }
+  },
+  "summary": [
+    "Moderate export performance.",
+    "Import dependency moderately stable.",
+    "Potential growth in emerging markets."
+  ],
+  "trade_history": [
+    {
+      "year": 2020,
+      "export_volume_mt": 20,
+      "import_dependence_percent": 70
+    },
+    {
+      "year": 2021,
+      "export_volume_mt": 16,
+      "import_dependence_percent": 57
+    },
+    {
+      "year": 2022,
+      "export_volume_mt": 17,
+      "import_dependence_percent": 24
+    },
+    {
+      "year": 2023,
+      "export_volume_mt": 8,
+      "import_dependence_percent": 53
+    },
+    {
+      "year": 2024,
+      "export_volume_mt": 13,
+      "import_dependence_percent": 65
+    }
+  ],
+  "bullets": [
+    "Export market shows controlled volatility.",
+    "Import dependency varies with API availability.",
+    "Suitable candidate for domestic manufacturing incentives."
+  ]
+}

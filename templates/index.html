@@ -1,0 +1,243 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<!-- ================= FULL SCREEN HERO ================= -->
+<div class="container-fluid px-0">
+    <div class="position-relative vh-100 w-100 overflow-hidden">
+
+        <!-- HERO IMAGE -->
+        <img
+            src="{{ url_for('static', filename='images/pharma_hero.jpg') }}"
+            class="position-absolute top-0 start-0 w-100 h-100"
+            style="object-fit: cover;"
+            alt="Drug Intelligence Platform"
+        >
+
+        <!-- DARK OVERLAY -->
+        <div
+            class="position-absolute top-0 start-0 w-100 h-100"
+            style="background: rgba(0, 0, 0, 0.6);">
+        </div>
+
+        <!-- CENTERED TEXT -->
+        <div
+            class="position-relative d-flex flex-column justify-content-center align-items-center text-center text-white h-100 px-4"
+        >
+            <h1 class="fw-bold display-3">
+                Drug Intelligence Analyzer
+            </h1>
+
+            <p class="lead mt-3 col-md-8">
+                AI-powered pharmaceutical research, clinical intelligence,
+                market insights, and internal document analysis.
+            </p>
+
+            <!-- Optional scroll hint -->
+            <div class="mt-5 text-white-50">
+                Scroll down to start analysis
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- ================= INTRO TEXT (BELOW IMAGE) ================= -->
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10 text-center">
+
+            <p class="fs-5 text-muted">
+                This platform provides comprehensive intelligence on pharmaceutical
+                compounds by analyzing scientific literature, clinical trials,
+                patents, market trends, and internal research documents.
+            </p>
+
+            <p class="fs-6 text-muted">
+                Designed for researchers, analysts, and students to understand
+                evidence strength, risks, opportunities, and repurposing potential
+                of drugs.
+            </p>
+
+        </div>
+    </div>
+</div>
+
+<!-- ================= ANALYSIS FORM ================= -->
+<div class="container mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+
+            <!-- CARD WITH BACKGROUND IMAGE -->
+            <div class="card border-0 shadow-lg rounded-4 overflow-hidden position-relative">
+
+                <!-- Background Image -->
+                <div
+                    class="position-absolute top-0 start-0 w-100 h-100"
+                    style="
+                        background: url('{{ url_for('static', filename='images/form_bg.jpg') }}') center/cover no-repeat;
+                        filter: blur(0px);
+                    ">
+                </div>
+
+                <!-- Overlay -->
+                <div
+                    class="position-absolute top-0 start-0 w-100 h-100"
+                    style="background: rgba(255, 255, 255, 0.88);">
+                </div>
+
+                <!-- Content -->
+                <div class="card-body p-5 position-relative">
+
+                    <h4 class="fw-semibold mb-4 text-dark">
+                        Start Drug Analysis
+                    </h4>
+
+                    <form
+                        action="/analyze"
+                        method="POST"
+                        enctype="multipart/form-data"
+                        id="analyzeForm"
+                    >
+
+                        <!-- Drug Name -->
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">
+                                Drug Name <span class="text-danger">*</span>
+                            </label>
+
+                            <input
+                                type="text"
+                                class="form-control form-control-lg"
+                                name="drug"
+                                id="drugInput"
+                                placeholder="e.g. Paracetamol"
+                                required
+                            >
+
+                            <div class="form-text">
+                                Enter the primary drug name for analysis.
+                            </div>
+                        </div>
+
+                        <!-- Upload -->
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">
+                                Internal Documents (Optional)
+                            </label>
+
+                            <input
+                                type="file"
+                                class="form-control"
+                                name="files"
+                                multiple
+                                accept=".pdf,.txt,.docx"
+                            >
+
+                            <div class="form-text">
+                                Upload clinical, regulatory, or research documents.
+                            </div>
+                        </div>
+
+                        <!-- Submit -->
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                Analyze Drug
+                            </button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- ================= DRUG EDUCATION / GUIDELINES SECTION ================= -->
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="card border-0 shadow-sm rounded-4">
+                <div class="card-body p-5">
+
+                    <h3 class="fw-bold text-primary mb-4">
+                        Drug Usage & Safety Guidelines
+                    </h3>
+
+                    <div class="row g-4">
+
+                        <!-- Proper Use -->
+                        <div class="col-md-4">
+                            <div class="p-3 border rounded-3 bg-light h-100">
+                                <h6 class="fw-semibold text-dark">
+                                    Appropriate Use
+                                </h6>
+                                <p class="text-muted mb-0">
+                                    Drugs should be used only for approved
+                                    indications or under proper clinical guidance.
+                                    Dosage and duration must follow medical advice.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Restrictions -->
+                        <div class="col-md-4">
+                            <div class="p-3 border rounded-3 bg-light h-100">
+                                <h6 class="fw-semibold text-dark">
+                                    Restrictions & Contraindications
+                                </h6>
+                                <p class="text-muted mb-0">
+                                    Certain drugs may be restricted for specific
+                                    age groups, pregnancy, liver or kidney conditions,
+                                    or drug–drug interactions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Safety -->
+                        <div class="col-md-4">
+                            <div class="p-3 border rounded-3 bg-light h-100">
+                                <h6 class="fw-semibold text-dark">
+                                    Safety & Monitoring
+                                </h6>
+                                <p class="text-muted mb-0">
+                                    Adverse effects, long-term risks, and
+                                    pharmacovigilance data should always be considered
+                                    before clinical or large-scale use.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <hr class="my-4">
+
+                    <p class="text-muted mb-0">
+                        <strong>Note:</strong>
+                        This platform provides analytical insights for educational
+                        and research purposes only. It does not replace professional
+                        medical advice or regulatory approval.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- ================= SAFETY CHECK ================= -->
+<script>
+document.getElementById("analyzeForm").addEventListener("submit", function (e) {
+    const drug = document.getElementById("drugInput").value.trim();
+    if (!drug) {
+        e.preventDefault();
+        alert("Please enter a drug name before analyzing.");
+    }
+});
+</script>
+
+{% endblock %}

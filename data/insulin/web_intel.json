@@ -1,0 +1,26 @@
+[
+  {
+    "title": "World Health Organization guidance on insulin",
+    "source": "who.int",
+    "url": "https://who.int/guidance/insulin",
+    "snippet": "WHO guidance highlights safe use and special population considerations for insulin."
+  },
+  {
+    "title": "Recent review: off-label uses of insulin",
+    "source": "journal-review.org",
+    "url": "https://journal-review.org/insulin-review",
+    "snippet": "Review summarizes potential new therapeutic areas with emerging evidence."
+  },
+  {
+    "title": "Patient forum discussion on insulin side effects",
+    "source": "healthforums.example",
+    "url": "https://healthforums.example/insulin",
+    "snippet": "Users report common adverse events and dosing preferences across regions."
+  },
+  {
+    "title": "Regulatory safety update on insulin",
+    "source": "regulator.example",
+    "url": "https://regulator.example/alerts/insulin",
+    "snippet": "Regulatory agency reminds prescribers about dose limits and monitoring."
+  }
+]

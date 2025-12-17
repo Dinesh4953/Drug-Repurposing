@@ -1,0 +1,26 @@
+[
+  {
+    "title": "World Health Organization guidance on python",
+    "source": "who.int",
+    "url": "https://who.int/guidance/python",
+    "snippet": "WHO guidance highlights safe use and special population considerations for python."
+  },
+  {
+    "title": "Recent review: off-label uses of python",
+    "source": "journal-review.org",
+    "url": "https://journal-review.org/python-review",
+    "snippet": "Review summarizes potential new therapeutic areas with emerging evidence."
+  },
+  {
+    "title": "Patient forum discussion on python side effects",
+    "source": "healthforums.example",
+    "url": "https://healthforums.example/python",
+    "snippet": "Users report common adverse events and dosing preferences across regions."
+  },
+  {
+    "title": "Regulatory safety update on python",
+    "source": "regulator.example",
+    "url": "https://regulator.example/alerts/python",
+    "snippet": "Regulatory agency reminds prescribers about dose limits and monitoring."
+  }
+]

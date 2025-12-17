@@ -1,0 +1,266 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+<a href="/exim/{{ drug }}" class="btn btn-secondary mb-3">← Back</a>
+
+<h2 class="text-primary mb-4">{{ drug|title }} — Advanced EXIM Analytics</h2>
+
+<!-- ============ NARRATIVE SUMMARY ============ -->
+<div class="card shadow-lg border-0 mb-4">
+    <div class="card-header bg-primary text-white">
+        <h4 class="m-0">📊 Narrative Summary</h4>
+    </div>
+    <div class="card-body fs-5">
+
+        {% set exp_vals = exim["export_data"]["export_volume_kgs"].values() | list %}
+        {% set imp_vals = exim["import_data"]["import_volume_kgs"].values() | list %}
+
+        Exports show  
+        {% if exp_vals[-1] > exp_vals[0] %}
+            <b class="text-success">Upward Growth</b>
+        {% else %}
+            <b class="text-danger">Declining Trend</b>
+        {% endif %}
+        across the latest years.
+
+        <br><br>
+
+        Imports show  
+        {% if imp_vals[-1] > imp_vals[0] %}
+            <b class="text-danger">Increasing Dependency</b>
+        {% else %}
+            <b class="text-success">Stable / Lower Dependence</b>
+        {% endif %}.
+
+        <br><br>
+
+        <b>Key Insights:</b>
+        <ul>
+            {% for bullet in exim["summary"] %}
+                <li>{{ bullet }}</li>
+            {% endfor %}
+        </ul>
+
+    </div>
+</div>
+
+<!-- ============ EXPORT / IMPORT TABLES ============ -->
+<div class="card shadow-sm border-0 mb-4">
+    <div class="card-header bg-dark text-white">
+        <h4 class="m-0">📄 Export / Import Data Tables</h4>
+    </div>
+    <div class="card-body">
+
+        <h5 class="text-primary">📦 Export Data</h5>
+        <table class="table table-striped table-bordered">
+            <thead class="table-primary">
+                <tr>
+                    <th>Year</th>
+                    <th>Volume (KG)</th>
+                    <th>Value (₹ Crores)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for year, vol in exim["export_data"]["export_volume_kgs"].items() %}
+                <tr>
+                    <td>{{ year }}</td>
+                    <td>{{ vol }}</td>
+                    <td>{{ exim["export_data"]["export_value_crores"][year] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <h5 class="text-danger mt-4">📥 Import Data</h5>
+        <table class="table table-striped table-bordered">
+            <thead class="table-danger">
+                <tr>
+                    <th>Year</th>
+                    <th>Volume (KG)</th>
+                    <th>Value (₹ Crores)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for year, vol in exim["import_data"]["import_volume_kgs"].items() %}
+                <tr>
+                    <td>{{ year }}</td>
+                    <td>{{ vol }}</td>
+                    <td>{{ exim["import_data"]["import_value_crores"][year] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+
+
+
+<!-- ================= CHARTS ================= -->
+<div class="row">
+
+    <div class="col-md-6">
+        <div class="card p-3 shadow-sm mb-4">
+            <h5 class="text-primary">📈 Export Volume (KG)</h5>
+            <div class="chart-box">
+                <canvas id="expVol"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card p-3 shadow-sm mb-4">
+            <h5 class="text-danger">📉 Import Volume (KG)</h5>
+            <div class="chart-box">
+                <canvas id="impVol"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card p-3 shadow-sm mb-4">
+            <h5 class="text-success">💰 Export Value (₹ Cr)</h5>
+            <div class="chart-box">
+                <canvas id="expVal"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card p-3 shadow-sm mb-4">
+            <h5 class="text-warning">💸 Import Value (₹ Cr)</h5>
+            <div class="chart-box">
+                <canvas id="impVal"></canvas>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- ================= PIE CHARTS ================= -->
+<div class="row mt-4">
+
+    <div class="col-md-6">
+        <div class="card p-3 shadow-sm text-center">
+            <h5 class="text-info">🌍 Top 5 Export Countries</h5>
+            <div class="pie-box">
+                <canvas id="exportPie"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card p-3 shadow-sm text-center">
+            <h5 class="text-danger">🌍 Top 5 Import Countries</h5>
+            <div class="pie-box">
+                <canvas id="importPie"></canvas>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- USE RELIABLE CHART.JS CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+
+<script>
+
+/* FIXED — Dict Key Access (as strings) */
+let years = {{ exim["export_data"]["export_volume_kgs"].keys() | list | safe }};
+let expVol = {{ exim["export_data"]["export_volume_kgs"].values() | list | safe }};
+let impVol = {{ exim["import_data"]["import_volume_kgs"].values() | list | safe }};
+
+let expVal = {{ exim["export_data"]["export_value_crores"].values() | list | safe }};
+let impVal = {{ exim["import_data"]["import_value_crores"].values() | list | safe }};
+
+/* USE STRING KEY "2024" — NOT integer */
+let topExp = {{ exim["export_data"]["top_export_countries"]["2024"] | safe }};
+let topImp = {{ exim["import_data"]["top_import_countries"]["2024"] | safe }};
+
+/* COLOR PALETTE */
+const pieColors = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#B000B5"];
+
+/* UNIVERSAL CHART CREATOR */
+function drawChart(id, type, label, data, color) {
+    new Chart(document.getElementById(id), {
+        type: type,
+        data: {
+            labels: years,
+            datasets: [{
+                label: label,
+                data: data,
+                backgroundColor: color + "66",
+                borderColor: color,
+                borderWidth: 2,
+                tension: 0.3
+            }]
+        },
+        
+options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+        legend: {
+            position: "top",
+            labels: {
+                boxWidth: 14,
+                padding: 8,
+                font: { size: 12 }
+            }
+        }
+    },
+    layout: {
+        padding: { top: 10, bottom: 10 }
+    }
+}
+
+    });
+}
+
+/* DRAW ALL 4 MAIN CHARTS */
+drawChart("expVol", "line", "Export KG", expVol, "#007bff");
+drawChart("impVol", "line", "Import KG", impVol, "#dc3545");
+drawChart("expVal", "bar", "Export Value (₹ Cr)", expVal, "#28a745");
+drawChart("impVal", "bar", "Import Value (₹ Cr)", impVal, "#ffc107");
+
+/* PIE CHARTS */
+new Chart(document.getElementById("exportPie"), {
+    type: "pie",
+    data: {
+        labels: topExp.slice(0, 5).map(a => a[0]),
+        datasets: [{
+            data: topExp.slice(0, 5).map(a => a[1]),
+            backgroundColor: pieColors
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false
+    }
+});
+
+new Chart(document.getElementById("importPie"), {
+    type: "pie",
+    data: {
+        labels: topImp.slice(0, 5).map(a => a[0]),
+        datasets: [{
+            data: topImp.slice(0, 5).map(a => a[1]),
+            backgroundColor: pieColors
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false
+    }
+});
+</script>
+
+<div style="height: 120px;"></div>
+
+{% endblock %}

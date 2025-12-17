@@ -1,0 +1,79 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<a onclick="history.back()" class="btn btn-secondary mb-3">← Back</a>
+
+<h2 class="mb-4 text-primary">{{ drug|title }} — EXIM Trade Overview</h2>
+
+<div class="card shadow-lg border-0">
+    <div class="card-header bg-success text-white">
+        <h4 class="m-0">📦 Export / Import Summary</h4>
+    </div>
+
+    <div class="card-body">
+
+        {% if exim.export_data %}
+
+        <!-- REAL DATA TABLE -->
+        <h4 class="text-primary">Export / Import by Year</h4>
+
+        <table class="table table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <th>Year</th>
+                    <th>Export (KG)</th>
+                    <th>Import (KG)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for year in exim.export_data.export_volume_kgs.keys() %}
+                <tr>
+                    <td>{{ year }}</td>
+                    <td>{{ exim.export_data.export_volume_kgs[year] }}</td>
+                    <td>{{ exim.import_data.import_volume_kgs[year] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <h5 class="mt-4"><b>Key Insights</b></h5>
+        <ul>
+            {% for bullet in exim.summary %}
+            <li>{{ bullet }}</li>
+            {% endfor %}
+        </ul>
+
+        {% else %}
+
+        <!-- MOCK DATA TABLE -->
+        <h4 class="text-warning">Mock EXIM Data (No real data)</h4>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Export MT</th>
+                    <th>Import %</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in exim.trade_history %}
+                <tr>
+                    <td>{{ row.year }}</td>
+                    <td>{{ row.export_volume_mt }}</td>
+                    <td>{{ row.import_dependence_percent }}%</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        {% endif %}
+
+        <a href="/exim_more/{{ drug }}" class="btn btn-outline-primary btn-lg mt-4">
+            🔎 View More Analytics
+        </a>
+
+    </div>
+</div>
+
+{% endblock %}

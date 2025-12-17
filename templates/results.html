@@ -1,0 +1,368 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h2 class="mb-4">{{ drug|title }} – Intelligence Report</h2>
+<!-- =============== FINAL SUMMARY (Modern UI) ================= -->
+<div class="card shadow-lg border-0 mb-5 rounded-4">
+
+    <div class="card-header bg-gradient-primary text-white py-3 rounded-top-4"
+         style="background: linear-gradient(135deg, #004aad, #007bff);">
+        <h3 class="m-0">
+            <i class="bi bi-graph-up-arrow"></i>
+            Final Summary Overview
+        </h3>
+    </div>
+
+    <div class="card-body p-4">
+
+        <!-- Responsive 2-column layout -->
+        <div class="row g-4">
+
+            <!-- PubMed -->
+            <div class="col-md-6">
+                <div class="p-3 border rounded-4 bg-light">
+                    <h5 class="fw-bold">
+                        <i class="bi bi-journal-text text-primary"></i> PubMed Articles
+                    </h5>
+                    <p class="fs-5 text-dark">{{ results.final_summary.pubmed_articles }}</p>
+                </div>
+            </div>
+
+            <!-- Clinical Trials -->
+            <div class="col-md-6">
+                <div class="p-3 border rounded-4 bg-light">
+                    <h5 class="fw-bold">
+                        <i class="bi bi-clipboard2-pulse text-danger"></i> Clinical Trials
+                    </h5>
+                    <p class="fs-5 text-dark">{{ results.final_summary.clinical_trials }}</p>
+                </div>
+            </div>
+
+            <!-- Patent Count -->
+            <div class="col-md-6">
+                <div class="p-3 border rounded-4 bg-light">
+                    <h5 class="fw-bold">
+                        <i class="bi bi-file-earmark-lock text-warning"></i> Patent Count
+                    </h5>
+                    <p class="fs-5">{{ results.final_summary.patent_count }}</p>
+                </div>
+            </div>
+
+            <!-- Market Size -->
+            <div class="col-md-6">
+                <div class="p-3 border rounded-4 bg-light">
+                    <h5 class="fw-bold">
+                        <i class="bi bi-cash-stack text-success"></i> Market Size (2024)
+                    </h5>
+                    <p class="fs-5">{{ results.final_summary.market_size }}</p>
+                </div>
+            </div>
+
+            <!-- CAGR -->
+            <div class="col-md-6">
+                <div class="p-3 border rounded-4 bg-light">
+                    <h5 class="fw-bold">
+                        <i class="bi bi-graph-up text-info"></i> CAGR
+                    </h5>
+                    <p class="fs-5">{{ results.final_summary.cagr }}</p>
+                </div>
+            </div>
+
+            <!-- Export Trend -->
+            <div class="col-md-6">
+                <div class="p-3 border rounded-4 bg-light">
+                    <h5 class="fw-bold">
+                        <i class="bi bi-truck text-primary"></i> Export Trend
+                    </h5>
+                    <p class="fs-5">{{ results.final_summary.export_trend }}</p>
+                </div>
+            </div>
+
+            <!-- ========== Import & Export Comparison (Readable Table) ========== -->
+<tr>
+    <th>Import vs Export (Year-wise)</th>
+    <td>
+
+        {% set imp = results.final_summary.import_dependence %}
+        {% set exp = results.exim.export_data.export_volume_kgs if results.exim and results.exim.export_data else {} %}
+
+        {% if imp != "N/A" %}
+        
+        <table class="table table-sm table-bordered bg-white rounded-3">
+            <thead class="table-secondary">
+                <tr>
+                    <th>Year</th>
+                    <th>Import (KG)</th>
+                    <th>Export (KG)</th>
+                    <th>Trend</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                {% for year, imp_val in imp.items() %}
+                <tr>
+                    <td class="fw-bold">{{ year }}</td>
+                    <td>{{ imp_val }}</td>
+
+                    <td>
+                        {% if exp[year] %}
+                            {{ exp[year] }}
+                        {% else %}
+                            <span class="text-muted">-</span>
+                        {% endif %}
+                    </td>
+
+                    <td>
+                        {% if exp[year] and exp[year] > imp_val %}
+                            <span class="text-success fw-bold">↑ Higher Export</span>
+                        {% elif exp[year] and exp[year] < imp_val %}
+                            <span class="text-danger fw-bold">↓ Higher Import</span>
+                        {% else %}
+                            <span class="text-muted">N/A</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+
+        {% else %}
+            <span class="badge bg-secondary fs-6 px-3 py-2">N/A</span>
+        {% endif %}
+    </td>
+</tr>
+
+
+            <!-- Unmet Needs -->
+            <div class="col-md-12">
+                <div class="p-3 border rounded-4 bg-light">
+                    <h5 class="fw-bold">
+                        <i class="bi bi-exclamation-circle text-warning"></i> Unmet Needs
+                    </h5>
+                    <ul class="fs-5">
+                        {% for n in results.final_summary.unmet_needs %}
+                        <li>{{ n }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Internal Insights -->
+            <div class="col-md-12">
+                <div class="p-3 border rounded-4 bg-light">
+                    <h5 class="fw-bold">
+                        <i class="bi bi-lightbulb text-success"></i> Internal Insights
+                    </h5>
+                    <ul class="fs-5">
+                        {% for b in results.final_summary.internal_bullets %}
+                        <li>{{ b }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+        </div> <!-- row -->
+
+    </div> <!-- card-body -->
+</div>
+
+
+<!-- ============ CHARTS =============== -->
+{% if results.exim.export_data %}
+<div class="card p-4 shadow-sm mb-5">
+    <h4 class="text-success mb-3">EXIM Trade Trends</h4>
+
+    <canvas id="exportChart" height="100"></canvas>
+    <canvas id="importChart" height="100" class="mt-4"></canvas>
+</div>
+{% endif %}
+
+<!-- AI RECOMMENDATION -->
+<div class="card shadow-sm mb-4 border-0">
+    <div class="card-body">
+        <h4 class="text-primary">
+            <i class="bi bi-robot"></i> AI Recommendation
+        </h4>
+
+        <p><b>Recommendation:</b>
+            <span class="badge bg-warning">{{ results.ai_recommendation.recommendation }}</span>
+        </p>
+
+        <h5>Reasons:</h5>
+        <ul>
+            {% for r in results.ai_recommendation.reasons %}
+                <li>{{ r }}</li>
+            {% endfor %}
+        </ul>
+
+        <h5>Short Summary:</h5>
+        <p>{{ results.ai_recommendation.short_summary }}</p>
+    </div>
+
+
+    <!-- SHOULD SCIENTISTS REPURPOSE THIS DRUG? -->
+<div class="card shadow-sm mb-4 border-0">
+    <div class="card-body">
+
+        <h3 class="text-primary">
+            <i class="bi bi-flask"></i>
+            Should Scientists Repurpose This Drug?
+        </h3>
+
+        <p class="mt-2">
+            <strong>Decision:</strong>
+            <span class="badge bg-warning text-dark fs-6">
+                {{ results.repurpose_decision.decision }}
+            </span>
+        </p>
+
+        <h5>Reasons:</h5>
+        <ul>
+            {% for r in results.repurpose_decision.reasons %}
+            <li>{{ r }}</li>
+            {% endfor %}
+        </ul>
+
+        <h5>Explanation:</h5>
+        <p>{{ results.repurpose_decision.explanation }}</p>
+
+    </div>
+</div>
+
+</div>
+
+
+<!-- ================= ACCORDION FOR ALL AGENTS ================= -->
+<!-- ========== PUBMED SECTION (Collapsed Into Link) ========== -->
+<div class="card shadow-sm mb-3">
+    <div class="card-body d-flex justify-content-between align-items-center">
+        <h4 class="m-0">
+            PubMed Scientific Evidence
+            <span class="badge bg-primary-subtle text-primary border">{{ results.pubmed_count }}</span>
+        </h4>
+
+        <a href="/pubmed/{{ drug }}" class="btn btn-outline-success btn-sm">
+            <i class="bi bi-plus-circle"></i> View Details
+        </a>
+    </div>
+</div>
+
+
+
+    <!-- ========== CLINICAL TRIALS SECTION (Collapsed Into Link) ========== -->
+<div class="card shadow-sm mb-3">
+    <div class="card-body d-flex justify-content-between align-items-center">
+        
+        <h4 class="m-0">
+            Clinical Trials
+            <span class="badge bg-primary-subtle text-primary border">
+                {{ results.clinical_trials | length }}
+            </span>
+        </h4>
+
+        <a href="/clinical/{{ drug }}" class="btn btn-outline-success btn-sm">
+            <i class="bi bi-plus-circle"></i> View Details
+        </a>
+    </div>
+</div>
+
+
+
+    <!-- Patent Agent -->
+    <div class="card shadow-sm mb-3">
+    <div class="card-body d-flex justify-content-between align-items-center">
+
+        <h4 class="m-0">
+             Patent Landscape
+            <span class="badge bg-primary-subtle text-primary border">
+                {{ results.patents | length }}
+            </span>
+        </h4>
+
+        <a href="/patents/{{ drug }}" class="btn btn-outline-success btn-sm">
+            <i class="bi bi-plus-circle"></i> View Details
+        </a>
+    </div>
+</div>
+
+
+   <!-- EXIM Agent -->
+<div class="card shadow-sm mb-3">
+    <div class="card-body d-flex justify-content-between align-items-center">
+
+        <h4 class="m-0">
+             EXIM Trade Analysis
+            {% if results.exim.export_data %}
+                <span class="badge bg-primary-subtle text-primary border">Real Data</span>
+            {% else %}
+                <span class="badge bg-warning text-dark">Mock Data</span>
+            {% endif %}
+        </h4>
+
+        <a href="/exim/{{ drug }}" class="btn btn-outline-success btn-sm">
+            <i class="bi bi-plus-circle"></i> View Details
+        </a>
+    </div>
+</div>
+
+
+
+
+<div class="card shadow-sm mb-3">
+    <div class="card-body d-flex justify-content-between align-items-center">
+        <h4 class="m-0">
+             Internal Documents & Intelligence
+            <span class="badge bg-primary-subtle text-primary border">
+                {{ results.internal_summary.document_count if results.internal_summary else 0 }}
+            </span>
+        </h4>
+
+        <a href="/internal/{{ drug }}" class="btn btn-outline-success btn-sm">
+            <i class="bi bi-plus-circle"></i> View Details
+        </a>
+    </div>
+</div>
+
+
+    
+
+
+<!-- ============== JS for CHARTS ============== -->
+{% if results.exim.export_data %}
+<script>
+const years = {{ results.exim.export_data.export_volume_kgs.keys() | list | safe }};
+const exportValues = {{ results.exim.export_data.export_volume_kgs.values() | list | safe }};
+const importValues = {{ results.exim.import_data.import_volume_kgs.values() | list | safe }};
+
+// EXPORT
+new Chart(document.getElementById("exportChart"), {
+    type: "line",
+    data: {
+        labels: years,
+        datasets: [{
+            label: "Export Volume (kg)",
+            data: exportValues,
+            borderColor: "blue",
+            borderWidth: 3
+        }]
+    }
+});
+
+// IMPORT
+new Chart(document.getElementById("importChart"), {
+    type: "line",
+    data: {
+        labels: years,
+        datasets: [{
+            label: "Import Volume (kg)",
+            data: importValues,
+            borderColor: "red",
+            borderWidth: 3
+        }]
+    }
+});
+</script>
+{% endif %}
+
+{% endblock %}

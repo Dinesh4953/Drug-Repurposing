@@ -1,0 +1,26 @@
+[
+  {
+    "title": "World Health Organization guidance on heroin",
+    "source": "who.int",
+    "url": "https://who.int/guidance/heroin",
+    "snippet": "WHO guidance highlights safe use and special population considerations for heroin."
+  },
+  {
+    "title": "Recent review: off-label uses of heroin",
+    "source": "journal-review.org",
+    "url": "https://journal-review.org/heroin-review",
+    "snippet": "Review summarizes potential new therapeutic areas with emerging evidence."
+  },
+  {
+    "title": "Patient forum discussion on heroin side effects",
+    "source": "healthforums.example",
+    "url": "https://healthforums.example/heroin",
+    "snippet": "Users report common adverse events and dosing preferences across regions."
+  },
+  {
+    "title": "Regulatory safety update on heroin",
+    "source": "regulator.example",
+    "url": "https://regulator.example/alerts/heroin",
+    "snippet": "Regulatory agency reminds prescribers about dose limits and monitoring."
+  }
+]

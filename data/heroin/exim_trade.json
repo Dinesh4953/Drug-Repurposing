@@ -1,0 +1,111 @@
+{
+  "export_data": {
+    "export_volume_kgs": {
+      "2022": 12631,
+      "2023": 9335,
+      "2024": 8821
+    },
+    "export_value_crores": {
+      "2022": 6283,
+      "2023": 7310,
+      "2024": 7537
+    },
+    "top_export_countries": {
+      "2024": [
+        [
+          "UAE",
+          1382
+        ],
+        [
+          "Germany",
+          4459
+        ],
+        [
+          "UK",
+          653
+        ],
+        [
+          "USA",
+          1912
+        ],
+        [
+          "China",
+          4539
+        ]
+      ]
+    }
+  },
+  "import_data": {
+    "import_volume_kgs": {
+      "2022": 7086,
+      "2023": 8406,
+      "2024": 15992
+    },
+    "import_value_crores": {
+      "2022": 14815,
+      "2023": 11287,
+      "2024": 16391
+    },
+    "top_import_countries": {
+      "2024": [
+        [
+          "China",
+          1438
+        ],
+        [
+          "Germany",
+          3758
+        ],
+        [
+          "Brazil",
+          357
+        ],
+        [
+          "USA",
+          3841
+        ],
+        [
+          "UK",
+          2166
+        ]
+      ]
+    }
+  },
+  "summary": [
+    "Moderate export performance.",
+    "Import dependency moderately stable.",
+    "Potential growth in emerging markets."
+  ],
+  "trade_history": [
+    {
+      "year": 2020,
+      "export_volume_mt": 11,
+      "import_dependence_percent": 20
+    },
+    {
+      "year": 2021,
+      "export_volume_mt": 19,
+      "import_dependence_percent": 34
+    },
+    {
+      "year": 2022,
+      "export_volume_mt": 19,
+      "import_dependence_percent": 68
+    },
+    {
+      "year": 2023,
+      "export_volume_mt": 8,
+      "import_dependence_percent": 36
+    },
+    {
+      "year": 2024,
+      "export_volume_mt": 22,
+      "import_dependence_percent": 65
+    }
+  ],
+  "bullets": [
+    "Export market shows controlled volatility.",
+    "Import dependency varies with API availability.",
+    "Suitable candidate for domestic manufacturing incentives."
+  ]
+}

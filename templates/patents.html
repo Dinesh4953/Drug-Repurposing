@@ -1,0 +1,117 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<a onclick="history.back()" class="btn btn-secondary mb-3">← Back</a>
+
+<h2 class="mb-4 text-primary">{{ drug|title }} — Patent Landscape</h2>
+
+<!-- Search Bar -->
+<div class="card p-3 shadow-sm border-0 mb-4">
+    <input type="text" id="patentSearch" class="form-control" placeholder="Search by title, status, year...">
+</div>
+
+{% if patents %}
+<div id="patentList">
+
+    {% for p in patents %}
+    <div class="card mb-4 shadow-sm border-0 patent-item">
+
+        <div class="card-body">
+            <h5 class="fw-bold text-primary">
+                <i class="bi bi-file-earmark-lock"></i> {{ p.title }}
+            </h5>
+
+            <!-- Patent ID -->
+            <p class="mb-1">
+                <span class="badge bg-dark">Patent ID: {{ p.patent_id }}</span>
+            </p>
+
+            <!-- Status Badge -->
+            {% if p.status == "Active" %}
+                <span class="badge bg-success">Active</span>
+            {% elif p.status == "Pending" %}
+                <span class="badge bg-warning text-dark">Pending</span>
+            {% else %}
+                <span class="badge bg-danger">Expired</span>
+            {% endif %}
+
+            <!-- Expiry Year -->
+            <p class="mt-2">
+                <b>Expiry Year:</b> {{ p.expiry_year }}
+            </p>
+
+            <!-- View Details Button -->
+            <button 
+                class="btn btn-outline-primary btn-sm"
+                data-bs-toggle="modal"
+                data-bs-target="#modal_{{ loop.index }}">
+                🔎 View Full Details
+            </button>
+
+        </div>
+    </div>
+
+    <!-- ========== PATENT MODAL ========== -->
+    <div class="modal fade" id="modal_{{ loop.index }}" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title">
+                        <i class="bi bi-file-earmark"></i> {{ p.title }}
+                    </h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <h5 class="text-primary">📌 Patent Details</h5>
+
+                    <p><b>Patent ID:</b> {{ p.patent_id }}</p>
+                    <p><b>Status:</b> {{ p.status }}</p>
+                    <p><b>Expiry Year:</b> {{ p.expiry_year }}</p>
+
+                    <hr>
+
+                    <h5 class="text-primary">💡 Summary</h5>
+                    <p>
+                        {% if p.status == "Active" %}
+                            This patent is currently active and may restrict generic competition.
+                        {% elif p.status == "Pending" %}
+                            This patent is pending approval and may influence future innovation.
+                        {% else %}
+                            This patent has expired and can be freely used.
+                        {% endif %}
+                    </p>
+
+                    <p class="mt-2">
+                        <i>Note: This is auto-generated contextual information.</i>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
+</div>
+
+{% else %}
+<p class="text-danger">No patents found.</p>
+{% endif %}
+
+<!-- SEARCH FILTER SCRIPT -->
+<script>
+document.getElementById("patentSearch").addEventListener("keyup", function () {
+    let filter = this.value.toLowerCase();
+    let items = document.getElementsByClassName("patent-item");
+
+    for (let i = 0; i < items.length; i++) {
+        let content = items[i].innerText.toLowerCase();
+        items[i].style.display = content.includes(filter) ? "" : "none";
+    }
+});
+</script>
+
+{% endblock %}

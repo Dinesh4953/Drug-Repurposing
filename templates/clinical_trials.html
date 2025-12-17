@@ -1,0 +1,186 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<a onclick="history.back()" class="btn btn-secondary mb-3">
+    ← Back
+</a>
+
+<h2 class="mb-4 text-primary">{{ drug|title }} — Clinical Trials</h2>
+
+<!-- Search Bar -->
+<div class="card p-3 shadow-sm border-0 mb-4">
+    <input type="text" id="trialSearch" class="form-control" placeholder="Search trials by title, phase, condition...">
+</div>
+
+{% if trials %}
+<div id="trialsList">
+
+    {% for t in trials %}
+    <div class="card mb-4 shadow-sm border-0 trial-item">
+
+        <div class="card-body">
+            <h5 class="fw-bold text-primary">{{ t.title }}</h5>
+
+            <p class="text-muted mb-1">
+                <b>Status:</b> {{ t.status }}  
+                | <b>Phases:</b> {{ t.phases | join(", ") if t.phases else "N/A" }}
+            </p>
+
+            <p class="mb-2">
+                <b>Conditions:</b>
+                {{ t.conditions | join(", ") }}
+            </p>
+
+            <p class="mb-3">
+                <span class="badge bg-dark">NCT ID: {{ t.nct_id }}</span>
+            </p>
+
+            <!-- Button: View More -->
+            <button 
+                class="btn btn-outline-primary btn-sm"
+                data-bs-toggle="modal"
+                data-bs-target="#modal{{ t.nct_id }}">
+                🔎 View Full Details
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal{{ t.nct_id }}" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content">
+
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title">{{ t.title }}</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+
+    <!-- SUMMARY -->
+    <h5 class="text-primary">📌 Brief Summary</h5>
+    <p>{{ t.brief_summary or "Not available" }}</p>
+
+    <h5 class="text-primary mt-3">📘 Detailed Description</h5>
+    <p>{{ t.detailed_description or "Not available" }}</p>
+
+    <hr>
+
+    <!-- STUDY INFO FIELDS -->
+    <div class="row">
+        <div class="col-md-4">
+            <h6><b>Study Type:</b></h6>
+            <p>{{ t.study_type or "N/A" }}</p>
+        </div>
+        <div class="col-md-4">
+            <h6><b>Enrollment:</b></h6>
+            <p>{{ t.enrollment or "N/A" }}</p>
+        </div>
+        <div class="col-md-4">
+            <h6><b>Last Update Posted:</b></h6>
+            <p>{{ t.last_update_posted or "N/A" }}</p>
+        </div>
+    </div>
+
+    <h5 class="text-primary mt-3">📅 Timeline</h5>
+    <p>
+        <b>Start Date:</b> {{ t.start_date or "N/A" }} <br>
+        <b>Completion Date:</b> {{ t.completion_date or "N/A" }}
+    </p>
+
+    <hr>
+
+    <!-- INTERVENTIONS (Format Beautifully) -->
+    <h5 class="text-primary">💊 Interventions</h5>
+
+    {% if t.interventions %}
+        <ul>
+            {% for item in t.interventions %}
+                <li>
+                    <b>{{ item.name }}</b> ({{ item.type }}) <br>
+                    <small>{{ item.description }}</small><br>
+
+                    {% if item.armGroupLabels %}
+                        <i>Arms:</i> {{ item.armGroupLabels | join(", ") }}
+                    {% endif %}
+                </li>
+                <hr>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>N/A</p>
+    {% endif %}
+
+    <!-- SPONSORS -->
+    <h5 class="text-primary">🏥 Sponsor</h5>
+    <p>{{ t.sponsors or "N/A" }}</p>
+
+    <hr>
+
+    <!-- LOCATIONS (Beautiful Output) -->
+    <h5 class="text-primary">🌍 Locations</h5>
+
+    {% if t.locations %}
+        {% for loc in t.locations %}
+            <div class="p-2 border rounded mb-2">
+
+                <b>{{ loc.facility }}</b>  
+                <br>{{ loc.city }}, {{ loc.state }}, {{ loc.country }}  
+
+                <br><b>Status:</b> {{ loc.status or "N/A" }}
+
+                <!-- CONTACTS -->
+                {% if loc.contacts %}
+                    <div class="mt-2">
+                        <b>Contacts:</b>
+                        <ul>
+                            {% for c in loc.contacts %}
+                                <li>
+                                    {{ c.name }} — {{ c.role }} <br>
+                                    Email: {{ c.email }} <br>
+                                    Phone: {{ c.phone }}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>N/A</p>
+    {% endif %}
+
+    <!-- ELIGIBILITY -->
+    <h5 class="text-primary mt-3">🧬 Eligibility Criteria</h5>
+    <pre style="white-space: pre-wrap;">{{ t.eligibility or "N/A" }}</pre>
+
+</div>
+
+
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
+</div>
+
+{% else %}
+<p class="text-danger">No clinical trials found.</p>
+{% endif %}
+
+<!-- SEARCH FILTER SCRIPT -->
+<script>
+document.getElementById("trialSearch").addEventListener("keyup", function () {
+    let filter = this.value.toLowerCase();
+    let items = document.getElementsByClassName("trial-item");
+
+    for (let i = 0; i < items.length; i++) {
+        let content = items[i].innerText.toLowerCase();
+        items[i].style.display = content.includes(filter) ? "" : "none";
+    }
+});
+</script>
+
+{% endblock %}

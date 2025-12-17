@@ -1,0 +1,465 @@
+[
+  {
+    "nct_id": "NCT06025240",
+    "title": "Expanding the Scope of Post-transplant HLA-specific Antibody Detection and Monitoring in Renal Transplant Recipients",
+    "status": "RECRUITING",
+    "conditions": [
+      "Kidney Transplant",
+      "Renal Transplant Failure",
+      "Kidney Transplant Rejection",
+      "Frailty",
+      "Kidney Transplant; Complications",
+      "Transplant Dysfunction",
+      "Diagnosis",
+      "Renal Transplant"
+    ],
+    "phases": [],
+    "brief_summary": "The purpose of this study is to assess a new test to detect antibodies which may form following kidney transplant. These antibodies can be difficult to detect as they do not cause any symptoms but can lead to kidney damage. A new blood test will be performed alongside existing antibody tests to see how well the test functions in comparison and to see how well it is able to distinguish between inflammation caused by antibodies and other sorts of inflammation such as a urinary tract infection. The investigators also want to determine whether it is predictable whom will develop antibodies after a transplant and use these results to change the current way patients are monitored for antibodies after receiving a transplant. In addition to this, the investigators want to establish if patients over 60 years of age are relatively protected against immunological events such as rejection compared to patients who are under 60 years of age. The results could potentially lead to using a different immunosuppression regime based on which population age group patients belong to and lowering the risks associated with these drugs.",
+    "detailed_description": "Donor-derived cell-free DNA (dd-cfDNA)\n\nPost-transplant monitoring for acute rejection in most centres, focuses on identification of a deterioration in graft function which may be totally asymptomatic. The current best practice to investigate a suspected rejection are renal graft biopsy with appropriate staining for complement component C4d and a serum single antigen bead (SAB) testing. This reactive approach to assessing and monitoring rejection, mainly driven by serial assessments of renal function to determine response to treatment, avoids the need for multiple invasive diagnostic tests such as biopsies, but it poses the risk of missing the early detection and treatment of rejection prior to an objective decline in function. A \"creeping creatinine\", where there are small but sustained increases in creatinine at sequential visits is relatively common and by the time a deterioration consistent with rejection is observed there can already have been significant tissue damage.\n\nDonor-derived cell-free DNA (dd-cfDNA) has been described as a useful biomarker for graft injury secondary to rejection which can be evident in blood weeks to months prior to histological evidence of graft injury. dd-cfDNA levels are high in the immediate post-operative phase, although there is a sharp drop off to low baseline levels after a few days to two weeks making it a useful biomarker in all but the earliest rejection episode. Levels are much higher in antibody mediated rejection (ABMR) when compared to cellular rejection offering improvements in sensitivity when considering ABMR alone (85%) versus rejection of all aetiology (59%). The investigators believe it is important to correlate the findings of the dd-cfDNA sample with the other tests described, so that observations about the percentage dd-cfDNA found in different pathologies and the overall frequency of positive results can be made.\n\nImmunological Factors in Older Age Renal Transplant and Longitudinal Donor Specific Antibodies (DSA) study\n\nOlder patients who undergo kidney transplant (KT) have better survival than those who remain on the waiting list. Nevertheless, outcomes are inferior to younger recipients and KT is often felt to be a predominantly quality of life intervention for older patients. Frailty may have a beneficial influence on the risk of post-transplant adverse immunological events and rejection episodes. If transplanted with good quality organs (all barring elderly deceased after circulatory death - DCD grafts), older kidney transplant recipients will have fewer rejection episodes than younger counterparts. The investigators conducted a retrospective cohort study of the outcomes for older age transplant recipients (\\>60) locally, to compare results before and after the change in allocation system which coincides with the COVID-19 pandemic. In this study, the investigators observed less favourable HLA-mismatching, a higher rate of re-intervention (operative or interventional radiology), higher rates of tertiary centre readmissions and higher 1-year mortality rates.\n\nThe previous post-transplant HLA-specific antibody work examined only the first positive sample post-transplant independent of pre-transplant sensitisation status. The investigators, thus, propose prospectively recruiting patients, irrespective of age, undergoing transplant to determine the overall frequency of immunological events and de novo HLA specific antibody formation. Given the importance of early detection and intervention of antibody mediated processes and optimising treatment protocols for frail patients, the investigators aim to expand the research interest in post-transplant antibody monitoring. The investigators, thus, propose prospectively recruiting patients, irrespective of age, undergoing transplant to determine the overall frequency of immunological events and de novo HLA specific antibody formation. Data on clinical outcomes will be collected and the investigators would look to compare the \\<60s with those 60 or older patients undergoing kidney transplant.\n\nDetermining Predictive Models for Post-transplant HLA-specific Antibody Formation\n\nAs an adjunct to the proposed study looking at the influence of age on immunological events, the investigators aim to examine the cohort as a whole to determine the differential clinical outcomes for patients with and without de novo HLA-specific antibody over time. An important part of this arm of the study will be to determine predictive models using machine learning methodology to determine those most at risk for the development of de-novo HLA specific antibody post-transplant.",
+    "interventions": [
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "name": "cf-DNA",
+        "description": "In addition to the standard of care tests, participants will have an additional blood sample (dd-cf DNA). A cohort study patients who have undergone high immunological risk kidney transplant at our centre defined as a re-transplant, where the cRF is \\>20% or where there is a level 4 HLA-mismatch. We will take a single plasma sample for dd-cfDNA testing at 6-12 months post-transplant and pair this with an assessment of renal function (creatinine, eGFR), MSU, BK and CMV PCR, single antigen bead (SAB) monitoring of HLA-specific antibodies and allograft USS.",
+        "armGroupLabels": [
+          "cf-DNA arm"
+        ],
+        "otherNames": [
+          "donor derived cell-free DNA (dd-cf DNA)"
+        ]
+      },
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "name": "Immunological Events following renal transplant in older age",
+        "description": "Determine the overall frequency of immunological events and de novo HLA specific antibody formation in the \\<60 and \\>60 age population. Standard of care test taken at the different time intervals for routine storage. We will use those samples for HLA testing (either screening alone or screening and single antigen bead testing if screening yields a positive result).",
+        "armGroupLabels": [
+          "Immunological Events following renal transplant in older age"
+        ],
+        "otherNames": [
+          "Longitudinal DSA monitoring"
+        ]
+      },
+      {
+        "type": "OTHER",
+        "name": "Determining Predictive Models for Post-transplant HLA-specific Antibody Formation",
+        "description": "A machine learning model will be developed in Python using a range of pre- and post-transplant variables to determine a predictive model for de novo HLA-specific antibody following renal transplant.",
+        "armGroupLabels": [
+          "Determining Predictive Models for Post-transplant HLA-specific Antibody Formation"
+        ],
+        "otherNames": [
+          "Machine learning algorithms"
+        ]
+      }
+    ],
+    "sponsors": null,
+    "locations": [
+      {
+        "facility": "Liverpool University Hospitals NHS Foundation Trust",
+        "status": "RECRUITING",
+        "city": "Liverpool",
+        "state": "Merseyside",
+        "zip": "L7 8YE",
+        "country": "United Kingdom",
+        "contacts": [
+          {
+            "name": "George E Nita, MBChB MSc MRCSEd",
+            "role": "CONTACT",
+            "phone": "01517062000",
+            "email": "george.nita@liverpoolft.nhs.uk"
+          },
+          {
+            "name": "Petra M Goldsmith, MBBChir PhD FRCS",
+            "role": "CONTACT",
+            "phone": "01517065550",
+            "email": "petra.goldsmith@liverpoolft.nhs.uk"
+          },
+          {
+            "name": "George E Nita, MBChB MSc MRCSEd",
+            "role": "PRINCIPAL_INVESTIGATOR"
+          },
+          {
+            "name": "Petra M Goldsmith, MBBChir PhD FRCS",
+            "role": "PRINCIPAL_INVESTIGATOR"
+          }
+        ],
+        "geoPoint": {
+          "lat": 53.41058,
+          "lon": -2.97794
+        }
+      }
+    ],
+    "eligibility": "Inclusion Criteria:\n\n1. cf-DNA arm:\n\n   * Adult patients transplanted within 6-12 months (retrospective recruitment)\n   * Patients admitted for renal transplant or within the first 6 months following transplant (prospective recruitment)\n   * Patients must have capacity to provide informed consent\n   * Patients must have received a high-risk transplant defined as level 4 mismatch, cRF \\>20, second or subsequent transplant, ABO or HLA incompatible\n2. Older Age Immunological Events:\n\n   \\- Any adult patient with capacity undergoing, or within 72 hours of, a renal transplant\n3. Predictive models:\n\n   * Any adult patient with capacity undergoing, or within 72 hours of, a renal transplant\n   * Unsensitized pre-transplant\n\nExclusion Criteria:\n\n1. cf-DNA arm:\n\n   * Transplanted for longer than 12 months;\n   * Low risk transplants;\n   * Patients lacking capacity;\n2. Older Age Immunological Events:\n\n   * Patients lacking capacity\n   * Patients transplanted longer than 2 weeks\n3. Predictive models:\n\n   * Sensitised patients\n   * Patients lacking capacity\n   * Patients transplanted longer than 2 weeks",
+    "study_type": "OBSERVATIONAL",
+    "start_date": "2023-10-13",
+    "completion_date": "2026-10-13",
+    "last_update_posted": "2024-08-30",
+    "enrollment": 282
+  },
+  {
+    "nct_id": "NCT07127159",
+    "title": "Feasibility of a Music Listening Intervention for Mental Health Recovery in Chronic Stroke",
+    "status": "RECRUITING",
+    "conditions": [
+      "Stroke"
+    ],
+    "phases": [
+      "NA"
+    ],
+    "brief_summary": "This study aims to explore whether listening to music intentionally can support the mental health of people recovering from a stroke. The question the investigators aim to answer is: Can intentional music listening improve emotional well-being in stroke survivors? And if so, what kinds of changes might music listening induce in mental health, thinking and memory (cognition), and brain activity? Participants will be randomly assigned to listen to either music or an audiobook for one hour each day, at home, for four weeks. Participants will also attend four in-person sessions with the researchers: at the start of the study (baseline), just before the listening period begins, after the four weeks are complete, and at a follow-up. During these visits, researchers will gather information about participants' mood and mental health (via questionnaires), assess memory and attention (via cognitive tasks), and use MRI scans to look at brain activity.",
+    "detailed_description": "This is a feasibility clinical trial of a remotely delivered music listening intervention for individuals with chronic stroke, incorporating objective tracking of music exposure and multimodal assessments of mental health, cognitive, neural, and physiological changes.\n\nSpecifically, this is a parallel-group randomized controlled feasibility trial enrolling patients with chronic stroke. Participants will be randomized to either an intentional music listening (IML) group or an active control group that listens to audiobooks. The study includes a 4-week pre-intervention period during which no treatment is administered; this phase is designed to assess the stability of outcome measures. Following this, participants will engage in 1-hour daily listening sessions over a 4-week intervention period. All listening activity (i.e., track identity, duration, and engagement) will be continuously tracked using custom open-source software, providing a measure of treatment dose. Behavioral outcomes related to mental health will be assessed at baseline, pre-intervention, post-intervention, and 3-month follow-up. Multimodal biomarkers (functional and structural MRI, electrodermal activity, and heart rate) will be collected pre- and post-intervention. The primary objective is to establish feasibility, defined by rates of retention and adherence, fidelity, feasibility, acceptability, and burden. Secondary outcomes include recruitment and randomization rates. This trial will provide essential data to inform the design of future large-scale clinical studies of IML for post-stroke mental health recovery.",
+    "interventions": [
+      {
+        "type": "BEHAVIORAL",
+        "name": "Intentional Music Listening",
+        "description": "Participants will receive an iPad with Spotify (for music listening) and FaceTime. For 4 weeks (excluding weekends; 20 sessions), participants will listen to music for one hour per session, without multitasking (e.g., no chores or cooking), and will be encouraged to listen attentively. The investigators will collaborate with each participant to co-create a personalized playlist composed of self-selected, culturally relevant songs. This playlist can be updated at any time by the participant, either independently or with assistance from the team. During the music-listening session, participants will be on FaceTime with a team member, who will be available to provide support as needed. A custom Python script will continuously track the songs played by participants through Spotify, logging playback activity for research purposes.",
+        "armGroupLabels": [
+          "Intentional Music Listening"
+        ]
+      },
+      {
+        "type": "BEHAVIORAL",
+        "name": "Audiobook Listening",
+        "description": "Participants will be provided with an iPad equipped with a Spotify (for audiobook listening) and FaceTime. For 4 weeks (excluding weekends; 20 sessions), participants will be asked to listen to an audiobook of their choice for one hour per session, without engaging in other activities such as chores or cooking. Participants will be instructed to listen attentively and avoid multitasking during the session. A team member will connect with each participant via FaceTime to offer support. Participants may update or change their audiobook selections at any time, either independently or with help from the team. A custom Python script will be used to continuously track audiobook playback activity for research and analysis.",
+        "armGroupLabels": [
+          "Audiobook Listening"
+        ]
+      }
+    ],
+    "sponsors": null,
+    "locations": [
+      {
+        "facility": "New York University",
+        "status": "RECRUITING",
+        "city": "New York",
+        "state": "New York",
+        "zip": "10003",
+        "country": "United States",
+        "contacts": [
+          {
+            "name": "Pablo Ripolles, PhD",
+            "role": "CONTACT",
+            "phone": "212-998-5424",
+            "email": "pr82@nyu.edu"
+          },
+          {
+            "name": "Pablo Ripolles, PhD",
+            "role": "PRINCIPAL_INVESTIGATOR"
+          }
+        ],
+        "geoPoint": {
+          "lat": 40.71427,
+          "lon": -74.00597
+        }
+      }
+    ],
+    "eligibility": "Inclusion Criteria:\n\n* Participants aged 50 to 90\n* Confirmed diagnosis of ischemic or hemorrhagic stroke occurring at least six months prior to enrollment.\n\nExclusion Criteria:\n\n* Significant hearing loss, defined by a score \\>26 on the Hearing Handicap Inventory for the Elderly Screening (HHIE-S; Ventry and Weinstein, 1982)\n* Contraindications for MRI\n* Significant cognitive impairment, defined as a Montreal Cognitive Assessment (MoCA; Nasreddine et al., 2005) score below 22 (unless the lower score is attributable to expressive aphasia)\n* Specific musical anhedonia, defined as a score below 60 on the Barcelona Music Reward Questionnaire (BMRQ; Mas-Herrero et al., 2013)\n* Amusia, defined as a score below 70% on the Montreal Battery of Evaluation of Amusia (MBEA; Peretz et al., 2003).\n* Participants will not be excluded if currently taking medications that may affect brain function (e.g., antidepressants) or if engaged in other complementary therapies (e.g., mindfulness, yoga). Participants will be allowed to initiate new medications or therapies during the study period.",
+    "study_type": "INTERVENTIONAL",
+    "start_date": "2025-07-01",
+    "completion_date": "2026-09-30",
+    "last_update_posted": "2025-09-25",
+    "enrollment": 60
+  },
+  {
+    "nct_id": "NCT05345275",
+    "title": "Assessment of Postoperative Pain in Children With Computer Assisted Facial Expression Analysis",
+    "status": "COMPLETED",
+    "conditions": [
+      "Pain, Postoperative"
+    ],
+    "phases": [],
+    "brief_summary": "The present study was conducted to evaluate the use of computer-aided facial expression analysis to assess postoperative pain in children. The study population consisted of patients in the age group of 7-18 years who underwent surgery at Bursa Uluda\u011f University Faculty of Medicine Health Application and Research Hospital Pediatric Surgery Clinic between November 2019 and June 2021. The sample of the study consisted of total 83 children who agreed to participate in the study and who met the sample selection criteria. Data were collected by the researcher using the Wong Baker Faces (WBS) pain rating scale and Visual Analog Scale (VAS). Data were collected from the child, mother, nurse, and one external observer. Facial action units associated with pain were used for machine estimation. OpenFace was used to analyze the child's facial action units and Python was used for machine learning algorithms. Intraclass correlation coefficient, Kappa coefficient, and linear regression analysis were used for statistical analysis of the data. The pain score predicted by the machine and the pain score assessments of the child, mother, nurse, and observer were compared.",
+    "detailed_description": null,
+    "interventions": [
+      {
+        "type": "OTHER",
+        "name": "The facial expressions analyzed",
+        "description": "The facial expressions associated with pain were analyzed by the researchers in the OpenFace program. The patient's pain scores were estimated in the Python program by combining the numerical outputs of facial expression analyses with machine learning algorithms.",
+        "armGroupLabels": [
+          "pain assessments"
+        ]
+      }
+    ],
+    "sponsors": null,
+    "locations": [
+      {
+        "facility": "Bursa Uluda\u011f University",
+        "city": "Bursa",
+        "zip": "16059",
+        "country": "Turkey (T\u00fcrkiye)",
+        "geoPoint": {
+          "lat": 40.19559,
+          "lon": 29.06013
+        }
+      }
+    ],
+    "eligibility": "Inclusion Criteria:\n\n* The patient is awake and oriented after the surgery,\n* The patient must be within the first 12 hours after the operation and not be discharged before the first 36 hours after the operation,\n* The patient is between the ages of 7-18,\n* It is the mother's staying with the patient as a companion.\n\nExclusion Criteria:\n\n* Presence of any facial anomalies that may alter facial expression analysis,\n* The patient has neurological and mental disorders,\n* Having regular opiate use in the last 6 months,\n* These are surgical procedures that require the patient to be in a prone position.",
+    "study_type": "OBSERVATIONAL",
+    "start_date": "2019-11-01",
+    "completion_date": "2021-06-30",
+    "last_update_posted": "2022-04-25",
+    "enrollment": 83
+  },
+  {
+    "nct_id": "NCT06839261",
+    "title": "Efficacy and Reliability of Photo-Based Artificial Intelligence Algorithms in Assessing Difficulty of Intubation With a Double-Lumen Tube",
+    "status": "COMPLETED",
+    "conditions": [
+      "Intubation; Difficult",
+      "Artificial Intelligence (AI)",
+      "Double Lumen Tube Intubation"
+    ],
+    "phases": [],
+    "brief_summary": "The complexity and difficulty of intubation with double lumen tubes requires the use of advanced technologies in the management of this procedure. The potential of photo-based artificial intelligence algorithms to predict and minimize the difficulties encountered during intubation is the main motivation for this study.\n\nThe utilization of artificial intelligence algorithms within the domain of airway management holds considerable promise in providing real-time feedback to anesthesiologists, enhancing the efficacy of intubation procedures, and reducing the occurrence of complications. Specifically, photo-based AI systems can facilitate a more comprehensive understanding of airway anatomy by analyzing images captured prior to and during intubation, thereby enhancing the management of complex cases.The objective of this study is to examine the efficacy and reliability of photo-based artificial intelligence algorithms in evaluating the complexity of intubation with a double lumen tube.The integration of artificial intelligence into the intubation process is intended to enhance patient outcomes and establish a new benchmark for anesthesia practice. This study aims to address the existing gap in the literature and provide innovative approaches to clinical practice.\n\nInformed consent was obtained from patients undergoing thoracic surgery operations, and demographic data (age, height, body weight, body mass index, gender), American Society of Anesthesiologists (ASA) score, type of operation, and comorbid diseases (diabetes mellitus, hypertension, coronary artery disease, chronic kidney disease, chronic obstructive pulmonary disease, asthma, obstructive sleep apnea) were obtained. Thoracic and/or extrath oracic malignancy history), parameters considered as risk factors for difficult intubation (history of previous difficult intubation, LEMON criteria (look externally, evaluate, mallampathy, obstruction, neck mobility), upper lip bite test) and photographs of the patients (including head and neck region) will be recorded in six different directions and ways with a professional camera (actively used in our hospital) in the preoperative period. During the intraoperative phase, the Cormack-Lehane scoring system will be employed, and the intubation process with a double-lumen tube will be evaluated for ease or difficulty. Intraoperative complications related to the operation will also be documented.The data will then be processed using Python 3 programming language and open-source libraries to calculate artificial intelligence algorithms. In the event of incomplete patient data, data imputation techniques will be employed to supplement the artificial intelligence program.\n\nThe primary outcome variable of the study is the rate at which the photo-based artificial intelligence algorithm predicts whether intubation with a double lumen tube is easy or difficult.The secondary outcome variable is the comparison of the rate of prediction of intubation with double lumen tube by photo-based artificial intelligence algorithms and the rate of prediction of intubation with double lumen tube by conventional methods.",
+    "detailed_description": null,
+    "interventions": [
+      {
+        "type": "DIAGNOSTIC_TEST",
+        "name": "Intubation Difficulty Scale",
+        "description": "The Intubation Difficulty Scale (IDS) is an objective way to classify easy and difficult intubation. A score \u2264 5 indicates an easy or mildly difficult intubation, while IDS \\> 5 suggests difficult intubation, requiring additional techniques or attempts.",
+        "armGroupLabels": [
+          "Intubation - Difficult",
+          "Intubation - Easy"
+        ]
+      },
+      {
+        "type": "OTHER",
+        "name": "Artificial Intelligence",
+        "description": "The program made with Python 3 programming language using open source libraries. It will be developed to predict difficult intubation with 6 different photo data of patients, this process will be taught with a learning process and then tested.",
+        "armGroupLabels": [
+          "Intubation - Difficult",
+          "Intubation - Easy"
+        ]
+      }
+    ],
+    "sponsors": null,
+    "locations": [
+      {
+        "facility": "Ankara Atat\u00fcrk Sanatoryum Training and Research Hospital",
+        "city": "Ankara",
+        "state": "Ke\u00e7i\u00f6ren",
+        "zip": "06290",
+        "country": "Turkey (T\u00fcrkiye)",
+        "geoPoint": {
+          "lat": 39.91987,
+          "lon": 32.85427
+        }
+      }
+    ],
+    "eligibility": "Inclusion Criteria:\n\n* Undergoing thoracic surgery\n* Giving informed consent\n* Over 18 years of age\n* Double lumen tube used for intubation\n* ASA (American Society of Anesthesiologist)1-2-3\n\nExclusion Criteria:\n\n* Emergency surgeries\n* ASA 4 and above\n* Head and neck tumor, history of surgery/RT related to tumor\n* Presence of syndrome that will cause difficult intubation",
+    "study_type": "OBSERVATIONAL",
+    "start_date": "2024-12-01",
+    "completion_date": "2025-03-30",
+    "last_update_posted": "2025-09-08",
+    "enrollment": 260
+  },
+  {
+    "nct_id": "NCT06770985",
+    "title": "Effectiveness of Artificial Intelligence Algorithms in Predicting Postoperative Pain in Lung Resections",
+    "status": "RECRUITING",
+    "conditions": [
+      "Artificial Intelligence (AI)"
+    ],
+    "phases": [],
+    "brief_summary": "Introduction Throughout human history, surgical interventions have been frequently used in human treatment. However, despite their therapeutic properties, the pain experienced by patients, especially in the acute postoperative period, can be quite challenging for clinicians. Acute postoperative pain is an important public health issue. While 80% of patients report experiencing pain in the postoperative period, 88% of them experience moderate or higher levels of pain. According to another study, more than 60% of surgical patients suffer from moderate to severe acute postoperative pain, and this pain has been associated with the development of chronic postoperative pain. Poorly managed postoperative pain can lead to negative outcomes such as lower patient satisfaction, delayed patient recovery, increased length of hospital stay, increased care costs, chronic pain, unnecessary opioid prescription, opioid abuse, overdose, and death. In addition, in order to provide effective pain management, the method of providing preventive analgesic treatment before the pain begins is frequently used. However, this situation may lead to unnecessary medication administration in many patients and consequently, many adverse events such as bleeding, respiratory depression, cardiac events or gastrointestinal system side effects of opioids, nonsteroidal anti-inflammatory drugs and other analgesics. As a result, the difficulty in predicting acute postoperative pain leads to suboptimal pain management. Therefore, being able to predict which patients will suffer from moderate to severe acute postoperative pain will optimize the risk-benefit ratio of perioperative analgesic treatments and ensure that appropriate treatment is given. Although different studies on this subject have tried to predict postoperative pain with logistic regression analysis, the desired result has not yet been achieved. This situation becomes even more important in surgeries with a high risk of severe pain in the postoperative period, such as lung resection. In order to reduce or prevent postoperative pulmonary complications in patients undergoing lung resection, it is very important for patients to be able to cough without feeling pain and thus to remove secretions from the respiratory tract. If sufficient analgesia is not provided, these patients cannot perform this effectively. This increases complications, hospital stay, and patient care costs. In order to prevent these negative situations and provide optimal analgesia, new methods are needed to predict postoperative pain levels. Numerous models have been proposed in studies to understand the risk factors that will exacerbate severe acute postoperative pain. Most of the research in this area has focused on determining risk factors for postoperative pain using statistical methodology. Previous studies suggest that machine learning models can outperform linear statistical models in classifying postoperative pain-related outcomes when similar features are considered. Therefore, artificial intelligence (AI) algorithms are algorithms that can combine and analyze complex data with hundreds of variables and provide new outputs, and can guide an effective solution in predicting and managing the postoperative process. Previous studies have shown promising results in predicting acute postoperative pain with an area under the curve (AUC) of 0.70 using artificial intelligence algorithms to predict pain with perioperative data. However, studies on this topic are needed in a specific surgery such as lung resection, which has the potential for severe pain.\n\nThis study aimed to predict postoperative pain by analyzing perioperative data using AI algorithms in lung resections and to determine the effectiveness of AI algorithms in this regard. Thus, it aimed to reduce unnecessary analgesic use in patients, eliminate possible side effects of these drugs, and start effective analgesic treatment in a timely manner in patients with high pain risk.\n\nPurpose/Hypothesis:\n\nThis study aimed to predict postoperative pain by analyzing perioperative data using AI algorithms in lung resections and to determine the effectiveness of AI algorithms in this regard.\n\nH0: Artificial intelligence algorithms are not effective in predicting postoperative pain in lung resections.\n\nH1: Artificial intelligence algorithms are effective in predicting postoperative pain in lung resections.\n\nMaterial-Method:\n\nThis study will be conducted in accordance with the Declaration of Helsinki and will be carried out at the SB\u00dc Ankara Atat\u00fcrk Sanatorium Training and Research Hospital after receiving ethics committee approval. Our study is a retro-prospective study. Retrospectively collected patient data will be evaluated prospectively with artificial intelligence algorithms.",
+    "detailed_description": null,
+    "interventions": [
+      {
+        "type": "OTHER",
+        "name": "Artificial Intelligence",
+        "description": "Ollama (Ollama., 2024, https://ollama.ai/) artificial intelligence program and \"PYTHON 3 Programming Language\" and open source libraries will be used for the necessary algorithms for data review and analysis. In case of deficiencies in the data of the patients; the missing data will be edited using \"Data Imputation\" techniques. Number of files to be reviewed and/or date range to be covered: Patients who underwent lung resection between January 2023 and October 2024 will be included. An estimated 2000 files are planned to be scanned.",
+        "armGroupLabels": [
+          "Lung Resection"
+        ],
+        "otherNames": [
+          "AI"
+        ]
+      }
+    ],
+    "sponsors": null,
+    "locations": [
+      {
+        "facility": "Ankara Atat\u00fcrk Sanatorium Training and Research Hospital",
+        "status": "RECRUITING",
+        "city": "Ankara",
+        "state": "Ke\u00e7i\u00f6ren",
+        "zip": "06290",
+        "country": "Turkey (T\u00fcrkiye)",
+        "contacts": [
+          {
+            "name": "Ramazan Baldemir, Specialist",
+            "role": "CONTACT",
+            "phone": "+905303570166",
+            "email": "baldemir23@yahoo.com"
+          }
+        ],
+        "geoPoint": {
+          "lat": 39.91987,
+          "lon": 32.85427
+        }
+      }
+    ],
+    "eligibility": "Inclusion Criteria:\n\n* Age \\> 18,\n* Patients who underwent lung resection between January 2023 and October 2024 will be included.\n\nExclusion Criteria:\n\n* Patients under 18 years of age\n* Patients with missing postoperative pain form\n* Patients who did not undergo lung resection",
+    "study_type": "OBSERVATIONAL",
+    "start_date": "2025-01-08",
+    "completion_date": "2025-09-15",
+    "last_update_posted": "2025-09-18",
+    "enrollment": 1000
+  },
+  {
+    "nct_id": "NCT03682887",
+    "title": "Cryoballoon Pulmonary Vein Isolation vs. Cryoballoon Pulmonary Vein Isolation With Additional Right Atrial Linear Ablation for Persistent Atrial Fibrillation: Prospective Randomized Trial (CRARAL Trial)",
+    "status": "UNKNOWN",
+    "conditions": [
+      "Persistent Atrial Fibrillation"
+    ],
+    "phases": [
+      "NA"
+    ],
+    "brief_summary": "Cryoballoon ablation is proven to be effective in pulmonary vein isolation in patients with paroxysmal atrial fibrillation. However, it is not certain that cryoablation is effective and safe in patients with persistent atrial fibrillation, because of higher chance of recurrence compared to paroxysmal atrial fibrillation. The aim of this study is to evaluate the efficacy and safety of cryoballoon pulmonary vein isolation vs. cryoballoon pulmonary vein isolation with additional right atrial linear ablation for paroxysmal atrial fibrillation in a prospective randomized trial",
+    "detailed_description": "A. Study design\n\n1. Prospective randomization (cryoballoon PV isolation group vs. cryoballoon PV isolation group with additional RA linear ablation group) (Using the Python program, a random number module is imported with the import random syntax, and the random number table for the two groups is created.)\n2. Target number of subjects: 278 (138 per group)\n3. Rhythm FU : ECG during every visit (1, 3, 6, and 12 months, and then every 6 months thereafter or upon the recurrence of symptoms after AFCA) and 24-h Holter monitor recording at 3 and 6 months and every 6 months thereafter.\n4. Anticoagulant therapy followed by 2014 ACC/AHA/ESC guidelines\n5. All complications in each group will be evaluated including the re-hospitalization rate, major cardiovascular event, and mortality rate.\n\nCryoballoon PV isolation group\n\n1. Pulmonary vein isolation will be performed using a cryoballoon catheter.\n2. Esophageal temperature will be monitored to prevent esophageal injury.\n3. A 28mm cryoballoon catheter will be used.\n4. Cryoablation will be performed for 180 secs at -30\u00baC or below on condition that the pulmonary vein is occluded with a cryoballoon.\n5. CMAP (compound motor action potential) monitoring will be done to avoid phrenic nerve damage during the freezing of the right superior pulmonary vein.\n6. The procedure and ablation times will be evaluated.\n7. The procedure will be completed without checking any other trigger came from beyond pulmonary vein after the administration of isoproterenol\n8. Rhythm follow-up will be performed after the procedure in accordance with the aforementioned study design.\n\nCryoballoon PV isolation with Additional RA linear ablation group\n\n1. Pulmonary vein isolation will be performed using a cryoballoon catheter as the same as cryoballoon PV isolation group.\n2. Additional cavo-tricuspid isthmus ablation will be performed with a radiofrequency catheter.\n3. Additional SVC-right atrial septal linear ablation will be performed with a radiofrequency catheter.\n4. If any other trigger came from beyond pulmonary vein is detected after the administration of isoproterenol, additional local RF ablation will be followed.\n5. The procedure and ablation times will be evaluated.\n6. Rhythm follow-up will be performed after the procedure in accordance with the aforementioned study design.\n\nB. Progress and rhythm/ECG follow-up\n\n1. To be performed in accordance with the 2012 ACC/AHA/HRS guidelines for AF management\n2. Followed up for a minimum of 12 months after ablation.\n3. Outpatient clinic visits regularly at 1, 3, 6, and 12 months, and then every 6 months thereafter or upon the recurrence of symptoms after AFCA Rhythm control at 2 months, and thereafter every 6-month follow-up with\n4. ECG during every visit and 24-h Holter monitor recording at 3 and 6 months and every 6 months thereafter.\n5. If the patient complains of symptoms, ECG will be performed at any time, and rhythm follow-up will be carried out with a Holter or event recorder.\n\nC. Follow-up Patients were followed up for a minimum of 12 months after ablation. All the patients will be followed-up at 1, 3, 6, and 12 months, and thereafter every 6 months. If the patient shows any symptom within the clinical study period, patient will visit the outpatient clinic. ECG will be performed at every outpatient visits, and 24-hour Holter or event recording will be performed every 6 months for 2 years, and every year after 2 years (2012 Heart Rhythm Society/EHRA/European Cardiac Arrhythmia Society Expert Consensus Statement guidelines). If atrial fibrillation or atrial tachycardia lasting more than 30 seconds is observed in 12-lead ECG or Holter, it will be evaluated as recurrence. Recurrence within 3 months after the procedure will be classified as early recurrence, and that after 3 months will be classified as clinical recurrence.\n\n9\\. Observation Items \u2022 Clinical Test Items and Observation Method A. Disease name, age, gender, weight, height, disease duration B. Evaluation of comorbid structural heart disease pattern C. Evaluation of clinically significant comorbid disease pattern D. Imaging quantitative assessment (All the examinations will be performed according to the need for treatment, regardless of the purpose of the study, and no additional imaging tests will be performed for study purposes.)\n\n1. Echocardiography: Ejection fraction, diastolic function index, atrial size, ventricular size, atrial volume\n2. 3D CT scan: Atrial size, ventricular size, atrial volume, and pericardial fat volume (This examination is indispensable for the safety of the procedure and for the use of 3D equipment in catheter ablation for atrial fibrillation in all clinical studies. The analysis of the atrial size, pericardial fat volume, etc. will be utilized for the purpose of risk assessment for recurrence-related factor detection and future recurrence risk. In other words, the purpose is to provide better treatment for patients at a higher level.) E. Hemodynamic quantitative evaluation: Measurement of atrial pressure before and after the procedure",
+    "interventions": [
+      {
+        "type": "PROCEDURE",
+        "name": "Cryoballoon PV isolation group",
+        "description": "1. Prospective randomization (cryoballoon PV isolation group vs. cryoballoon PV isolation group with additional RA linear ablation group) (Using the Python program, a random number module is imported with the import random syntax, and the random number table for the two groups is created.)\n2. Target number of subjects: 278 (138 per group)\n3. Rhythm FU : ECG during every visit (1, 3, 6, and 12 months, and then every 6 months thereafter or upon the recurrence of symptoms after AFCA) and 24-h Holter monitor recording at 3 and 6 months and every 6 months thereafter.\n4. Anticoagulant therapy followed by 2014 ACC/AHA/ESC guidelines\n5. All complications in each group will be evaluated including the re-hospitalization rate, major cardiovascular event, and mortality rate.",
+        "armGroupLabels": [
+          "Cryoballoon PV isolation group"
+        ]
+      },
+      {
+        "type": "PROCEDURE",
+        "name": "Cryoballoon PV isolation with Additional RA linear ablation group",
+        "description": "1. Prospective randomization (cryoballoon PV isolation group vs. cryoballoon PV isolation group with additional RA linear ablation group) (Using the Python program, a random number module is imported with the import random syntax, and the random number table for the two groups is created.)\n2. Target number of subjects: 278 (138 per group)\n3. Rhythm FU : ECG during every visit (1, 3, 6, and 12 months, and then every 6 months thereafter or upon the recurrence of symptoms after AFCA) and 24-h Holter monitor recording at 3 and 6 months and every 6 months thereafter.\n4. Anticoagulant therapy followed by 2014 ACC/AHA/ESC guidelines\n5. All complications in each group will be evaluated including the re-hospitalization rate, major cardiovascular event, and mortality rate.",
+        "armGroupLabels": [
+          "Cryoballoon PV isolation w/ RA linear ablation group"
+        ]
+      }
+    ],
+    "sponsors": null,
+    "locations": [
+      {
+        "facility": "Severance Cardiovascular Hospital, Yonsei University Health System",
+        "city": "Seoul",
+        "zip": "03722",
+        "country": "South Korea",
+        "geoPoint": {
+          "lat": 37.566,
+          "lon": 126.9784
+        }
+      }
+    ],
+    "eligibility": "Inclusion Criteria:\n\n* Patient with persistent atrial fibrillation who is scheduled for ablation procedure\n* \u226520 and \u226480 years of age\n* LA size \u2264 45mm\n* Patient who is indicated for anticoagulation therapy(for prevention of cerebral infarction) and antiarrhythmic drug\n\nExclusion Criteria:\n\n* Patients with paroxysmal or permanent atrial fibrillation\n* Atrial fibrillation associated with severe cardiac malformation or a structural heart disease that is hemodynamically affected\n* Patients with severe renal impairment or CT imaging difficulty using contrast media\n* Patients with a past history of radiofrequency ablation for atrial fibrillation or other cardiac surgery\n* Patients with active internal bleeding\n* Patients with contraindications for anticoagulation therapy (for prevention of cerebral infarction) and antiarrhythmic drugs\n* Patients with valvular atrial fibrillation (mitral stenosis \\>grade 2, mechanical valve)\n* Patients with a severe comorbid disease\n* Expected survival \\< 1 year\n* Drug addicts or alcoholics\n* Patients who cannot read the consent form (illiterates, foreigners, etc.)\n* Other patients who are judged by the principal or sub-investigator to be ineligible for participation in this clinical study",
+    "study_type": "INTERVENTIONAL",
+    "start_date": "2019-11-07",
+    "completion_date": "2025-09",
+    "last_update_posted": "2023-09-05",
+    "enrollment": 195
+  },
+  {
+    "nct_id": "NCT04296500",
+    "title": "Herbal Medicine for Inflammatory Bowel Diseases: a Development of Pattern Identification Algorithm by Retrospective Analysis of Case Series Data",
+    "status": "COMPLETED",
+    "conditions": [
+      "Inflammatory Bowel Diseases"
+    ],
+    "phases": [],
+    "brief_summary": "This study aimed to identify inflammatory bowel disease (IBD) patterns based on presenting symptoms and to suggest algorithms for determining pattern and herbal prescriptions for corresponding patterns. The investigators collected symptom data of 67 IBD patients who achieved and maintained clinical remissions after they had taken herbal medicine prescriptions. Prescriptions were categorised into 5 patterns, which were named after main features and symptoms of included patients. Associations between presenting symptoms and patterns were visualised using a term frequency inverse document frequency (TF-IDF) method. Determining IBD patterns from symptoms of patients was analysed and charted by decision tree modeling.",
+    "detailed_description": "Herbal prescriptions are one of the most sought complementary and alternative medicine treatment strategies for inflammatory bowel disease patients. However, variability in pattern identification of Traditional Chinese Medicine (TCM)/Traditional East Asian Medicine (TEAM) has been criticised. Using data of patients who achieved and maintained clinical remission after TCM/TEAM herbal medicine prescription, the investigators aimed to develop treatment algorithms refined by identified pattern and key symptoms which practitioners can easily discriminate.\n\nBased on herbal prescriptions which induced clinical remission, IBD patients were divided into 5 patterns, i.e., Large intestine type, Water-dampness type, Respiratory type, Upper gastrointestinal (GI) tract type, and Coldness type. By term frequency-inverse document frequency (TF-IDF) method, the association between 22 symptoms that were described as indications of the herbal medicine prescriptions and 5 patterns were analysed. Decision tree modeling was used for prediction of relevant patterns from symptoms.",
+    "interventions": [
+      {
+        "type": "OTHER",
+        "name": "Decision tree modeling",
+        "description": "A decision tree analysis was employed to explore the process of decision-making on types of pattern based on the existence or nonexistence of a symptom. At the end of tree presented is the proportion of patients who are categorised into each pattern.\n\nIn this study, the classification was performed by applying the classification and regression tree (CART) algorithm using Scikit-learn package of Python, which performs a division using the Gini coefficient or the decrement of dispersion. The Gini coefficient is one of the tools for measuring entropy or diversity in each node and it measures the decrement by comparing the information entropy before and after separation. To avoid overfitting, the maximum number of leaf nodes was limited to four and the pruning method which complied with the principle of minimum description length was applied.",
+        "armGroupLabels": [
+          "Decision tree algorithm training/testing"
+        ]
+      }
+    ],
+    "sponsors": null,
+    "locations": [
+      {
+        "facility": "Acupuncture & Meridian Science Research Centre",
+        "city": "Seoul",
+        "zip": "02447",
+        "country": "South Korea",
+        "geoPoint": {
+          "lat": 37.566,
+          "lon": 126.9784
+        }
+      }
+    ],
+    "eligibility": "Inclusion Criteria:\n\n* Diagnosis of IBD by gastroenterologist\n* Patients have achieved and maintained clinical remission of IBD symptoms after they took herbal prescriptions\n* Patients have provided written informed consent\n\nExclusion Criteria:\n\n* Details regarding any of 25 symptoms were omitted",
+    "study_type": "OBSERVATIONAL",
+    "start_date": "2007-11-01",
+    "completion_date": "2015-10-28",
+    "last_update_posted": "2020-03-06",
+    "enrollment": 67
+  },
+  {
+    "nct_id": "NCT04715711",
+    "title": "Physiological and Thermoregulatory Responses of Body Cooling During Cycling in a Hot Environment (PYTHON)",
+    "status": "COMPLETED",
+    "conditions": [
+      "Hyperthermia"
+    ],
+    "phases": [
+      "NA"
+    ],
+    "brief_summary": "BHSAI is developing a computational system that provides early alerts of a rise in core body temperature to help reduce the risk of heat injury in the field and during training. The goal of the body temperature alerting system is to use it during rest, exercise in the heat and during body cooling. Using this system during cooling will allow healthcare professionals and military personnel monitor core temperature to ensure cooling is effective (and prevent hypothermia). Therefore, the primary purpose of this investigation is to validate a body temperature alerting system using physiological responses that occur during rest, exercise in the heat and during body cooling. Multiple cooling modalities will be validated. This study is expanding on a previous intervention IRB#H20-0010 (BHSAI Cooling Study), but will examine body cooling during more intense exercise and while cycling. We will also examine the effectiveness of each cooling modality (passive cooling, mist-fan cooling, hand/forearm immersion, ice towel) on physiological variables after exercise in the heat.",
+    "detailed_description": "Design\n\nThe study will be completed in the following timeline:\n\nVisit 1: Baseline and VO2max Testing\n\nVist 2: Metabolic Heat Production Visit\n\nVisit 3-6: Trial 1, 2 ,3, 4\n\nVisit specific information is described below, however, specific data collection protocols for dependent variables and procedures are included below the description of the study design. Participants will be asked to sign a photo/video release form (Appendix H) to be used in research projects, scientific publications/conferences and for educational purposes. Participants may be videoed or photographed while exercising or resting in the environmental chamber. Participants will be assigned after medical clearance is granted.\n\nVisit 1: Baseline and VO2max Testing\n\nParticipants who are approved to participate will be scheduled for a baseline and VO2max testing day. Basal metabolic rate (BMR) will be measured upon arrival during the baseline visit. The participant will lay supine with a ventilated hood covering their head and torso. The ventilated hood will be attached to a hose connected to a metabolic cart. The metabolic cart will continuously measure respiratory exchange ratio, oxygen consumption, and substrate utilization. The participant will remain under the hood for approximately 30 minutes. Upon completion of BMR, participants will provide a urine sample in a clean urine cup. Urine specific gravity and urine color will be assessed. Nude body mass will also be recorded. Privacy will be afforded for each participant while obtaining body mass measures by taking measurements with the participant alone in a private room behind a solid, closed door, and the research reading the scale outside of the room. Participants will only be permitted to continue to the VO2max test if the euhydrated criteria of a urine specific gravity (USG) \u22641.025 is met. If the participant arrives with a USG between 1.020 and 1.025, the subject will be asked to drink 500 mL of water to ensure proper hydration status. If USG is greater than 1.025 the subject will be rescheduled for a different day. Height will be measured with a tape measure on Visit 1. Percent body fat will be measured using Air displacement plethysmography (BodPod\u00ae; Cosmed, Software Version 4.2+, Concord, CA, USA). This will take less than \\~5 minutes to complete. This information will be used to describe the subject demographics. Participants will also be asked to complete a maximal oxygen uptake (VO2max) test on a treadmill and on a cycle ergometer in a thermoneutral environment with about 30 minutes to one hour between. This test will provide aerobic fitness levels of the participants which will be compared between the two exercise protocols. Participants will also be asked about their average weekly physical activity (Appendix K). This visit will take approximately 1-2 hours.\n\nVisit 2: Metabolic Heat Production Visit\n\nIn order to prescribe appropriate exercise intensity, heat production must be controlled. Heat production will be prescribed utilizing a graded exercise test (3-5 minute stages) in the heat (same environmental temperature as trials) that will measure metabolic data via collection of expired air utilizing 2-way non-rebreathing mask in order to calculate heat production and appropriately choose cycling intensities to compare between groups of research participants. This test will occur following the baseline visit. The study procedures will mimic those of trials (described below), with the exception of the exercise protocol. The exercise protocol will take approximately 20 minutes to complete. It will include 5 stages of exercise (graded stages). The participant will wear the ACU during this visit.\n\nVisit 3-6: Trials 1-4\n\nParticipant numbers will be randomly assigned, and 4 trials (mist-fan, forearm, passive cooling, ice towel) will be ordered with a random number generator and assigned to a participant number.\n\nThese orders will be counterbalanced between participants to ensure that there is not an order effect. Each participant will complete four trials as part of the study. Participants will be allowed to make-up trial visits if they are sick, suffer an injury or do not meet hydration requirements. Participants will be asked if they have a current illness or taking medications to determine whether they can complete the exercise trial. The participant's visit will be rescheduled if they have a fever, current illness or taking medications that influence body temperature. Participants will complete four trials on four separate days.\n\nTrial #\n\nCooling Intervention\n\n1\n\nPassive Cooling\n\n2\n\nMist-fan Cooling\n\n3\n\nForearm Immersion\n\n4\n\nIce Towel\n\nThe exercise protocol and recovery portions of this study will be conducted in a climatic chamber with ambient temperature approximately 30-40\u00b0C and relative humidity at approximately 30-70%. Participants will drink ad libitum throughout the exercise trial.\n\nUpon arrival to the lab, participants will be asked to indicate if they have consumed alcohol or caffeine in the last 24 hours and 12 hours, respectively. They will not be asked to specify exactly what they have consumed, but if they provide a positive indication, their trial will be rescheduled for another day. Participants will provide a small urine sample in a clean urine cup, and a nude body mass will be measured. Upon arrival to the lab, hydration status will be assessed by urine specific gravity, nude body mass and urine color. Participants will only be permitted to continue to the exercise trial if the euhydrated criteria of a urine specific gravity (USG) \u22641.025 is met. If the participant arrives with a USG between 1.020 and 1.025, the subject will be asked to drink 500 mL of water to ensure proper hydration status. If USG is greater than 1.025 then the subject will be rescheduled for a different day. Participants will be given instructions at the prior visit about how to obtain desired hydration status for the upcoming trial. Researchers will insert an esophageal probe. Only trained personnel are permitted to insert the esophageal probe (no undergraduates will be allowed). Participants will insert a rectal probe and wear a heart rate monitor strap. Additionally, participants will wear 9-site Biopac skin temperature sensors. Researchers will apply the skin temperature sensors with medical tape to the participants' chest, upper arm, forearm, thigh, neck, abdomen, thigh, back, and calf (anterior and posterior). Participants will also wear iButtons (wireless skin temperature sensors) on their chest, upper arm, forearm, thigh, and calf (anterior and posterior). The participants will also be asked to complete a subjective sleep questionnaire upon arriving to the lab. Participants will wear an active combat uniform (ACU) during the exercise trials. Three ADU sizes for the blouse and pants (small, medium, large) will be available for the participants. A belt will be used to ensure the ACU fits appropriately. Participants will not be able to keep the ACU- ADUs will be washed (according to manufacturer's instructions) and re-used for participants. ADU manufacturer's instructions is identical to standard washing cycle (detergent and washing machine dry). The ACU will be weighed before and after use to measure sweat captured in the clothing. Participants will wear the wrist-based devices (provided by BHSAI) on their non-dominant arm throughout the testing. The wrist device must be placed approximately 1-inch proximal to the wrist and be fitted snugly for accurate heart-rate measurements. The wrist device is used to estimate heart rate using infrared technology. The wrist device estimates of heart rate will be compared to the polar heart rate monitor (gold standard). The body alerting system uses heart rate from the wrist device and the environmental conditions to estimate body temperature. The sponsor of the study will use rectal temperature and the 7-site skin temperature sensors to alter the algorithm (not in real time- from the collected data) to better estimate body temperature. The future goal is to have the body alerting system imbedded in the watch. Participants will wear another wrist-based device (WHOOP) on the arm that does not have the BHSAI device. The WHOOP device will monitor heart rate variability and sleep. Participants will be asked to wear this device daily for the duration of the study.\n\nParticipants will enter the environmental chamber and sit for 30 minutes to become equilibrated. The environmental chamber will be set to 30-40\u00b0C ambient temperature, 30-70% relative humidity After baseline measures of heart rate, rectal temperature, participants will complete the perceptual indices. Participants will also complete an environmental symptoms questionnaire (ESQ).\n\nThe trial will consist of two 40-minute intervals of cycling from 7W/kg to 15 W/kg. Each 40-minute exercise block will be followed by a rest break where cooling will occur. Participants will be allowed to drink ad libitum throughout the exercise trial. The participant will be cooled for approximately 30 minutes with their assigned cooling modality. Rectal and esophageal temperature, skin temperature, heart rate, perceptual measures, and mood (POMS, described below) will be collected at various time points before, during, and after exercise and cooling. Metabolic heat production will be measured using indirect calorimetry (mask connected to metabolic cart) during all four trials.\n\nPassive Cooling: Participants will be asked to sit in a chair in the climate chamber for passive cooling.\n\nMist-fan cooling: A mist-fan will be placed next to the participant and will mist-fan only their hands and forearms during mist-fan cooling. Participants will be asked to roll up their ADU sleeves to increase skin surface area. The temperature of the mist and wind speed of the fan will be recorded.\n\nForearm immersion: The participant will place their forearm in approximately 20\u00b0C water during forearm immersion.\n\nIce Towel: a towel that can hold water for extended periods will be used and submerged in an ice-water mixture (\\~2 C). Researchers will gently squeeze the towel to remove excess water (but remain saturated with water) and then apply to both forearms and hands snuggly so that there is no air gap between the towel and the extremity. Apply for 1-5 minutes and then replace it with another fresh, cold towel. This step would ensure that the forearms and hands have near about constant application temperature as the towel would get warm over the application period. The process will be repeated for the entire cooling duration.\n\nData collection will be divided into two separate phases. A pilot study will be first conducted in which the first two participants will complete all study laboratory visits. Data from those trials will be shared with the sponsor for review before continuation of data collection. Participants will undergo the same procedures for the pilot testing as regular testing. Pilot testing data will be included in the dataset. Following approval from the sponsor, data collection will resume. Each trial will be approximately 4 hours.\n\nAll devices will be properly cleaned according to manufacturer's instruction prior to use by other participants.",
+    "interventions": [
+      {
+        "type": "OTHER",
+        "name": "Forearm coolng",
+        "description": "forearm immersion will be performed for active cooling assessment",
+        "armGroupLabels": [
+          "Active Cooling"
+        ]
+      },
+      {
+        "type": "OTHER",
+        "name": "Wet-towel cooling",
+        "description": "Wet towels will be wrapped around the participant's arms for active cooling",
+        "armGroupLabels": [
+          "Active Cooling"
+        ]
+      },
+      {
+        "type": "OTHER",
+        "name": "mist-fan",
+        "description": "a mist-fan will be placed in front of the participant for active cooling",
+        "armGroupLabels": [
+          "Active Cooling"
+        ]
+      },
+      {
+        "type": "OTHER",
+        "name": "passive cooling",
+        "description": "participants will sit in a chair and \"passively cool\" (no active intervention)",
+        "armGroupLabels": [
+          "No Intervention"
+        ]
+      }
+    ],
+    "sponsors": null,
+    "locations": [
+      {
+        "facility": "Korey Stringer Institute, University of Connecticut",
+        "city": "Storrs",
+        "state": "Connecticut",
+        "zip": "06269",
+        "country": "United States",
+        "geoPoint": {
+          "lat": 41.80843,
+          "lon": -72.24952
+        }
+      }
+    ],
+    "eligibility": "Inclusion Criteria:\n\n* Cisgender man between the ages of 18-28 years\n* been cleared by the medical monitor for this study\n* VO2max \\> 45ml/kg/min\n* Aerobically active (at least 30 minutes of aerobic exercise 4-5 days per week)\n\nExclusion Criteria:\n\n* Have a current musculoskeletal injury that would limit their physical activity or preclude the participant from walking, jogging, running, sprinting, or cutting.\n* Chronic health problems that affect your ability to thermoregulate (disorders affecting the liver, kidneys or the ability to sweat normally)\n* Fever or current illness at the time of testing\n* History of cardiovascular, metabolic, or respiratory disease\n* A family member died for no apparent reason, had a heart attack, died from heart problems, or sudden death before the age of 50\n* Current musculoskeletal injury that limits their physical activity\n* Currently taking a medication that is known to influence body temperature (amphetamines, antihypertensives, anticholinergics, acetaminophen, diuretics, NSAIDs, aspirin)\n* Identify as cisgender woman, transgender man or transgender woman. Cisgender women, Transgender men, and transgender women are excluded from the current study because the sponsor of the study has requested that this testing be done in physically active cisgender males. It is assumed that they either currently have data on women or transgender women/men to compare this to or have a strategic initiative from a marketing or business perspective that only involves cisgender men.\n* Have a history of heat related illness\n* Throat or gastroesophageal diseases including gastroesophageal reflux disease (aka, GERD) or difficulty swallowing\n* Have any allergies or adverse reactions to the cold (e.g. Cold Uticaria, Raynauds Phenomenon/Disease, or Cryoglobulinanemia)",
+    "study_type": "INTERVENTIONAL",
+    "start_date": "2021-04-02",
+    "completion_date": "2021-07-19",
+    "last_update_posted": "2021-08-03",
+    "enrollment": 12
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "executive_points": [
+    "Paracetamol is a widely used analgesic and antipyretic drug.",
+    "It is available without a prescription and is used in mono- and multi-component preparations.",
+    "Paracetamol is the drug of choice in patients who cannot be treated with non-steroidal anti-inflammatory drugs (NSAIDs).",
+    "It is recommended as a first-line treatment of pain associated with osteoarthritis.",
+    "The mechanism of action of paracetamol is complex and includes peripheral and central antinociception processes.",
+    "Paracetamol is well-tolerated and produces few side effects from the gastrointestinal tract.",
+    "However, it can cause liver intoxication, especially when taken regularly and in large doses (> 4 g/day).",
+    "The use of paracetamol in children requires special care and maintenance of an adequate dosage.",
+    "The recommended dosage for children is based on age and metabolism of paracetamol.",
+    "Paracetamol is metabolized mainly in the liver via glucuronidation, sulfation, and oxidation.",
+    "The mechanism of action of paracetamol is not fully understood and is still the subject of ongoing research."
+  ],
+  "key_findings": [
+    "Paracetamol is a widely used analgesic and antipyretic drug.",
+    "It is available without a prescription and is used in mono- and multi-component preparations.",
+    "Paracetamol is the drug of choice in patients who cannot be treated with non-steroidal anti-inflammatory drugs (NSAIDs).",
+    "It is recommended as a first-line treatment of pain associated with osteoarthritis.",
+    "The mechanism of action of paracetamol is complex and includes peripheral and central antinociception processes.",
+    "Paracetamol is well-tolerated and produces few side effects from the gastrointestinal tract.",
+    "However, it can cause liver intoxication, especially when taken regularly and in large doses (> 4 g/day).",
+    "The use of paracetamol in children requires special care and maintenance of an adequate dosage.",
+    "The recommended dosage for children is based on age and metabolism of paracetamol.",
+    "Paracetamol is metabolized mainly in the liver via glucuronidation, sulfation, and oxidation."
+  ],
+  "risks": [
+    "Liver intoxication",
+    "Gastrointestinal side effects",
+    "Methemoglobinemia",
+    "Analgesic nephropathy",
+    "Hepatotoxicity"
+  ],
+  "opportunities": [
+    "Wide availability and use of paracetamol",
+    "Potential for repurposing as a treatment for other conditions",
+    "Opportunity for further research on the mechanism of action of paracetamol"
+  ],
+  "repurposing_signals": [
+    "Paracetamol's analgesic and antipyretic properties could be repurposed for the treatment of other conditions",
+    "The complex mechanism of action of paracetamol could be leveraged for the development of new treatments",
+    "The well-tolerated nature of paracetamol could make it a good candidate for repurposing as a treatment for other conditions"
+  ],
+  "confidence_note": "The information provided is based on a review of the literature and may not be comprehensive or up-to-date.",
+  "source": "uploaded_docs",
+  "document_count": 1,
+  "raw_text_preview": "Acta Poloniae Pharmaceutica \u2014 Drug Research, Vol. 71 No. 1 pp. 11-23, 2014\n\nISSN 0001-6837\n\nPolish Pharmaceutical Society\n\nPARACETAMOL: MECHANISM OF ACTION, APPLICATIONS\nAND SAFETY CONCERN\n\nMARTA JOZWIAK-BEBENISTA* and JERZY Z. NOWAK\n\nDepartment of Pharmacology, Chair of Pharmacology and Clinical Pharmacology\nat the Medical University of L\u00e9dz, Zeligowskiego 7/9, 90-752 L\u00e9dz, Poland\n\nAbstract: Paracetamol / acetaminophen is one of the most popular and most commonly used analgesic and\nantipyretic drugs around the world, available without a prescription, both in mono- and multi-component prepa-\nrations. It is the drug of choice in patients that cannot be treated with non-steroidal anti-inflammatory drugs\n(NSAID), such as people with bronchial asthma, peptic ulcer disease, hemophilia, salicylate-sensitized people,\nchildren under 12 years of age, pregnant or breastfeeding women. It is recommended as a first-line treatment\nof pain associated with osteoarthritis. The mechanism of action is complex and includes the effects of both the\nperipheral (COX inhibition), and central (COX, serotonergic descending neuronal pathway, L-arginine/NO\npathway, cannabinoid system) antinociception processes and \u201credox\u201d mechanism. Paracetamol is well tolerat-\ned drug and produces few side effects from the gastrointestinal tract, however, despite that, every year, has seen\na steadily increasing number of registered cases of paracetamol-induced liver intoxication all over the world.\nGiven the growing problem of the safety of acetaminophen is questioned the validity of the sale of the drug\nwithout a prescription. This work, in conjunction with the latest reports on the mechanism of action of parac-\netamol, trying to point out that it is not a panacea devoid of side effects, and indeed, especially when is taken\nregularly and in large doses (> 4 g/day), there is a risk of serious side effects.\n\nKeywords: paracetamol, acetaminophen, toxic effects, mechanism of action, cyclooxygenase, cannabinoid,\n\nserotonergic, prostaglandin-endoperoxide synthases\n\nParacetamol (an international name used in\nEurope) and acetaminophen (an international name\nused in the USA) are two official names of the same\nchemical compound derived from its chemical name:\nN-acetyl-para-aminophenol (the segment \u2018\u2019cet\u2019\u2019\ninserted between \u2018\u2019para\u2019\u2019 and \u2018\u2019amino\u2019\u2019) and N-\nacetyl-para-aminophenol. This drug has a long his-\ntory and, as it often happens with important discov-\neries, it was found by chance. In the 80s of the 19th\ncentury, two young doctors at the University of\nStrasburg, in order to eradicate worms by mistake\ndispensed acetanilide to a patient instead of naphtha-\nlene (Fig. 1). They noticed that the drug had a small\nimpact on intestinal parasites, however, it signifi-\ncantly decreased high temperature. Young doctors -\nAmold Chan and Paul Heppa - quickly published\ntheir discovery and acetanilide was introduced into\nmedical practice in 1886 under the name of\nantifebrin (1). Soon it appeared that although th"
+}
